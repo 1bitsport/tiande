@@ -1,0 +1,492 @@
+/***************************RESET***************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***********************************************************/
+
+html {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;
+	-webkit-text-size-adjust: none;
+	/*outline:none;*/
+}
+body {
+	background-color: #bbbdc0;
+}
+
+input {
+	outline:none;
+}
+
+.cleaner {
+	clear: both;
+}
+
+.line {
+	border-bottom: 1px solid #bfbebe;
+	width: 90%;
+	margin: 5px auto;
+}
+
+/* Login Styles */
+
+#login-main{
+	min-width: 960px;
+    max-width: 1216px;
+	max-height: 600px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fff;
+}
+
+#login-main-wide{
+	width: 1216px;
+	max-height: 600px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fff;
+}
+
+#main-wide #header {
+	background: url('../img/loginLogoWide.jpg') no-repeat;
+	width: 1216px;
+	height: 155px;
+	position: relative;
+}
+
+#header {
+	background: url('../img/loginLogoWide.jpg') no-repeat;
+    min-width: 960px;
+    max-width: 1216px;
+	height: 155px;
+	position: relative;
+}
+
+.headText {
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	color: #58595B;
+	font-size: 1.8em;
+}
+
+.headText span {
+	text-transform: uppercase;
+}
+
+.wrap {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+#main form {
+	padding: 15px 0 40px 0;
+}
+
+form label {
+	font-size: 1.6em;
+	/*font-weight: 600;*/
+	color: #58595B;
+	line-height: 9px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+form label.checker {
+	position: relative;
+	display: block;
+	float: left;
+	padding-left: 14px;
+	
+}
+
+form input[type="radio"] {
+	position: absolute;
+	left: -9999px;
+}
+
+/*form input[type="radio"] + span {
+	position: absolute;
+	background: url('../img/checker.png') 0 0 no-repeat;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	
+}
+
+form input[type="radio"]:checked + span {
+	background: url('../img/checked.png') 0 0 no-repeat;
+
+}*/
+
+form input[type="radio"] + span {
+	position: absolute;
+	/*background: url('../img/checker.png') 0 0 no-repeat;*/
+	border: 1px solid #9c9e9c;
+	border-radius: 5px;
+	width: 9px;
+	height: 9px;
+	left: 0;
+	
+}
+
+form input[type="radio"]:checked + span {
+	background: #78b428;
+
+}
+
+form label.square-checker {
+	position: relative;
+	display: block;
+	float: left;
+	padding-left: 14px;
+}
+
+form input[type="checkbox"] {
+	position: absolute;
+	left: -9999px;
+}
+
+/*form input[type="checkbox"] + span {
+	position: absolute;
+	background: url('../img/square-checker.png') 0 0 no-repeat;
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+
+form input[type="checkbox"]:checked + span {
+	background: url('../img/square-checked.png') 0 0 no-repeat;
+}*/
+
+form input[type="checkbox"] + span {
+	position: absolute;
+	border: 1px solid #595A5C;
+	width: 7px;
+	height: 7px;
+	left: 0;
+	margin: 1px 0 0 1px;
+}
+
+form input[type="checkbox"]:checked + span {
+	background: #78b428;
+}
+
+form input[type="checkbox"]:checked ~ span.remember {
+	color: #000 !important;
+}
+
+form input[type="radio"]:checked ~ span.service {
+	color: #000 !important;
+}
+
+span.remember {
+	font-size: 0.7em;
+	color: #59595B;
+}
+
+/*********************************/
+.text-field {
+	width: 100%;
+	height: 25px;
+	margin: 10px 0;
+	border: 1px solid #e4e4e4;
+	outline:none;
+}
+
+.wrong {
+	display: none;
+	color: #ED1C24;
+	margin: 0;
+	padding: 0;
+	/*font-weight: 600;*/
+}
+
+input:focus {
+    -webkit-box-shadow: 0 0 5px #8a8a8a;
+    -moz-box-shadow: 0 0 5px #8a8a8a;
+    box-shadow: 0 0 5px #8a8a8a;
+}
+
+
+/*input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+
+}
+input:focus::-moz-placeholder { 
+	color:transparent; 
+
+
+}
+input:focus::placeholder { 
+	color:transparent; 
+}*/
+
+input::-webkit-input-placeholder { 
+	text-align: center;
+}
+input:-moz-placeholder { 
+	text-align: center;
+}
+input:placeholder { 
+	text-align: center;
+}
+
+input {
+	font-size: 12px;
+	color: #808285;  
+	/*line-height: 1.3;*/
+	padding-left: 12px;
+	text-align: center;
+}
+/********************/
+
+.forgot {
+	display: block;
+	float: right;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+.forgot a {
+	color: #808285;
+}
+
+.forgot a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}	
+
+.personal-cab {
+	display: block;
+	width: 130px;
+	padding: 2px 0;
+	float: left;
+	border: 1px solid #b0acab;
+	text-align: center;
+	font-size: 1.2em;
+	color: #595a5c;
+	position: relative;
+	/*font-weight: 600;*/
+}
+
+.personal-cab:hover {
+    -webkit-box-shadow: 0 0 5px #8a8a8a;
+    -moz-box-shadow: 0 0 5px #8a8a8a;
+    box-shadow: 0 0 5px #8a8a8a;
+	color: #000;
+}
+
+.login-btn {
+	outline:none;
+	width: 130px;
+	height: 30px;
+	float: right;
+	background-color: #78b443;
+	border: 0;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.login-btn:hover {
+	background-color: #99CA3E;
+}
+
+.login-btn:focus {
+	box-shadow: none; 
+	-webkit-box-shadow: none; 
+	-moz-box-shadow: none;
+}
+
+.after-login {
+	color: #939597;
+	margin: 10px 0 10px 0;
+	padding-left: 15px;
+	/*background: url('../img/what.png') 0 0 no-repeat;*/
+	position: relative;
+}
+
+.instead-what-img {
+	position: absolute;
+	left: 0;
+	font-size: 9px;
+	border: 1px solid #808285;
+	border-radius: 10px;
+	color: #808285;
+	line-height: 1;
+	width: 5px;
+	height: 9px;
+	margin-left: 0px;
+	display: block;
+	padding: 0px 2px 0px 2px;
+	text-align: center;
+}
+
+.copyr {
+	font-size: 1.2em;
+	color: #939597;
+}
+
+.copyr a {
+	/*font-weight: 600;*/
+	color: #59595B;
+	border-bottom: 1px solid #59595B;
+	line-height: 2;
+}
+
+.copyr a:hover {
+	color: #000;
+}
+
+div.copyr {
+	text-align: right;
+}
+
+div.copyr span {
+	border-bottom: 1px solid #939597;
+}
+
+div.copyr span:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+/* End Login Styles */
+
+/* Login UnAutorized For Pay Page */
+
+.login-text {
+	font-size: 14px;
+	color: #808285;
+	text-align: center;
+	line-height: 1.25;
+}
+.right-main {
+	width: 49%;
+	/*float: left;*/
+	/*margin: 45px auto;*/
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	height: 240px;
+	max-height: 100%;
+}
+
+.left-wrap {
+	width: 365px;
+	margin: 0 auto;
+}
+
+.left-main {
+	width: 50%;
+	float: left;
+	border-right: 1px solid #808284;
+	margin: 20px 0;
+
+}
+
+.right-wrap {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.copyr-new {
+	color: #808285;
+	text-align: center;
+	font-size: 11px;
+	margin-bottom: 15px;
+}
+
+.copyr-new a:hover {
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+.copyr-new a {
+	color: #808285;
+}
+
+.warning {
+	color: #404041;
+	font-weight: 600;
+}
+
+.reg-btn {
+	outline:none;
+	display: inline-block;
+	width: 135px;
+	line-height: 30px;
+	background-color: #78b443;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.reg-btn:hover {
+	background-color: #99CA3E;
+}
+/* /Login UnAutorized For Pay Page */
+
