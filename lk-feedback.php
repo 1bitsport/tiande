@@ -131,12 +131,6 @@ require_once('header.php');
 
 </div>
 
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
 
 <a href="" class="modal-viewer hide" data-key="#new-msg">opener</a>
 <div id="new-msg" class="modal hide posrelative">
@@ -168,9 +162,9 @@ require_once('header.php');
 	<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
 	</form>
 </div>
-</body>
-</html>
-
+<?
+require_once('footer.php');
+?>
 
 
 

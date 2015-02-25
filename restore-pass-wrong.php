@@ -70,15 +70,6 @@ require_once('header.php');
 	</form>
 </div>
 
-</main>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
-
-  <!-- </div> -->
-
-
-
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

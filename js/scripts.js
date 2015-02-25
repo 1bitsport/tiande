@@ -595,7 +595,9 @@ $(document).ready(function()
     $('.popup .content').click(function(e){
       e.stopPropagation();
     });
-
+    $('.has-popup').hover(function (e){
+      $('.has-popup.active').removeClass('active');
+    })
 
     // Блок продвижение (соц. кнопки)
 
@@ -686,8 +688,8 @@ $(document).ready(function()
     });
 
     // SIDE Catalog MENU
-    $("#menu_catalog ul li.has-child").removeClass("selected");
-    $("#menu_catalog ul li.has-child a").on("click", function(e){
+    $("ul li.has-child").removeClass("selected");
+    $("ul li.has-child a").on("click", function(e){
       e.stopPropagation();
       e.preventDefault();
       $(this).parent().toggleClass("selected");
@@ -1192,6 +1194,28 @@ $(document).ready(function()
     }
     tableResizer();
   })
+
+  
+  function loaderAdder(theElement) {  // Аргумент принимается ввиде DOM-элемента. Просто селектор не прокатит))
+    if (!theElement.hasClass("loader-overlay")){ // Проверка на наличие у элемента класса. Если нету, то присвается класс и в конец блока добавляется блок-overlay с гифкой.
+      theElement.addClass("loader-overlay");
+      theElement.append("<div class='loader-overlay-block'></div>");
+    } else {
+      theElement.removeClass("loader-overlay") // Иначе если класс есть, то убирается класс и удаляется оверлэй блок. 
+      theElement.find(".loader-overlay-block").remove();
+    }
+  }
+
+  $(".check-the-loader").on("click", function (e) { // ПРостейший пример использования лоадера к родителю ссылки. Это всего лишь пример, использовать в проекте это не нужно.
+    e.preventDefault();
+    var el = $(this).prev();  // В переменную кладётся уже выбранный DOM-элемент, НЕ СЕЛЕКТОР!!!!!
+    loaderAdder(el); // Собственно, вызов функции, определённой выше.
+  })
+
+
+  $(".map-searcher .find").on("click", function (e){
+    e.preventDefault();
+  }) 
 
   // 
 

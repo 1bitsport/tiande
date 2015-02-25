@@ -63,7 +63,7 @@ require_once('header.php');
 	<li style="margin: 20px;"><a target="_blank" href="profile_settings.php">Личный кабинет. Настройки.</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile_score.php">Личный кабинет. Мои счета.</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile.php">Личный кабинет. Общее.</a></li>
-	<li style="margin: 20px;"><a target="_blank" href="loader.php">Загрузчик</a></li>
+	<li style="margin: 20px;"><a target="_blank" href="loader_example.php">Загрузчик</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="footer_demo.php">Подвал</a></li>
 
 </ul>

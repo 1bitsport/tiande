@@ -70,12 +70,12 @@
 				<div class="left-side"> 
 			            <div class="single-tovar">
 			            	<div class="img-wrapper">
-			            		<a  href=""><img src="temp/item-11.jpg" alt="" class="product-face"></a>    
+			            		<a  href=""><img src="/temp/item-11.jpg" alt="" class="product-face"></a>    
 			            	</div>      		          				          
     			            <div class="tov-info">
     				            <a>Гель для зубов «Натуральная соль бамбука</a>
     				            <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span><br>
-    				            <span class="count-rate"><img src="img/stars.png"> (5)</span>
+    				            <span class="count-rate"><img src="/img/stars.png"> (5)</span>
     				            <div class="ton">
 						            <span class="title">Цвет: </span>
 						            <ul class="color colors">
@@ -110,12 +110,12 @@
     		            <div class="plus"></div>
 			            <div class="single-tovar">
 			            	<div class="img-wrapper">
-			            		<a  href=""><img src="temp/item-11.jpg" alt="" class="product-face"></a>    
+			            		<a  href=""><img src="/temp/item-11.jpg" alt="" class="product-face"></a>    
 			            	</div>         		          				          
     			            <div class="tov-info">
     				            <a>Гель для зубов «Натуральная соль бамбука</a>
     				            <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span><br>
-    				            <span class="count-rate"><img src="img/stars.png"> (5)</span>
+    				            <span class="count-rate"><img src="/img/stars.png"> (5)</span>
     		             	</div>
     		            </div>
 			          
@@ -126,15 +126,15 @@
   					<div class="single-tovar">
   						<h2>В ПОДАРОК ЗА ВАШУ ПОКУПКУ!</h2>
   						<div class="img-wrapper">
-		            		<a  href=""><img src="temp/lak-min.jpg" alt="" class="product-face"></a> 
-		            		<img class="over-ton-micro" src="../img/micro-ton.png" alt="">
+		            		<a  href=""><img src="/temp/lak-min.jpg" alt="" class="product-face"></a> 
+		            		<img class="over-ton-micro" src="/img/micro-ton.png" alt="">
 		            		<span class="t-name">004 <br>Сладкая черешня</span>  
 		            	</div>
 		            	       		          				          
 			            <div class="tov-info">
 				            <a>Гель для зубов «Натуральная соль бамбука</a>
 				            <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span><br>
-				            <span class="count-rate"><img src="img/stars.png"> (5)<span class="gift-icon"></span></span>
+				            <span class="count-rate"><img src="/img/stars.png"> (5)<span class="gift-icon"></span></span>
 				            <div class="ton">
 					              <span class="title">Тон:</span>
 					              <div class="moreitems has-popup">
@@ -144,147 +144,147 @@
 		                                        <li class = "white">
 		                                                <label>
 		                                                    <input type="radio" checked class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-1.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 003 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-2.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 022 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-3.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 007 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-4.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-5.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-6.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-6.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 003 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-7.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-7.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 022 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-8.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-8.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 007 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-9.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-9.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-10.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-10.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-11.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-11.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 003 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-12.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-12.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 022 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-13.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 007 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-14.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-14.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-15.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-15.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-16.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-16.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 003 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-17.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 022 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-18.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 007 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-19.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-20.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
 		                                            <li>
 		                                                <label>
 		                                                    <input type="radio" class="not-styler beyond" name="tons7">
-		                                                    <img width="28" height="28" src="img/tons/ton-13.jpg" alt=""/>
+		                                                    <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
@@ -335,25 +335,25 @@
 					                          <ul class="color">
 					                              <li>
 					                                  <a href="#">
-					                                      <img width="20" height="20" src="img/tons/violet-3.jpg"
+					                                      <img width="20" height="20" src="/img/tons/violet-3.jpg"
 					                                           alt=""/>
 					                                  </a>
 					                              </li>
 					                              <li>
 					                                  <a href="#">
-					                                      <img width="20" height="20" src="img/tons/violet-2.jpg"
+					                                      <img width="20" height="20" src="/img/tons/violet-2.jpg"
 					                                           alt=""/>
 					                                  </a>
 					                              </li>
 					                              <li>
 					                                  <a href="#">
-					                                      <img width="20" height="20" src="img/tons/bezh.jpg"
+					                                      <img width="20" height="20" src="/img/tons/bezh.jpg"
 					                                           alt=""/>
 					                                  </a>
 					                              </li>
 					                              <li>
 					                                  <a href="#">
-					                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+					                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
 					                                           alt=""/>
 					                                  </a>					                                  
 					                              </li>					                              

@@ -361,3 +361,7 @@ $(document).ready(function(){
 	</div>
 	<div class="report-clear"></div>
 </div>
+
+<?
+require_once('footer.php');
+?>

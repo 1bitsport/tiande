@@ -6,7 +6,7 @@
   <title>Главная страница</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
-  <link href="/css/5.css" rel="stylesheet" type="text/css">
+  <!-- <link href="/css/5.css" rel="stylesheet" type="text/css"> -->
   <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
@@ -52,12 +52,15 @@
 
 </head>
 <body>
-<header class="order-header">
-	<div class="left-header">
-		<a href="#1" class="order-logo"></a>
-	</div>
-	<div class="right-header">
-		<div class="cart-info font12 black "><span class="uppercase">Ваш заказ: </span> В корзине <span class="has-popup"><a href="" class="has-popup"><span class="inner-info border-dot-black">4 позиция(-ии) на сумму 4 520 руб. и на <span class="bonus-orange">400 Б</span></span></a>
+
+<div class="order container main-container">
+<!-- <div class="container"> -->
+	<header class="order-header">
+  <div class="left-header">
+    <a href="#1" class="order-logo"></a>
+  </div>
+  <div class="right-header">
+    <div class="cart-info font12 black "><span class="uppercase">Ваш заказ: </span> В корзине <span class="has-popup"><a href="" class="has-popup"><span class="inner-info border-dot-black">4 позиция(-ии) на сумму 4 520 руб. и на <span class="bonus-orange">400 Б</span></span></a>
       <i></i>
         <div class="popup center menu">
           <div class="content">
@@ -506,16 +509,13 @@
     <span class="change-link "><a href="" class="uppercase d-inline-block border-dot-black">Изменить</a></span>
     </div>
 
-		<ul id="breadcrumbs-two">
-		    <li><a href="#" class="uppercase">Оформление</a></li>
-		    <li><a href="#" class="uppercase">Подтверждение</a></li>
-		    <li><a href="#" class="no-active uppercase">Заказ оформлен</a></li>
-		</ul>
-	</div>
+    <ul id="breadcrumbs-two">
+        <li><a href="#" class="uppercase">Оформление</a></li>
+        <li><a href="#" class="uppercase">Подтверждение</a></li>
+        <li><a href="#" class="no-active uppercase">Заказ оформлен</a></li>
+    </ul>
+  </div>
 </header>
-<div class="order container">
-<!-- <div class="container"> -->
-	
 <!-- </div> -->
 <div class="cleaner"></div>
 <main>
@@ -978,13 +978,6 @@
 </div>
 
 
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
-
-
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

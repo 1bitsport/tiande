@@ -6,9 +6,9 @@
   <title>Главная страница</title>
   <link href="/css/style.css" rel="stylesheet" type="text/css">
   <link href="/js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
-  <link href="/css/5.css" rel="stylesheet" type="text/css">
+  <!-- <link href="/css/5.css" rel="stylesheet" type="text/css"> -->
   <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
   
 
@@ -34,8 +34,8 @@
   </noscript>
 
   <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/jquery.textPlaceholder.js"></script>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/jquery.textPlaceholder.js"></script>
     <script>
     $(document).ready(function()
     {
@@ -169,7 +169,7 @@
             <div class="items scrollbar-inner">
 
               <a href="#1" class="item has-bonus">
-                <img src="temp/basket-item-1.png" class="image"/>
+                <img src="/temp/basket-item-1.png" class="image"/>
                 <div class="description">
                   <span class="name">Гель для умывания «Естественная красота»</span>
                   <img src="/img/basket-gift.png" class="bonus"/>
@@ -189,7 +189,7 @@
               </a>
 
               <a href="#1" class="item">
-                <img src="temp/basket-item-2.png" class="image"/>
+                <img src="/temp/basket-item-2.png" class="image"/>
                 <div class="description">
                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                   <table>
@@ -208,7 +208,7 @@
               </a>
 
               <a href="#1" class="item has-bonus">
-                <img src="temp/basket-item-3.png" class="image"/>
+                <img src="/temp/basket-item-3.png" class="image"/>
                 <div class="description">
                   <span class="name">Гель для умывания «Естественная красота»</span>
                   <img src="/img/basket-discount.png" class="bonus"/>
@@ -228,7 +228,7 @@
               </a>
 
               <a href="#1" class="item has-bonus">
-                <img src="temp/basket-item-1.png" class="image"/>
+                <img src="/temp/basket-item-1.png" class="image"/>
                 <div class="description">
                   <span class="name">Гель для умывания «Естественная красота»</span>
                   <img src="/img/basket-gift.png" class="bonus"/>
@@ -248,7 +248,7 @@
               </a>
 
               <a href="#1" class="item">
-                <img src="temp/basket-item-2.png" class="image"/>
+                <img src="/temp/basket-item-2.png" class="image"/>
                 <div class="description">
                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                   <table>
@@ -519,7 +519,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -532,7 +532,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-gift.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -600,7 +600,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -613,7 +613,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-gift.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -698,7 +698,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -711,7 +711,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-gift.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -758,7 +758,7 @@
                   </div>
                 </td>
                 <td class="with-banner">
-                  <a href="#1"><img src="temp/menu-banner.jpg"/></a>
+                  <a href="#1"><img src="/temp/menu-banner.jpg"/></a>
                 </td>
               </tr>
             </table>
@@ -768,7 +768,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -781,7 +781,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-gift.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -837,7 +837,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-3.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-3.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -870,7 +870,7 @@
                   </div>
                 </td>
                 <td class="with-banner">
-                  <a href="#1"><img src="temp/menu-banner-2.jpg"/></a>
+                  <a href="#1"><img src="/temp/menu-banner-2.jpg"/></a>
                 </td>
               </tr>
             </table>
@@ -880,7 +880,7 @@
               <td>
               <table>
                 <tr>
-                  <td class="image" rowspan="2"><a href="#1"><img src="temp/item-1.jpg"/></a></td>
+                  <td class="image" rowspan="2"><a href="#1"><img src="/temp/item-1.jpg"/></a></td>
                   <td class="bonus"><img src="/img/bonus-discount.png"/></td>
                   <td class="description"><a href="#1">Гель для умывания «Естественная красота»</a> <span>код: 33508</span></td>
                 </tr>
@@ -987,7 +987,7 @@
       <div class="general-modal">
         <div class="product-left"> 
           <div class="fast-img">
-            <a  href=""><img src="temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="/img/ton-on-img.png" alt=""></a><br>
+            <a  href=""><img src="/temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="/img/ton-on-img.png" alt=""></a><br>
             <span class="t-name">004 Шампунь "Шампунь"</span>
             <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span>
             <div class="info-icons">
@@ -1096,35 +1096,35 @@
                               <li class = "white">
                                   <label for="ton11100">
                                       <input type="radio" checked class="not-styler beyond" name="tons3"  id="ton11100">
-                                      <img width="28" height="28" src="img/tons/ton-1.jpg" alt=""/>
+                                      <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <label for="ton22200">
                                       <input type="radio" class="not-styler beyond" name="tons3"  id="ton22200">
-                                      <img width="28" height="28" src="img/tons/ton-2.jpg" alt=""/>
+                                      <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <label for="ton33300">
                                       <input type="radio" class="not-styler beyond" name="tons3"  id="ton33300">
-                                      <img width="28" height="28" src="img/tons/ton-3.jpg" alt=""/>
+                                      <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <label for="ton44400">
                                       <input type="radio" class="not-styler beyond" name="tons3"  id="ton44400">
-                                      <img width="28" height="28" src="img/tons/ton-4.jpg" alt=""/>
+                                      <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton55500">
                                       <input type="radio" class="not-styler beyond" name="tons3"  id="ton55500">
-                                      <img width="28" height="28" src="img/tons/ton-5.jpg" alt=""/>
+                                      <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
@@ -1136,140 +1136,140 @@
                                         <li class = "white">
                                                 <label for="ton1110">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton1110">
-                                                    <img width="28" height="28" src="img/tons/ton-1.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 003 </span>
                                             </li>
                                             <li>
                                                 <label for="ton2220">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton2220">
-                                                    <img width="28" height="28" src="img/tons/ton-2.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 022 </span>
                                             </li>
                                             <li>
                                                 <label for="ton3330">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton3330">
-                                                    <img width="28" height="28" src="img/tons/ton-3.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 007 </span>
                                             </li>
                                             <li>
                                                 <label for="ton4440">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton4440">
-                                                    <img width="28" height="28" src="img/tons/ton-4.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton5550">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton5550">
-                                                    <img width="28" height="28" src="img/tons/ton-5.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton60">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton60">
-                                                    <img width="28" height="28" src="img/tons/ton-6.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-6.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 003 </span>
                                             </li>
                                             <li>
                                                 <label for="ton70">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton70">
-                                                    <img width="28" height="28" src="img/tons/ton-7.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-7.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 022 </span>
                                             </li>
                                             <li>
                                                 <label for="ton80">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton80">
-                                                    <img width="28" height="28" src="img/tons/ton-8.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-8.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 007 </span>
                                             </li>
                                             <li>
                                                 <label for="ton90">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton90">
-                                                    <img width="28" height="28" src="img/tons/ton-9.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-9.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton100">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton100">
-                                                    <img width="28" height="28" src="img/tons/ton-10.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-10.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton110">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton110">
-                                                    <img width="28" height="28" src="img/tons/ton-11.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-11.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 003 </span>
                                             </li>
                                             <li>
                                                 <label for="ton120">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton120">
-                                                    <img width="28" height="28" src="img/tons/ton-12.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-12.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 022 </span>
                                             </li>
                                             <li>
                                                 <label for="ton130">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton130">
-                                                    <img width="28" height="28" src="img/tons/ton-13.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 007 </span>
                                             </li>
                                             <li>
                                                 <label for="ton140">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton140">
-                                                    <img width="28" height="28" src="img/tons/ton-14.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-14.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton150">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton150">
-                                                    <img width="28" height="28" src="img/tons/ton-15.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-15.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton160">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton160">
-                                                    <img width="28" height="28" src="img/tons/ton-16.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-16.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 003 </span>
                                             </li>
                                             <li>
                                                 <label for="ton170">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton170">
-                                                    <img width="28" height="28" src="img/tons/ton-17.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 022 </span>
                                             </li>
                                             <li>
                                                 <label for="ton180">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton180">
-                                                    <img width="28" height="28" src="img/tons/ton-18.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 007 </span>
                                             </li>
                                             <li>
                                                 <label for="ton190">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton190">
-                                                    <img width="28" height="28" src="img/tons/ton-19.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
                                             <li>
                                                 <label for="ton200">
                                                     <input type="radio" class="not-styler beyond" name="tons3"  id="ton200">
-                                                    <img width="28" height="28" src="img/tons/ton-20.jpg" alt=""/>
+                                                    <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
                                                 </label>
                                                 <span class="hint"> 005 </span>
                                             </li>
@@ -1437,48 +1437,48 @@
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                   </div>
 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                   </div>
 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                 </div> 
 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                 </div> 
 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                 </div> 
 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                 </div> 
                 <div class="swiper-slide"> 
                   <h2>ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ
                 № ТО ОО-С.ФИ25.Б.АИ987</h2>
                 <span>срок действия с 15 октября 2008 г по 12 ноября 2018 г</span>
-                    <img src="temp/ser.jpg" alt="">
+                    <img src="/temp/ser.jpg" alt="">
                 </div> 
               </div>
 
@@ -1490,37 +1490,37 @@
             <div class="swiper-wrapper">
               
                 <div class="swiper-slide active-nav">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/serm.jpg" alt="">
+                  <img src="/temp/serm.jpg" alt="">
                   <div class="title">ТАМОЖЕННЫЙ СОЮЗ. СЕРТИФИКАТ СООТВЕТСТВИЯ № ТО ОО-С.ФИ25.Б.АИ987</div>
                   
                 </div>
@@ -1590,7 +1590,7 @@
             </div>
             <div class="cleaner"></div>
             <div class="comp-info">
-              <p><img src="temp/active-comp.png" alt="">ЛИМОННИК КИТАЙСКИЙ — «ПЛОД ПЯТИ ВКУСОВ»
+              <p><img src="/temp/active-comp.png" alt="">ЛИМОННИК КИТАЙСКИЙ — «ПЛОД ПЯТИ ВКУСОВ»
           Лимонник имеет репутацию придворного растения китайских императоров
           Как упоминают древнекитайские свидетельства,  лимонник  никогда не переводился в рационе императоров-долгожителей, поэтому, по преданиям,  китайские  императоры обладали чудесной выносливостью, могли обходиться без сна во время дальних походов и не теряли при этом бодрости и внутреннего равновесия. Жены  китайских  императоров исчислялись тысячами — правители сохраняли до глубокой старости невероятную потенцию. Императоры Древнего Китая продлевали свою молодость и жизнь благодаря великому лечебному потенциалу красно-оранжевой ягоды. Не зря  лимонник  издавна называют в Китае придворным растением  китайских  императоров. 
           ЛИМОННИК КИТАЙСКИЙ — это деревянистая лиана семейства лимонниковых. Ветвящиеся побеги лимонника обвивают стволы деревьев и кустарники, вращаясь по ходу часовой стрелки. Стебли нередко достигают 10-15 м в длину.
@@ -1614,30 +1614,30 @@
               <div class="swiper-wrapper">
                   
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="Листовка Глинтвейн 23х23" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="Листовка Глинтвейн 23х23" data-link="#link-to-download">
                   </div>
 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="Глинтовка Листвейн 32х32" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="Глинтовка Листвейн 32х32" data-link="#link-to-download">
                   </div>
 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="А это что за покемон?" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="А это что за покемон?" data-link="#link-to-download">
                 </div> 
 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="Ещё листовки! Ещёё111!" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="Ещё листовки! Ещёё111!" data-link="#link-to-download">
                 </div> 
 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="Печатная продукция рулит!" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="Печатная продукция рулит!" data-link="#link-to-download">
                 </div> 
 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="И ещё!" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="И ещё!" data-link="#link-to-download">
                 </div> 
                 <div class="swiper-slide"> 
-                    <img src="temp/poly-big.jpg" alt="И напоследок" data-link="#link-to-download">
+                    <img src="/temp/poly-big.jpg" alt="И напоследок" data-link="#link-to-download">
                 </div> 
               </div>
 
@@ -1649,25 +1649,25 @@
             <div class="swiper-wrapper">
               
                 <div class="swiper-slide active-nav">
-                  <img src="temp/poly-smal-1.jpg" alt="">
+                  <img src="/temp/poly-smal-1.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-2.jpg" alt="">
+                  <img src="/temp/poly-smal-2.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-3.jpg" alt="">
+                  <img src="/temp/poly-smal-3.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-4.jpg" alt="">
+                  <img src="/temp/poly-smal-4.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-3.jpg" alt="">
+                  <img src="/temp/poly-smal-3.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-2.jpg" alt="">
+                  <img src="/temp/poly-smal-2.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="temp/poly-smal-1.jpg" alt="">
+                  <img src="/temp/poly-smal-1.jpg" alt="">
                 </div>
               
             </div>

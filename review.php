@@ -58,12 +58,6 @@ require_once('header.php');
 		</div>
 	</div>
 
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
 
 <a href="" class="modal-viewer hide" data-key="#new-msg">opener</a>
 <div id="new-msg" class="following modal hide posrelative">
@@ -96,5 +90,6 @@ require_once('header.php');
 		На ваш почтовый ящик отправлено сообщение, содержащее ссылку подтверждения. Пожалуйста, перейдите по ссылке из письма для завершения процесса подписки.
 	</p>
 </div>
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

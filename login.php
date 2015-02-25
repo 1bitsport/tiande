@@ -5,13 +5,13 @@
 	<title>Вход</title>
 	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
 	<meta name="format-detection" content="telephone=no">
-	<link href="css/login.css" rel="stylesheet" type="text/css">
-	  <link href="js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
+	<link href="/css/login.css" rel="stylesheet" type="text/css">
+	  <link href="/js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
 
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-	  <script src="js/idangerous.swiper.js"></script>
-	  <script src="js/jquery.scrollbar.min.js"></script>
-	  <script src="js/scripts.js"></script>
+	  <script src="/js/idangerous.swiper.js"></script>
+	  <script src="/js/jquery.scrollbar.min.js"></script>
+	  <script src="/js/scripts.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE678.js"></script>

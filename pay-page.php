@@ -83,18 +83,18 @@ require_once('header.php');
 		  			</div>
 		  			<div class="pay-methods posabsolute">
 		  				<ul>
-		  					<li><img src="img/pay/qiwi.png" alt=""></li>
-		  					<li><img src="img/pay/wm.png" alt=""></li>
-		  					<li><img src="img/pay/yand.png" alt=""></li>
-		  					<li><img src="img/pay/svyaz.png" alt=""></li>
-		  					<li><img src="img/pay/evro.png" alt=""></li>
+		  					<li><img src="/img/pay/qiwi.png" alt=""></li>
+		  					<li><img src="/img/pay/wm.png" alt=""></li>
+		  					<li><img src="/img/pay/yand.png" alt=""></li>
+		  					<li><img src="/img/pay/svyaz.png" alt=""></li>
+		  					<li><img src="/img/pay/evro.png" alt=""></li>
 		  				</ul>
 		  				<ul>
-		  					<li><img src="img/pay/abank.png" alt=""></li>
-		  					<li><img src="img/pay/psbank.png" alt=""></li>
-		  					<li><img src="img/pay/vtb.png" alt=""></li>
-		  					<li><img src="img/pay/visa.png" alt=""></li>
-		  					<li><img src="img/pay/mastercard.png" alt=""></li>
+		  					<li><img src="/img/pay/abank.png" alt=""></li>
+		  					<li><img src="/img/pay/psbank.png" alt=""></li>
+		  					<li><img src="/img/pay/vtb.png" alt=""></li>
+		  					<li><img src="/img/pay/visa.png" alt=""></li>
+		  					<li><img src="/img/pay/mastercard.png" alt=""></li>
 		  				</ul>
 		  			</div>
 	  		  	</div>
@@ -103,15 +103,6 @@ require_once('header.php');
 	</form>
 </div>
 
-</main>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
-
-  <!-- </div> -->
-
-
-
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

@@ -132,3 +132,7 @@ require_once('header.php');
 		</ul>
 	</div>	
 </div>	
+
+<?
+require_once('footer.php');
+?>

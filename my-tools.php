@@ -40,6 +40,10 @@ require_once('header.php');
 					<a href="#"><span>О</span>братная связь</a>
 				</li>
 				<li class="">
+					<div class="report-menu-icon report-menu-info"></div>
+					<a href="#"><span>И</span>нформация</a>
+				</li>
+				<li class="">
 					<div class="report-menu-icon report-menu-office"></div>
 					<a href="#"><span>О</span>нлайн офис</a>
 				</li>
@@ -334,13 +338,6 @@ require_once('header.php');
 
 
 
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
-
 
 <script type="text/javascript" src="/js/clipboard/jquery.zclip.js"></script>
 <script type="text/javascript">
@@ -374,5 +371,6 @@ $(document).ready(function(){
 		использовать символы латинского алфавита, цифры 1-9. 
       </p>
 </div>
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

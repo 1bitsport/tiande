@@ -349,14 +349,6 @@ require_once('header.php');
 	</div>
 </div>
 
-
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
-
-
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

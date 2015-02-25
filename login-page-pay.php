@@ -7,13 +7,13 @@
 	<meta name="format-detection" content="telephone=no">
   	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 	
-	<link href="css/login.css" rel="stylesheet" type="text/css">
-	  <link href="js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
+	<link href="/css/login.css" rel="stylesheet" type="text/css">
+	  <link href="/js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
 
 	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-	  <script src="js/idangerous.swiper.js"></script>
-	  <script src="js/jquery.scrollbar.min.js"></script>
-	  <script src="js/scripts.js"></script>
+	  <script src="/js/idangerous.swiper.js"></script>
+	  <script src="/js/jquery.scrollbar.min.js"></script>
+	  <script src="/js/scripts.js"></script>
 
 	<!--[if lt IE 9]>
 		<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE678.js"></script>

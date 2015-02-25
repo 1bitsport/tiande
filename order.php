@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
   <title>Главная страница</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
-  <link href="/css/5.css" rel="stylesheet" type="text/css">
+  <link href="/css/style.css" rel="stylesheet" type="text/css">
+  <link href="/js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
+  <!-- <link href="/css/5.css" rel="stylesheet" type="text/css"> -->
   <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
   
 
@@ -58,7 +58,7 @@
       <div class="general-modal">
         <div class="product-left"> 
           <div class="fast-img">
-            <a  href=""><img src="temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="img/ton-on-img.png" alt=""></a><br>
+            <a  href=""><img src="/temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="/img/ton-on-img.png" alt=""></a><br>
             <span class="t-name">004 Шампунь "Шампунь"</span>
             <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span>
             <div class="info-icons">
@@ -134,7 +134,7 @@
           <div class="product-text">
             <h1>Набор "Золотой имбирь"</h1>
             <h2>"Золотой имбирь" для золота волос!</h2>
-            <div class="rating"><img src="img/big-stars.png"> <span class="count-rate">(5)</span> 
+            <div class="rating"><img src="/img/big-stars.png"> <span class="count-rate">(5)</span> 
               <div class="price-block">
                 <div><span class="bonus">20 Б</span><span class="i">3 007 руб.</span><span class="now-price">2 700 000 руб.</span>
                 <span class="what" style="display:none">
@@ -165,31 +165,31 @@
               <ul class="color">
                   <li>
                       <a href="#">
-                          <img width="20" height="20" src="img/tons/white.jpg" alt=""/>
+                          <img width="20" height="20" src="/img/tons/white.jpg" alt=""/>
                       </a>
                       <span class="hint"> 003 </span>
                   </li>
                   <li>
                       <a href="#">
-                          <img width="20" height="20" src="img/tons/violet-4.jpg" alt=""/>
+                          <img width="20" height="20" src="/img/tons/violet-4.jpg" alt=""/>
                       </a>
                       <span class="hint"> 022 </span>
                   </li>
                   <li>
                       <a href="#">
-                          <img width="20" height="20" src="img/tons/siren.jpg" alt=""/>
+                          <img width="20" height="20" src="/img/tons/siren.jpg" alt=""/>
                       </a>
                       <span class="hint"> 007 </span>
                   </li>
                   <li>
                       <a href="#">
-                          <img width="20" height="20" src="img/tons/violet-2.jpg" alt=""/>
+                          <img width="20" height="20" src="/img/tons/violet-2.jpg" alt=""/>
                       </a>
                       <span class="hint"> 005 </span>
                   </li>
                   <li>
                       <a href="#">
-                          <img width="20" height="20" src="img/tons/violet-3.jpg" alt=""/>
+                          <img width="20" height="20" src="/img/tons/violet-3.jpg" alt=""/>
                       </a>
                       <span class="hint"> 005 </span>
                   </li>
@@ -200,140 +200,140 @@
                           <ul class="color">
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-3.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-3.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-2.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-2.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/bezh.jpg"
+                                      <img width="20" height="20" src="/img/tons/bezh.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-3.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-3.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-2.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-2.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/bezh.jpg"
+                                      <img width="20" height="20" src="/img/tons/bezh.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-3.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-3.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-2.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-2.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/bezh.jpg"
+                                      <img width="20" height="20" src="/img/tons/bezh.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-3.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-3.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-2.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-2.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/bezh.jpg"
+                                      <img width="20" height="20" src="/img/tons/bezh.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <a href="#">
-                                      <img width="20" height="20" src="img/tons/violet-4.jpg"
+                                      <img width="20" height="20" src="/img/tons/violet-4.jpg"
                                            alt=""/>
                                   </a>
                                   <span class="hint"> 005 </span>
@@ -358,11 +358,14 @@
       </div>
     </div>
   </div>
-<header class="order-header">
-	<div class="left-header">
-		<a href="#1" class="order-logo"></a>
-	</div>
-	<div class="right-header">
+
+<div class="order container main-container">
+<!-- <div class="container"> -->
+	<header class="order-header">
+  <div class="left-header">
+    <a href="#1" class="order-logo"></a>
+  </div>
+  <div class="right-header">
     <div class="cart-info font12 black "><span class="uppercase">Ваш заказ: </span> В корзине <span class="has-popup"><a href="" class="has-popup"><span class="inner-info border-dot-black">4 позиция(-ии) на сумму 4 520 руб. и на <span class="bonus-orange">400 Б</span></span></a>
       <i></i>
         <div class="popup center menu">
@@ -819,9 +822,6 @@
     </ul>
   </div>
 </header>
-<div class="order container">
-<!-- <div class="container"> -->
-	
 <!-- </div> -->
 <div class="cleaner"></div>
 <main>
@@ -852,7 +852,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-6.jpg" />
+					                  <img src="/temp/item-6.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -862,7 +862,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-7.jpg" />
+					                  <img src="/temp/item-7.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -872,7 +872,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-8.jpg" />
+					                  <img src="/temp/item-8.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
 					                </a>
@@ -882,7 +882,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-9.jpg" />
+					                  <img src="/temp/item-9.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Фитокорректор</span>
 					                </a>
@@ -892,7 +892,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-10.jpg" />
+					                  <img src="/temp/item-10.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
 					                </a>
@@ -902,7 +902,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-11.jpg" />
+					                  <img src="/temp/item-11.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -912,7 +912,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-10.jpg" />
+					                  <img src="/temp/item-10.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
 					                </a>
@@ -925,7 +925,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -935,7 +935,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -945,7 +945,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-11.jpg" />
+					                  <img src="/temp/item-11.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -955,7 +955,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
 					                </a>
@@ -965,7 +965,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Фитокорректор</span>
 					                </a>
@@ -975,7 +975,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
 					                </a>
@@ -989,7 +989,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -999,7 +999,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -1009,7 +1009,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-11.jpg" />
+					                  <img src="/temp/item-11.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -1019,7 +1019,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
 					                </a>
@@ -1029,7 +1029,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Фитокорректор</span>
 					                </a>
@@ -1039,7 +1039,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
 					                </a>
@@ -1053,7 +1053,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -1063,7 +1063,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -1073,7 +1073,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-11.jpg" />
+					                  <img src="/temp/item-11.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Гель для умывания «Естественная красота»</span>
 					                </a>
@@ -1083,7 +1083,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
 					                </a>
@@ -1093,7 +1093,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Фитокорректор</span>
 					                </a>
@@ -1103,7 +1103,7 @@
 
 					              <div class="product swiper-slide">
 					                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-					                  <img src="temp/item-1.jpg" />
+					                  <img src="/temp/item-1.jpg" />
 					                  <s>БЫСТРЫЙ ПРОСМОТР</s>
 					                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
 					                </a>
@@ -1394,8 +1394,8 @@
 							<div class="variant-head">
 								<span class="type-of-delivery black"><span class="uppercase border-solid-black">Самовывоз: </span> 150-1020 руб. ~ 3-7 дней</span>
 								<div class="pics">
-									<img src="img/ems.jpg" alt="">
-									<img src="img/dpd.jpg" alt="">
+									<img src="/img/ems.jpg" alt="">
+									<img src="/img/dpd.jpg" alt="">
 								</div>
 								<span class="hint">Самостоятельное получение посылки заказа в пункте выдачи</span>
 							</div>
@@ -1410,9 +1410,9 @@
 							<div class="variant-head">
 								<span class="type-of-delivery black"><span class="uppercase border-solid-black">Курьерская доставка: </span> 480-2250 руб. ~ 2-5 дней</span>
 								<div class="pics">
-									<img src="img/dhl.jpg" alt="">
-									<img src="img/ems.jpg" alt="">
-									<img src="img/dpd.jpg" alt="">
+									<img src="/img/dhl.jpg" alt="">
+									<img src="/img/ems.jpg" alt="">
+									<img src="/img/dpd.jpg" alt="">
 								</div>
 								<span class="hint">Экспресс доставка "от двери до двери"</span>
 							</div>
@@ -1424,7 +1424,7 @@
 							<div class="variant-head">
 								<span class="type-of-delivery black"><span class="uppercase border-solid-black">Посылка: </span> 140-620 руб. ~ 15-20 дней</span>
 								<div class="pics">
-									<img src="img/rus-post.jpg" alt="">
+									<img src="/img/rus-post.jpg" alt="">
 								</div>
 								<span class="hint">Стандартная почтовая посылка</span>
 							</div>
@@ -2127,7 +2127,7 @@
                         <div class="arrow-wrapper left"><a href="#" class="arrow arrow-left"></a></div>
                         <div class="arrow-wrapper right"><a href="#" class="arrow arrow-right"></a></div>
                       <div class="swiper-wrapper">
-                      
+          
 
                           <div class="product swiper-slide">
                             <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
@@ -2137,8 +2137,7 @@
                             </a>
                             <table class="price"><tr><td><s>12390 руб.</s> <b>12330 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/present.png" alt="">
+                            <span class="action ico-action-finger orange-icon finger-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2159,8 +2158,7 @@
                             </a>
                             <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/ico-action-finger.png" alt="">
+                            <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2212,8 +2210,7 @@
                             </a>
                             <table class="price"><tr><td><s>11000000 BUR.</s> <b>11000000 BUR.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
+                            <span  class="action ico-action-finger orange-icon coins-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2234,8 +2231,7 @@
                             </a>
                             <table class="price"><tr><td><b>120 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/present.png" alt="">
+                            <span  class="action ico-action-finger orange-icon present-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2256,8 +2252,7 @@
                             </a>
                             <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/ico-action-finger.png" alt="">
+                            <span  class="action ico-action-finger orange-icon percent-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2309,14 +2304,13 @@
                             </a>
                             <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
+                            <span  class="action ico-action-finger orange-icon new-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
-                                        <div class="pp-title">СУПЕРЦЕНА!</div>
+                                        <div class="pp-title">НОВИНКА!</div>
                                         <p class="pp-desc">
-                                            выгодная покупка
+                                            Товар впервые в продаже.
                                         </p>
                                     </div>
                                 </div>
@@ -2331,8 +2325,7 @@
                             </a>
                             <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
                             <a href="#1" class="buy">КУПИТЬ</a>
-                            <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-                                <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
+                            <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                                 <i></i>
                                 <div class="popup center">
                                     <div style="width: 185px;" class="content center popup-text">
@@ -2368,7 +2361,7 @@
                 <div class="items scrollbar-inner">
 
                   <a href="#1" class="item has-bonus">
-                    <img src="temp/basket-item-1.png" class="image"/>
+                    <img src="/temp/basket-item-1.png" class="image"/>
                     <div class="description">
                       <span class="name">Гель для умывания «Естественная красота»</span>
                       <table>
@@ -2387,7 +2380,7 @@
                   </a>
 
                   <a href="#1" class="item">
-                    <img src="temp/basket-item-2.png" class="image"/>
+                    <img src="/temp/basket-item-2.png" class="image"/>
                     <div class="description">
                       <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                       <table>
@@ -2406,7 +2399,7 @@
                   </a>
 
                   <a href="#1" class="item has-bonus">
-                    <img src="temp/basket-item-3.png" class="image"/>
+                    <img src="/temp/basket-item-3.png" class="image"/>
                     <div class="description">
                       <span class="name">Гель для умывания «Естественная красота»</span>
                       <table>
@@ -2425,7 +2418,7 @@
                   </a>
 
                   <a href="#1" class="item has-bonus">
-                    <img src="temp/basket-item-1.png" class="image"/>
+                    <img src="/temp/basket-item-1.png" class="image"/>
                     <div class="description">
                       <span class="name">Гель для умывания «Естественная красота»</span>
                       <table>
@@ -2444,7 +2437,7 @@
                   </a>
 
                   <a href="#1" class="item m-bot20">
-                    <img src="temp/basket-item-2.png" class="image"/>
+                    <img src="/temp/basket-item-2.png" class="image"/>
                     <div class="description">
                       <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                       <table>
@@ -2503,14 +2496,6 @@
 			</li>
 		</ul>
 </div>
-
-
-</main>
-</div>
-    <!--(/Основное содержание страницы)-->
-
-    <footer>
-    </footer>
 <!-- МОДАЛЬНЫЕ ОКНА -->
 
 <div id="replacer-tovar" class="order-modals" style="display: none; position: relative;">
@@ -2527,7 +2512,7 @@
             <div class="left-modal products bg-red wronger">
                 <div class="product swiper-slide bg-white">
                   <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
-                    <img src="temp/item-6.jpg" />
+                    <img src="/temp/item-6.jpg" />
                     <s>БЫСТРЫЙ ПРОСМОТР</s>
                     <span class="name">Гель для умывания «Естественная красота»</span>
                   </a>
@@ -2545,7 +2530,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-6.jpg" />
+                            <img src="/temp/item-6.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Гель для умывания «Естественная красота»</span>
                           </a>
@@ -2556,7 +2541,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-7.jpg" />
+                            <img src="/temp/item-7.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Гель для умывания «Естественная красота»</span>
                           </a>
@@ -2567,7 +2552,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-8.jpg" />
+                            <img src="/temp/item-8.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                           </a>
@@ -2578,22 +2563,52 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-9.jpg" />
+                            <img src="/temp/item-9.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Фитокорректор</span>
                           </a>
                           <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
                           <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
                           <a href="#1" class="buy">ЗАМЕНИТЬ</a>
-                            <span class="spec-icon-2">
-                                <i></i>
-                                <div class="popup">
-                                  <div class="content">
-                                    <h4>ПОДАРОК</h4>
-                                
-                                    <p>Стоимость подарка по накопительной программе<br><span>100 баллов!</span></p>
-                                    <a href="#1" class="buy">КУПИТЬ</a>
-
+                             <span  class="action ico-action-finger orange-icon percent-orange has-popup">                     
+                              <i></i>
+                              <div class="popup center">
+                                  <div style="width: 185px;" class="content center popup-text">
+                                      <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
+                                      <table class="pp-table">
+                                          <tbody><tr>
+                                              <td>
+                                                  <img src="/img/ico/catalog-list/ico-action-!-21.jpg" alt="">
+                                              </td>
+                                              <td>
+                                                  <p class="pp-desc">
+                                                     <span class="pp-orage">Акция</span> - <a href="" class="pp-link">товар участвует в персональной ации (1шт)&gt;&gt;</a>
+                                                  </p>
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  <img src="/img/ico/catalog-list/ico-action-new-21.jpg" alt="">
+                                              </td>
+                                              <td>
+                                                  <p class="pp-desc">
+                                                      <span class="pp-orage">Новинка</span> - товар впервые в продаже
+                                                  </p>
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  <img src="/img/ico/catalog-list/ico-action-100-21.jpg" alt="">
+                                              </td>
+                                              <td>
+                                                  <p class="pp-desc">
+                                                      <span class="pp-orage">Подарок</span> - стоимость подарка по накопительной программе <span class="pp-orage">100 баллов!</span>
+                                                  </p>
+                                              </td>
+                                          </tr>
+                                          </tbody></table>
+                                      <button  class="btn-buy">Купить</button>
+                                      <a href="#" class="pp-more">Подробнее...</a>
                                   </div>
                               </div>
                           </span>
@@ -2601,7 +2616,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-10.jpg" />
+                            <img src="/temp/item-10.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                           </a>
@@ -2612,7 +2627,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-11.jpg" />
+                            <img src="/temp/item-11.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Гель для умывания «Естественная красота»</span>
                           </a>
@@ -2623,7 +2638,7 @@
 
                         <div class="product swiper-slide">
                           <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                            <img src="temp/item-10.jpg" />
+                            <img src="/temp/item-10.jpg" />
                             <s>БЫСТРЫЙ ПРОСМОТР</s>
                             <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                           </a>
@@ -2653,7 +2668,7 @@
                   <div class="left-modal products bg-red wronger">
                       <div class="product swiper-slide bg-white">
                         <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
-                          <img src="temp/item-6.jpg" />
+                          <img src="/temp/item-6.jpg" />
                           <s>БЫСТРЫЙ ПРОСМОТР</s>
                           <span class="name">Гель для умывания «Естественная красота»</span>
                         </a>
@@ -2679,7 +2694,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-6.jpg" />
+                                  <img src="/temp/item-6.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2689,7 +2704,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-7.jpg" />
+                                  <img src="/temp/item-7.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2699,7 +2714,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-8.jpg" />
+                                  <img src="/temp/item-8.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                                 </a>
@@ -2709,7 +2724,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-9.jpg" />
+                                  <img src="/temp/item-9.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Фитокорректор</span>
                                 </a>
@@ -2719,7 +2734,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-10.jpg" />
+                                  <img src="/temp/item-10.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                                 </a>
@@ -2729,7 +2744,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-11.jpg" />
+                                  <img src="/temp/item-11.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2739,7 +2754,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-10.jpg" />
+                                  <img src="/temp/item-10.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                                 </a>
@@ -2752,7 +2767,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2762,7 +2777,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2772,7 +2787,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-11.jpg" />
+                                  <img src="/temp/item-11.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2782,7 +2797,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                                 </a>
@@ -2792,7 +2807,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Фитокорректор</span>
                                 </a>
@@ -2802,7 +2817,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                                 </a>
@@ -2816,7 +2831,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2826,7 +2841,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2836,7 +2851,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-11.jpg" />
+                                  <img src="/temp/item-11.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2846,7 +2861,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                                 </a>
@@ -2856,7 +2871,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Фитокорректор</span>
                                 </a>
@@ -2866,7 +2881,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                                 </a>
@@ -2880,7 +2895,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2890,7 +2905,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2900,7 +2915,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-11.jpg" />
+                                  <img src="/temp/item-11.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Гель для умывания «Естественная красота»</span>
                                 </a>
@@ -2910,7 +2925,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
                                 </a>
@@ -2920,7 +2935,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Фитокорректор</span>
                                 </a>
@@ -2930,7 +2945,7 @@
 
                               <div class="product swiper-slide">
                                 <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-                                  <img src="temp/item-1.jpg" />
+                                  <img src="/temp/item-1.jpg" />
                                   <s>БЫСТРЫЙ ПРОСМОТР</s>
                                   <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
                                 </a>
@@ -2949,5 +2964,6 @@
  <!-- МОДАЛЬНЫЕ ОКНА -->
           
           
-</body>
-</html>
+<?
+require_once('footer.php');
+?>

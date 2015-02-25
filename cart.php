@@ -598,231 +598,223 @@ require_once('header.php');
 	                <div class="arrow-wrapper left"><a href="#" class="arrow arrow-left"></a></div>
 	                <div class="arrow-wrapper right"><a href="#" class="arrow arrow-right"></a></div>
 	              <div class="swiper-wrapper">
-	              
+          
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-6.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Гель для умывания «Естественная красота»</span>
-	                    </a>
-	                    <table class="price"><tr><td><s>12390 руб.</s> <b>12330 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/present.png" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">ПОДАРОК</div>
-	                                <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
-	                                <button  class="btn-buy">Купить</button>
-	                                <a href="#" class="pp-more">Подробнее...</a>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-6.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Гель для умывания «Естественная красота»</span>
+                </a>
+                <table class="price"><tr><td><s>12390 руб.</s> <b>12330 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span class="action ico-action-finger orange-icon finger-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">ПОДАРОК</div>
+                            <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
+                            <button  class="btn-buy">Купить</button>
+                            <a href="#" class="pp-more">Подробнее...</a>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-7.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Гель для умывания «Естественная красота»</span>
-	                    </a>
-	                    <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/ico-action-finger.png" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
-	                                <table class="pp-table">
-	                                    <tbody><tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-!-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                               <span class="pp-orage">Акция</span> - <a href="" class="pp-link">товар участвует в персональной ации (1шт)&gt;&gt;</a>
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    <tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-new-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                                <span class="pp-orage">Новинка</span> - товар впервые в продаже
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    <tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-100-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                                <span class="pp-orage">Подарок</span> - стоимость подарка по накопительной программе <span class="pp-orage">100 баллов!</span>
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    </tbody></table>
-	                                <button  class="btn-buy">Купить</button>
-	                                <a href="#" class="pp-more">Подробнее...</a>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-7.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Гель для умывания «Естественная красота»</span>
+                </a>
+                <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
+                            <table class="pp-table">
+                                <tbody><tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-!-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                           <span class="pp-orage">Акция</span> - <a href="" class="pp-link">товар участвует в персональной ации (1шт)&gt;&gt;</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-new-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                            <span class="pp-orage">Новинка</span> - товар впервые в продаже
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-100-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                            <span class="pp-orage">Подарок</span> - стоимость подарка по накопительной программе <span class="pp-orage">100 баллов!</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                </tbody></table>
+                            <button  class="btn-buy">Купить</button>
+                            <a href="#" class="pp-more">Подробнее...</a>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-8.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
-	                    </a>
-	                    <table class="price"><tr><td><s>11000000 BUR.</s> <b>11000000 BUR.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">СУПЕРЦЕНА!</div>
-	                                <p class="pp-desc">
-	                                    выгодная покупка
-	                                </p>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-8.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
+                </a>
+                <table class="price"><tr><td><s>11000000 BUR.</s> <b>11000000 BUR.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon coins-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">СУПЕРЦЕНА!</div>
+                            <p class="pp-desc">
+                                выгодная покупка
+                            </p>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-9.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Фитокорректор</span>
-	                    </a>
-	                    <table class="price"><tr><td><b>120 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/present.png" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">ПОДАРОК</div>
-	                                <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
-	                                <button  class="btn-buy">Купить</button>
-	                                <a href="#" class="pp-more">Подробнее...</a>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-9.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Фитокорректор</span>
+                </a>
+                <table class="price"><tr><td><b>120 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon present-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">ПОДАРОК</div>
+                            <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
+                            <button  class="btn-buy">Купить</button>
+                            <a href="#" class="pp-more">Подробнее...</a>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-10.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
-	                    </a>
-	                    <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/ico-action-finger.png" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
-	                                <table class="pp-table">
-	                                    <tbody><tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-!-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                               <span class="pp-orage">Акция</span> - <a href="" class="pp-link">товар участвует в персональной ации (1шт)&gt;&gt;</a>
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    <tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-new-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                                <span class="pp-orage">Новинка</span> - товар впервые в продаже
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    <tr>
-	                                        <td>
-	                                            <img src="/img/ico/catalog-list/ico-action-100-21.jpg" alt="">
-	                                        </td>
-	                                        <td>
-	                                            <p class="pp-desc">
-	                                                <span class="pp-orage">Подарок</span> - стоимость подарка по накопительной программе <span class="pp-orage">100 баллов!</span>
-	                                            </p>
-	                                        </td>
-	                                    </tr>
-	                                    </tbody></table>
-	                                <button  class="btn-buy">Купить</button>
-	                                <a href="#" class="pp-more">Подробнее...</a>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-10.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
+                </a>
+                <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon percent-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
+                            <table class="pp-table">
+                                <tbody><tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-!-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                           <span class="pp-orage">Акция</span> - <a href="" class="pp-link">товар участвует в персональной ации (1шт)&gt;&gt;</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-new-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                            <span class="pp-orage">Новинка</span> - товар впервые в продаже
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="/img/ico/catalog-list/ico-action-100-21.jpg" alt="">
+                                    </td>
+                                    <td>
+                                        <p class="pp-desc">
+                                            <span class="pp-orage">Подарок</span> - стоимость подарка по накопительной программе <span class="pp-orage">100 баллов!</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                </tbody></table>
+                            <button  class="btn-buy">Купить</button>
+                            <a href="#" class="pp-more">Подробнее...</a>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-11.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Гель для умывания «Естественная красота»</span>
-	                    </a>
-	                    <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">СУПЕРЦЕНА!</div>
-	                                <p class="pp-desc">
-	                                    выгодная покупка
-	                                </p>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-11.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Гель для умывания «Естественная красота»</span>
+                </a>
+                <table class="price"><tr><td><s>450 руб.</s> <b>390 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon new-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">НОВИНКА!</div>
+                            <p class="pp-desc">
+                                Товар впервые в продаже.
+                            </p>
+                        </div>
+                    </div>
+                </span>
+              </div>
 
-	                  <div class="product swiper-slide">
-	                    <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
-	                      <img src="/temp/item-10.jpg" />
-	                      <s>БЫСТРЫЙ ПРОСМОТР</s>
-	                      <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
-	                    </a>
-	                    <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
-	                    <a href="#1" class="buy">КУПИТЬ</a>
-	                    <span style="background-size: 90%;" class="action ico-action-finger has-popup">                     
-	                        <img src="/img/ico/catalog-list/ico-action-2.jpg" alt="">
-	                        <i></i>
-	                        <div class="popup center">
-	                            <div style="width: 185px;" class="content center popup-text">
-	                                <div class="pp-title">СУПЕРЦЕНА!</div>
-	                                <p class="pp-desc">
-	                                    выгодная покупка
-	                                </p>
-	                            </div>
-	                        </div>
-	                    </span>
-	                  </div>
-	              
+              <div class="product swiper-slide">
+                <a href="#1"  data-key="#fast-buy" class="detailed modal-viewer">
+                  <img src="/temp/item-10.jpg" />
+                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+                  <span class="name">Тонизирующий гидрогель для лица «Алоэ»</span>
+                </a>
+                <table class="price"><tr><td><b>4200 руб.</b></td></tr></table>
+                <a href="#1" class="buy">КУПИТЬ</a>
+                <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
+                    <i></i>
+                    <div class="popup center">
+                        <div style="width: 185px;" class="content center popup-text">
+                            <div class="pp-title">СУПЕРЦЕНА!</div>
+                            <p class="pp-desc">
+                                выгодная покупка
+                            </p>
+                        </div>
+                    </div>
+                </span>
+              </div>
+          
 
-	              </div>
+          </div>
 
 	             
 	            </section>
 
-	                <div class="line"></div>
 	          
 
 	        </section>
@@ -939,3 +931,6 @@ require_once('header.php');
 		</div>
 		
 </div>
+<?
+require_once('footer.php');
+?>
