@@ -428,7 +428,7 @@ $(document).ready(function()
       var altForTitle = $("#polygraphy .swiper-slide-active > img").attr("alt"); // Забираем имя листовки из альта.
       $("#polygraphy .will-added").replaceWith("<span class='will-added'>" + altForTitle + "</span>"); // Заменяем предыдущий спан на новый.
       //Теперь ниже займёмся подстановкой ссылки на скаичвание
-      var linkForDownload = $("#polygraphy .swiper-slide-active > img").attr("data-link"); // Вляли линк из пользовательского атрибута
+      var linkForDownload = $("#polygraphy .swiper-slide-active > img").data("link"); // Вляли линк из пользовательского атрибута
       $("#polygraphy .downl > a").replaceWith("<a href='" + linkForDownload + "'><img src='img/download.png' alt=''><span>Скачать " + altForTitle + "</span></a>"); // Воткнули линк из пользовательского атрибута + поменяли текст ссылки.
     }
 
@@ -440,15 +440,15 @@ $(document).ready(function()
       // e.stopPropagation();
       e.preventDefault();
       
-      $.fancybox( $(this).attr("data-key"), {
+      $.fancybox( $(this).data("key"), {
         onStart :  function(e) {
         $.fancybox.showActivity();
         $.fancybox.resize();
         },
       });
-      if($(this).attr("data-key") == "#replacer-tovar") {
+      if($(this).data("key") == "#replacer-tovar") {
         slider1.reInit();
-      } else if ($(this).attr("data-key") == "#replacer") {
+      } else if ($(this).data("key") == "#replacer") {
         slider2.reInit();
       }
     });
@@ -487,7 +487,7 @@ $(document).ready(function()
     }
 
     $("a.table-hit").on("click", function(){
-      var dataAttr = $(this).attr("data-key");
+      var dataAttr = $(this).data("key");
       hitTheTable(dataAttr);
     });
 
@@ -544,22 +544,22 @@ $(document).ready(function()
 
     // Модальные окна
 
-    $('.has-modal').click(function(e){
+    $('.has-modal').on("click",function(e){
       e.preventDefault();
       e.returnValue = false;
       $('body').addClass('modal-active');
 
-      var id = $(this).attr('data-id');
+      var id = $(this).data('id');
       $('#overlay #' + id).show();
     });
 
-    $('#overlay, #overlay .modal .close').click(function (e) {
+    $('#overlay, #overlay .modal .close').on("click",function (e) {
       e.stopPropagation()
       $('body').removeClass('modal-active');
       $('#overlay .modal').hide();
     });
 
-    $('#overlay .modal').click(function(e){
+    $('#overlay .modal').on("click",function(e){
       e.stopPropagation()
     });
 
@@ -579,20 +579,20 @@ $(document).ready(function()
         obj.addClass('active')
     }
 
-    $('.has-popup').click(function(e){
+    $('.has-popup').on("click",function(e){
       if( ! $(this).hasClass('open-arrow') && ! $(this).hasClass('open-hover'))
         openPopup(e, $(this))
     });
 
-    $('.has-popup.open-arrow s').click(function(e){
+    $('.has-popup.open-arrow s').on("click",function(e){
       openPopup(e, $(this).parent('.has-popup'))
     });
 
-    $('body').click(function(){
+    $('body').on("click",function(){
       $('.has-popup.active').removeClass('active')
     });
 
-    $('.popup .content').click(function(e){
+    $('.popup .content').on("click",function(e){
       e.stopPropagation();
     });
     $('.has-popup').hover(function (e){
@@ -603,7 +603,7 @@ $(document).ready(function()
 
     $('#share-content').hide();
 
-    $('#share').click(function(e){
+    $('#share').on("click",function(e){
       if($(this).hasClass('active'))
       {
         $('#share-content').slideUp(200);
@@ -620,7 +620,7 @@ $(document).ready(function()
 
     $('.share-content').hide();
 
-    $('.share').click(function(e){
+    $('.share').on("click",function(e){
       if($(this).hasClass('active'))
       {
         $('.share-content').slideUp(200);
@@ -639,7 +639,7 @@ $(document).ready(function()
 
     var countries = $('#countries .content')
 
-    countries.find('a').click(function(e){
+    countries.find('a').on("click",function(e){
       countries.find('a.active').removeClass('active')
       $(this).addClass('active')
       var text = $(this).text()
@@ -663,7 +663,7 @@ $(document).ready(function()
       ourInput.val(liText);
       $(this).parent().hide();
     });
-    $("body").click(function(e){
+    $("body").on("click",function(e){
       // e.stopPropagation()
         $(".dropdown-sort").hide();
     });
@@ -672,14 +672,14 @@ $(document).ready(function()
     //Кол-во товара
     
     $("input[value='+'], input[value='-'] ").show();
-    $("input[value='+']").click(function(){
+    $("input[value='+']").on("click",function(){
       var thisTextInput = $(this).parent().find("input[type='text']");
       var tmp = thisTextInput.attr("value");
       tmp++;
       thisTextInput.attr("value", tmp);
     });
 
-    $("input[value='-']").click(function(){
+    $("input[value='-']").on("click",function(){
       var thisTextInput = $(this).parent().find("input[type='text']");
       var tmp = thisTextInput.attr("value");
       tmp--;
@@ -701,7 +701,7 @@ $(document).ready(function()
     // Сворачивание слайдеров
 
 
-   $(".slide-up").click(function(){
+   $(".slide-up").on("click",function(){
       var h3Active = $(this).next(); 
       $(this).toggleClass("active");
       h3Active.slideToggle();
@@ -742,7 +742,7 @@ $(document).ready(function()
     liRestoreStep.next().addClass("active");
     if(!liRestoreStep.hasClass("third")){    
       var forUpdatingSpanNumber = liRestoreStep.find("input.number").val();
-      var forUpdatingSpanRadio = liRestoreStep.find(".for-change.radio.checked input").attr("data-texttitle");      
+      var forUpdatingSpanRadio = liRestoreStep.find(".for-change.radio.checked input").data("texttitle");      
       
       liRestoreStep.find(".change").removeClass("hide");
       if(liRestoreStep.hasClass("first")) { 
@@ -842,7 +842,7 @@ $(document).ready(function()
 
   $('.cart-quantity-action').on('click', function(){
       var quantity = parseInt($(this).parent().find('input').val());
-      var action = $(this).attr('data-action');
+      var action = $(this).data('action');
       if(action == '-' && quantity > 1){
         $(this).parent().find('input').val(quantity - 1);
       }else if(action == '+'){
@@ -900,7 +900,7 @@ $(document).ready(function()
   });
 
   $(".order ul.variants li").on("click", function(e){
-    var dataLink = $(this).attr("data-link");
+    var dataLink = $(this).data("link");
     if(dataLink == "var1") {
       $(this).closest(".delivery-show-up").find(".var1").show();
       $(this).closest(".delivery-show-up").find(".var2").hide();
@@ -928,7 +928,7 @@ $(document).ready(function()
     ourInput.val(liText);
     $(this).parent().hide();
   });
-  $("body").click(function(e){
+  $("body").on("click",function(e){
     // e.stopPropagation()
       $(".dropdown-select").hide();
   });
@@ -936,7 +936,7 @@ $(document).ready(function()
 
 
   $(".order-arrow").show();
-  $(".order-arrow").click(function(e){
+  $(".order-arrow").on("click",function(e){
     e.stopPropagation()
     $(this).next().show();
   });
@@ -952,7 +952,7 @@ $(document).ready(function()
   // $(".order-arrow").toggle(function() {
   //     $(this).next().show();
   //   });
-  $("body, .order, body").click(function(e){
+  $("body, .order, body").on("click",function(e){
     // e.stopPropagation()
       $(".dropdown-town").hide();
   });
@@ -1010,8 +1010,8 @@ $(document).ready(function()
 
   $(".report-content .dropdown-town li").on("click", function(e){
     e.stopPropagation();
-    var liText = $(this).attr("data-value");
-    var forBtn = $(this).attr("data-btn");
+    var liText = $(this).data("value");
+    var forBtn = $(this).data("btn");
     var ourInput = $(this).parent().prevAll("input");
     var ourBtn = $(this).parent().prevAll(".equality");
     ourBtn = ourBtn.find(".any-icon");
@@ -1040,7 +1040,7 @@ $(document).ready(function()
   $(".another.tabs a").on("click", function(e){
     e.stopPropagation();
     e.preventDefault();
-    var dataGroup = $(this).attr("data-group");
+    var dataGroup = $(this).data("group");
     $(".tab").fadeOut();
     $(".another.tabs a").removeClass("active");
     $(this).parent().nextAll(".tab[data-group='"+dataGroup+"']").fadeIn();
@@ -1087,7 +1087,6 @@ $(document).ready(function()
     $("#edit-refer").val(resultString);
 
   });
-  var reg = /^[a-zA-Z1-9]{1,}$/;
 
   // $("#edit-refer").on("keyup", function(){
   //   var checkInput = $(this).val().search(reg);
@@ -1156,13 +1155,13 @@ $(document).ready(function()
     
     if(that.hasClass("take-up")) {
       var thisTr = that.closest('tr');
-      var thisTrLevel = that.closest('tr').attr("data-level");
+      var thisTrLevel = that.closest('tr').data("level");
       var thisFuckingTBody = that.closest("tbody");
       // thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").find(".toggle.take-up").removeClass("take-up").addClass("take-down");
 	    // thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").hide();
 
       thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").each(function(){             
-        if(parseInt($(this).attr('data-level')) > parseInt(thisTrLevel)){          
+        if(parseInt($(this).data('level')) > parseInt(thisTrLevel)){          
           $(this).hide();
           $(this).find(".toggle.take-up").removeClass("take-up").addClass("take-down");
         }
@@ -1173,13 +1172,13 @@ $(document).ready(function()
 
     }else if(that.hasClass("take-down")) {
       var thisTr = that.closest('tr');
-      var thisTrLevel = that.closest('tr').attr("data-level");
+      var thisTrLevel = that.closest('tr').data("level");
       var thisFuckingTBody = that.closest("tbody");
       //thisTrLevel++;
       // thisTrLevel++;
       //alert(thisTrLevel);			
 		thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").each(function(){							
-			if(parseInt($(this).attr('data-level')) == parseInt(thisTrLevel)+1){					
+			if(parseInt($(this).data('level')) == parseInt(thisTrLevel)+1){					
 				$(this).show();				
 			}
 		});

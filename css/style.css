@@ -7910,13 +7910,13 @@ display:inline-block;
 margin-right:25px;
 }
 
-#catalog-list > .t-items .t-item > .right .info > .rating {
+#catalog-list > .t-items .t-item > .right .info > .right_bottom_container {
 bottom:10px;
 padding-top:2px;
 position:absolute;
 }
 
-#catalog-list > .t-items .t-item > .right .info > .rating .bally {
+#catalog-list > .t-items .t-item > .right .info > .right_bottom_container .bally {
 bottom:-1px;
 color:#f77634;
 position:relative;
@@ -8041,7 +8041,7 @@ display:inline-block;
 line-height:18px;
 }
 
-#catalog-list > .items > .item > .right .info > .rating .star {
+#catalog-list > .items > .item > .right .info > .right_bottom_container .star {
 background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANAA0DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMECP/EAB4QAAICAgMBAQAAAAAAAAAAAAECAwQFEQAhMRNh/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABgRAQADAQAAAAAAAAAAAAAAAAEAAiES/9oADAMBAAIRAxEAPwDRGdy0tbcMcTxuSCHOtEb9HL8dkWuQfQV5FH7rvhv42G7PG85JVFOlHXG4+sKtYQoxKqTot2feCF+1XIQW6dyf/9k=);
 background-position:left center;
 background-repeat:repeat-x;
@@ -8053,7 +8053,7 @@ position:relative;
 width:66px;
 }
 
-#catalog-list > .items > .item > .right .info > .rating .bally {
+#catalog-list > .items > .item > .right .info > .right_bottom_container .bally {
 color:#f77634;
 }
 
@@ -9858,25 +9858,25 @@ text-align:center;
 width:20px;
 }
 
-.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating,#catalog-list > .t-items .t-item > .right .info > .rating .star-rating,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating {
+.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating,#catalog-list > .t-items .t-item > .right .info > .right_bottom_container .star-rating,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating {
 float:left;
 height:13px;
 margin-right:5px;
 width:65px;
 }
 
-.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li,.rating .star-rating ul li,#catalog-list > .t-items .t-item > .right .info > .rating .star-rating ul li,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating ul li {
+.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li,.rating .star-rating ul li,#catalog-list > .t-items .t-item > .right .right_bottom_container .star-rating ul li,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating ul li {
 background:url(/img/stars-sprite.png) left center no-repeat;
 float:left;
 height:13px;
 width:13px;
 }
 
-.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li.empty,.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li:last-child,.rating .star-rating ul li.no-star,#catalog-list > .t-items .t-item > .right .info > .rating .star-rating ul li.no-star,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating ul li.no-star {
+.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li.empty,.search-content-in > .search > .t-items .t-item > .info > .floater > .rating .star-rating ul li:last-child,.rating .star-rating ul li.no-star,#catalog-list > .t-items .t-item > .right .info > .right_bottom_container .star-rating ul li.no-star,#catalog-list > .t-items .t-item > .info > .floater > .rating .star-rating ul li.no-star {
 background:url(/img/stars-sprite.png) right center no-repeat;
 }
 
-.search-content-in > .search > .t-items .t-item .info > .floater .rating .star-count,#catalog-list > .t-items .t-item > .right .info > .rating .star-count,#catalog-list > .items > .item > .right .info > .rating .star-count,#catalog-list > .t-items .t-item .info > .floater .rating .star-count {
+.search-content-in > .search > .t-items .t-item .info > .floater .rating .star-count,#catalog-list > .t-items .t-item > .right .info > .right_bottom_container .star-count,#catalog-list > .items > .item > .right .info > .right_bottom_container .star-count,#catalog-list > .t-items .t-item .info > .floater .rating .star-count {
 color:#8e8e8e;
 }
 
@@ -10081,7 +10081,7 @@ color:#000;
 text-decoration:underline;
 }
 
-#catalog-list > .items > .item > .right .info > .rating .star .star-gold,#catalog-list > .items > .item > .rating > .star > .star-gold {
+#catalog-list > .items > .item > .right .info > .right_bottom_container .star .star-gold,#catalog-list > .items > .item > .rating > .star > .star-gold {
 background-image:url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QMraHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MCA2MS4xMzQ3NzcsIDIwMTAvMDIvMTItMTc6MzI6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkNEQTEwNUNENUNEOTExRTQ5NjNERTFGMzk2NjBDMDVDIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkNEQTEwNUNFNUNEOTExRTQ5NjNERTFGMzk2NjBDMDVDIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Q0RBMTA1Q0I1Q0Q5MTFFNDk2M0RFMUYzOTY2MEMwNUMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Q0RBMTA1Q0M1Q0Q5MTFFNDk2M0RFMUYzOTY2MEMwNUMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAANAA0DAREAAhEBAxEB/8QAeAAAAwEAAAAAAAAAAAAAAAAAAwQFBwEBAAMAAAAAAAAAAAAAAAAAAwIEBRAAAQIDBwIHAQAAAAAAAAAAARECEgMEADFRExQVBjIFIUGBkSIjBxcRAAADBgUFAAAAAAAAAAAAAAABEhEhQSITBPBRAiMUccEyAxX/2gAMAwEAAhEDEQA/ANk5/wA9ru2Hb6eknUtS2ZLmCpmAZb5bHL8CCViQD3tj397q0ykTDaMu9vj9bmGKY/QV4+7vW1VQpmvbLDkbCVUGYCvQCEXE2sfQkWk2Yf0Dcw6a0niIS56OIb5TnkZqMvSO07WD6lifES5pjiu8ETGxX1FZVcnAb2ivcb4gkPZv5p11WzXrAzU5WfckUPrh5WlJx40+wXboRQP/2Q==);
 background-position:left center;
 background-repeat:repeat-x;
@@ -10400,6 +10400,9 @@ display:block!important;
 }
 
 /* /LOADER */
+.rating-container {
+	display: inline-block;
+}
 .report-left-content > ul > li.has-child {
 	position: relative;
 }

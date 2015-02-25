@@ -941,10 +941,6 @@
                                 <div class="slide-container">
                                     <a href="#1">
                                         <img src="/temp/main-slider-1.jpg" />
-                                        <div class="slide-content">
-                                            <h3>Нежность линий<br>КАРАНДАШ<br>ДЛЯ ГУБ И ГЛАЗ</h3>
-                                            <span class="button">КУПИТЬ</span>
-                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -953,10 +949,6 @@
                                 <div class="slide-container">
                                     <a href="#2">
                                         <img src="/temp/main-slider-1.jpg" />
-                                        <div class="slide-content">
-                                            <h3>Нежность линий<br>КАРАНДАШ<br>ДЛЯ ГУБ И ГЛАЗ</h3>
-                                            <span class="button">КУПИТЬ</span>
-                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -965,10 +957,6 @@
                                 <div class="slide-container">
                                     <a href="#3">
                                         <img src="/temp/main-slider-1.jpg" />
-                                        <div class="slide-content">
-                                            <h3>Нежность линий<br>КАРАНДАШ<br>ДЛЯ ГУБ И ГЛАЗ</h3>
-                                            <span class="button">КУПИТЬ</span>
-                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -1162,7 +1150,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="rating">
+                                            <div class="right_bottom_container">
+                                              <div class="rating-container">
                                                 <span class="star-rating">
                                                     <ul>
                                                       <li></li>
@@ -1173,6 +1162,7 @@
                                                     </ul>
                                                 </span>
                                                 <span class="star-count">(4)</span>
+                                              </div>
                                                 <span class="bally">20 Б</span>
                                             </div>
                                         </div>
@@ -1428,7 +1418,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="rating">
+                                        <div class="right_bottom_container">
+                                          <div class="rating-container">
                                             <span class="star-rating">
                                                 <ul>
                                                   <li></li>
@@ -1439,6 +1430,7 @@
                                                 </ul>
                                             </span>
                                             <span class="star-count">(4)</span>
+                                          </div>
                                             <span class="bally">20 Б</span>
                                         </div>
                                     </div>
@@ -1542,7 +1534,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="rating">
+                                        <div class="right_bottom_container">
+                                          <div class="rating-container">
                                             <span class="star-rating">
                                                 <ul>
                                                   <li></li>
@@ -1553,6 +1546,7 @@
                                                 </ul>
                                             </span>
                                             <span class="star-count">(4)</span>
+                                          </div>
                                             <span class="bally">20 Б</span>
                                         </div>
                                     </div>
