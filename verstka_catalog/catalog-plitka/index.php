@@ -1017,7 +1017,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a href="#">
+                                    <a href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1116,7 +1116,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a href="#">
+                                    <a href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1183,7 +1183,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1239,7 +1239,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1294,7 +1294,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1348,7 +1348,7 @@
                                 <div class="name">
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
-                                <a class="img" href="#">
+                                <a class="img" href="#" class="modal-viewer" data-key="#fast-buy">
                                     <img src="/temp/item-1.jpg" alt=""/>
                                 </a>
                                 <div class="rating">
@@ -1402,7 +1402,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1458,7 +1458,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1514,7 +1514,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1570,7 +1570,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1626,7 +1626,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1682,7 +1682,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1738,7 +1738,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1794,7 +1794,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1850,7 +1850,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
@@ -1906,7 +1906,7 @@
                                     Шампунь Шампунь Шампунь Шампунь Шампунь
                                 </div>
                                 <div class="img">
-                                    <a  href="#">
+                                    <a  href="#" class="modal-viewer" data-key="#fast-buy">
                                         <img src="/temp/item-1.jpg" alt=""/>
                                         <s>БЫСТРЫЙ ПРОСМОТР</s>
                                     </a>
