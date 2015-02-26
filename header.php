@@ -6,7 +6,6 @@
   <title>Главная страница</title>
   <link href="/css/style.css" rel="stylesheet" type="text/css">
   <link href="/js/jquery.scrollbar.css" rel="stylesheet" type="text/css">
-  <!-- <link href="/css/5.css" rel="stylesheet" type="text/css"> -->
   <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
@@ -29,7 +28,6 @@
     .has-popup:hover .popup,  .has-popup:hover > i { display: block }
     .swiper-container .swiper-slides[data-group='1'] { display: block; }
     .products .tabs a:first-child { color: #000; border-bottom: 1px solid #000; }
-    #top-submenu { position: fixed !important; top: 0 !important;}
     </style>
   </noscript>
 
@@ -987,7 +985,7 @@
       <div class="general-modal">
         <div class="product-left"> 
           <div class="fast-img">
-            <a  href=""><img src="/temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="/img/ton-on-img.png" alt=""></a><br>
+            <a  href=""><img src="/temp/headWasher.jpg" alt="" class="product-face"><!-- <img class="over-ton" src="/img/ton-on-img.png" alt=""> --></a><br>
             <span class="t-name">004 Шампунь "Шампунь"</span>
             <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span>
             <div class="info-icons">
@@ -1530,7 +1528,7 @@
           
         </div>
             <div class="dop-block">
-              <div class="full-screen"><a href=""><img src="/img/full-view.png" alt=""><span>Показать на весь экран</span></a></div>
+              <div class="full-screen"><a href="#" target="_blank"><img src="/img/full-view.png" alt=""><span>Показать на весь экран</span></a></div>
               <div class="downl"><a href=""><img src="/img/download.png" alt=""><span>Скачать сертификат</span></a></div>
             </div>
 

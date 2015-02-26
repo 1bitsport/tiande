@@ -257,11 +257,13 @@ $(document).ready(function()
         navSwiper.swipeNext();
       },
       onInit : function(){
+        sertificationFullScreenLink();
         if(contentSwiper.activeIndex == 0) { 
           $("#one-sertif").find(".arrow-left").hide();  
         }
       },
       onSlideChangeEnd : function(){
+        sertificationFullScreenLink();
         if(contentSwiper.activeIndex == 0) { 
           $("#one-sertif").find(".arrow-left").hide();  
         }else if (contentSwiper.activeIndex == (contentSwiper.slides.length)-1) {
@@ -432,6 +434,11 @@ $(document).ready(function()
       $("#polygraphy .downl > a").replaceWith("<a href='" + linkForDownload + "'><img src='img/download.png' alt=''><span>Скачать " + altForTitle + "</span></a>"); // Воткнули линк из пользовательского атрибута + поменяли текст ссылки.
     }
 
+    function sertificationFullScreenLink() {
+      var hrefSert = $.trim($("#one-sertif .swiper-slide-active > img").attr("src"));
+      $("#sertif-modal .dop-block .full-screen a").attr("href", hrefSert);
+    }
+
     $(".up a.link").on("click", function(e){
       e.preventDefault();
     })
@@ -505,9 +512,9 @@ $(document).ready(function()
 
     // Фиксированное субменю при скролле
 
-    $(document).scroll(function(event){
-      $('#top-submenu').css('top', $(window).scrollTop() + 'px');
-    });
+    // $(document).scroll(function(event){
+    //   $('#top-submenu').css('top', $(window).scrollTop() + 'px');
+    // });
 
 
     // Координаты меню второго уровня (Главное меню)
@@ -647,9 +654,13 @@ $(document).ready(function()
       $('#countries').removeClass('active')
     });
 
-
+    $('.hook').on('click', function(e){ 
+      e.preventDefault();
+      var idFromHref = $(this).attr('href');
+      $('html,body').stop().animate({ scrollTop: $(idFromHref).offset().top }, 1000);
+    });
     // Сортировка каталога (при js дизайнерский элемент, при отсутствии - стандартный select)
-
+    $("*").removeClass("no-js");
     $(".nojs-sort").hide();
     $(".sorter").css({"display":"inline-block"});
     $(".sort-arrow").on("click",function(e){
@@ -867,6 +878,39 @@ $(document).ready(function()
     });
 
   // END CART QUANTITY
+
+    $('.cart-arrow').on('click',function(){
+      $(this).parent().next('.cart-li').toggle();
+      $(this).find('span:last').toggleClass('up');
+      $(this).find('span:last').toggleClass('down');
+      if(!$('.cart-li').length){
+        $('.dd').show();
+      } 
+    });
+    // $('.cart-color-select img').hover(function(){
+    //   $(this).next('.cart-color').toggle();   
+    // }, function(){
+    //   $(this).next('.cart-color').toggle();
+    // });
+    $('.cart-item-remove').on('click', function(e){
+      e.preventDefault();
+      $(this).closest("tr").hide('slow');
+      $.ajax({
+       type: "GET",
+       statusCode: {
+          404: function() {
+            alert( "С ajax'ом ошибочка вышла (404) :))" );
+          }
+        },
+       url: "somewhere.php",
+       data: "isDeleted=Y",
+       success: function(msg){
+         alert(1);
+       }
+     });
+    });
+
+
 
   $(".order .pay-element .continue").on("click", function(){
     var liElement = $(this).closest("li.pay-element");

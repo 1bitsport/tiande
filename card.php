@@ -15,14 +15,14 @@ require_once('header.php');
     <form action="">
       <div class="product-left">
         <div class="main-img">
-          <a  id="single_image" data-key="#big-pic" class="detailed modal-viewer" href="http://kasstorg.ru/bitrix/templates/ecomercepro_s1/images/map4.png"><span class="increaser"></span><img src="/temp/headWasher.jpg" alt="" class="product-face"><img class="over-ton" src="/img/ton-on-img.png" alt=""></a>
+          <a  id="single_image" data-key="#big-pic" class="detailed modal-viewer" href="http://kasstorg.ru/bitrix/templates/ecomercepro_s1/images/map4.png"><span class="increaser"></span><img src="/temp/headWasher.jpg" alt="" class="product-face"><!-- <img class="over-ton" src="/img/ton-on-img.png" alt=""> --></a>
           <br><span class="t-name">004 Шампунь "Шампунь"</span>
         </div>
         <div class="product-text">
           <h1>Набор "Золотой имбирь"</h1>
           <h2>"Золотой имбирь" для золота волос!</h2>
           <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span>
-          <div class="rating"><img src="/img/big-stars.png"> <span class="count-rate">(5)</span> <span class="border-dotted"><a href="">Читать отзывы</a></span><span class="border-dotted"><a href="">Написать отзыв</a></span></div>
+          <div class="rating"><img src="/img/big-stars.png"> <span class="count-rate">(5)</span> <span class="border-dotted"><a class="hook" href="#clients-rating">Читать отзывы</a></span><span class="border-dotted"><a href="">Написать отзыв</a></span></div>
           <div class="ton">
             <span class="title">Тон:</span>
             <ul class="color">

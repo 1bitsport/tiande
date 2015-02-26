@@ -1,40 +1,11 @@
-<?
+`<?
 require_once('header.php');
 ?>
 
 
 
-<script>
-	$(document).ready(function(){
-		// $('.cart-quantity-action').on('click', function(){
-		// 	var quantity = parseInt($(this).parent().find('input').val());
-		// 	var action = $(this).attr('data-action');
-		// 	if(action == '-' && quantity > 1){
-		// 		$(this).parent().find('input').val(quantity - 1);
-		// 	}else if(action == '+'){
-		// 		$(this).parent().find('input').val(quantity + 1);
-		// 	}		
-		// });
-		$('.cart-arrow').on('click',function(){
-			$(this).parent().next('.cart-li').toggle();
-			$(this).find('span:last').toggleClass('up');
-			$(this).find('span:last').toggleClass('down');
-			if(!$('.cart-li').length){
-				$('.dd').show();
-			}	
-		});
-		$('.cart-color-select img').hover(function(){
-			$(this).next('.cart-color').toggle();		
-		}, function(){
-			$(this).next('.cart-color').toggle();
-		});
-		$('.cart-item-remove').on('click', function(){
-			$(this).parent().parent().hide('slow');
-		});
-	})
-</script>
-
 <div id="cart-container">
+<form action="">
 	<div id="cart-header"><span class="uppercase my-cart">Моя корзина:</span>&nbsp;<span class="cart-font-16">4 позиция(-ии) на сумму 4 520 руб. и на <span class="color-orange">400 Б</span></span></div>
 	<div class="cart-li">		
 		<div class="cart-circle"></div>				
@@ -105,7 +76,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>
 				<tr>
@@ -146,7 +117,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>
 				<tr>
@@ -185,7 +156,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -263,7 +234,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>
 				<tr>
@@ -305,7 +276,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>
 				<tr>
@@ -347,7 +318,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -418,7 +389,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 					<td></td>
 				</tr>
@@ -452,7 +423,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 					<td></td>
 				</tr>
@@ -486,7 +457,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<span class="cart-item-remove"></span>
+						<a href="#" class="cart-item-remove"></a>
 					</td>
 					<td style="empty-cells: hide; border-collapse: collapse;"></td>
 				</tr>
@@ -521,7 +492,7 @@ require_once('header.php');
 			<p class="cart-promo-code">Использовать промо-код:</p>
 			<div>
 				<input class="cart-promo-input form-input" type="text" name="" value="" placeholder="Введите ваш номер" />
-				<a class="cart-summary-button button-big-padding button-border">Обработать</a>
+				<input type="submit" class="cart-summary-button button-big-padding button-border" value="Обработать" id="promo_send">
 				<p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
 			</div>
 		</div>
@@ -577,13 +548,15 @@ require_once('header.php');
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align: right; padding-top: 10px;">
-						<a class="cart-summary-button button-small-padding button-border">Оформить заказ</a>
+						<input type="submit" class="cart-summary-button button-small-padding button-border" value="Оформить заказ">
 					</td>
 				</tr>
 			</table>
 		</div>
+
 		<div class="cart-clear"></div>
 	</div>	
+</form>
 	
 
 		<div class="another tabs m-top20">
