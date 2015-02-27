@@ -8800,6 +8800,9 @@ color:#58595B;
 a > img {
 	max-width: 100%;
 }
+#main-slider a > img {
+	max-width: initial;
+}
 .product-left .main-img,#fast-buy .fast-img {
 float:left;
 width:49%;
