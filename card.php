@@ -18,7 +18,7 @@ require_once('header.php');
           <a  id="single_image" data-key="#big-pic" class="detailed modal-viewer" href="http://kasstorg.ru/bitrix/templates/ecomercepro_s1/images/map4.png"><span class="increaser"></span><img src="/temp/headWasher.jpg" alt="" class="product-face"><!-- <img class="over-ton" src="/img/ton-on-img.png" alt=""> --></a>
           <br><span class="t-name">004 Шампунь "Шампунь"</span>
         </div>
-        <div class="product-text">
+        <div class="product-text not-modal">
           <h1>Набор "Золотой имбирь"</h1>
           <h2>"Золотой имбирь" для золота волос!</h2>
           <span class="code-p">Код 39922, </span><span class="obyom-p">Объем: 200 мл</span>
@@ -28,35 +28,35 @@ require_once('header.php');
             <ul class="color">
                 <li class="white">
                     <label for="ton1">
-                      <input type="radio" checked class="not-styler beyond" name="tons3"  id="ton1">
+                      <input type="radio" checked class="not-styler beyond" data-pic="/temp/set.jpg" data-pic="/temp/set.jpg" name="tons3"  id="ton1">
                       <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                     </label>
                     <span class="hint"> 003 </span>
                 </li>
                 <li>
                      <label for="ton2">
-                        <input type="radio" class="not-styler beyond" name="tons3"  id="ton2">
+                        <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" data-pic="/temp/set.jpg" name="tons3"  id="ton2">
                         <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                      </label>
                     <span class="hint"> 022 </span>
                 </li>
                 <li>
                     <label for="ton3">
-                        <input type="radio" class="not-styler beyond" name="tons3"  id="ton3">
+                        <input type="radio" class="not-styler beyond" data-pic="/temp/banner-1.jpg" name="tons3"  id="ton3">
                         <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                     </label>
                     <span class="hint"> 007 </span>
                 </li>
                 <li>
                     <label for="ton4">
-                        <input type="radio" class="not-styler beyond" name="tons3"  id="ton4">
+                        <input type="radio" class="not-styler beyond" data-pic="/temp/banner-8.jpg" name="tons3"  id="ton4">
                         <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                     </label>
                     <span class="hint"> 005 </span>
                 </li>
                 <li>
                     <label for="ton5">
-                        <input type="radio" class="not-styler beyond" name="tons3"  id="ton5">
+                        <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton5">
                         <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                     </label>
                     <span class="hint"> 005 </span>
@@ -68,140 +68,140 @@ require_once('header.php');
                         <ul class="color">
                           <li class = "white">
                                   <label for="ton111">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton111">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton111">
                                       <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <label for="ton222">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton222">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton222">
                                       <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <label for="ton333">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton333">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton333">
                                       <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <label for="ton444">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton444">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton444">
                                       <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton555">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton555">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton555">
                                       <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton6">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton6">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton6">
                                       <img width="28" height="28" src="/img/tons/ton-6.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <label for="ton7">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton7">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton7">
                                       <img width="28" height="28" src="/img/tons/ton-7.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <label for="ton8">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton8">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton8">
                                       <img width="28" height="28" src="/img/tons/ton-8.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <label for="ton9">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton9">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton9">
                                       <img width="28" height="28" src="/img/tons/ton-9.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton10">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton10">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton10">
                                       <img width="28" height="28" src="/img/tons/ton-10.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton11">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton11">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton11">
                                       <img width="28" height="28" src="/img/tons/ton-11.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <label for="ton12">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton12">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton12">
                                       <img width="28" height="28" src="/img/tons/ton-12.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <label for="ton13">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton13">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton13">
                                       <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <label for="ton14">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton14">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton14">
                                       <img width="28" height="28" src="/img/tons/ton-14.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton15">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton15">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton15">
                                       <img width="28" height="28" src="/img/tons/ton-15.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton16">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton16">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton16">
                                       <img width="28" height="28" src="/img/tons/ton-16.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 003 </span>
                               </li>
                               <li>
                                   <label for="ton17">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton17">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton17">
                                       <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 022 </span>
                               </li>
                               <li>
                                   <label for="ton18">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton18">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton18">
                                       <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 007 </span>
                               </li>
                               <li>
                                   <label for="ton19">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton19">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton19">
                                       <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
                               </li>
                               <li>
                                   <label for="ton20">
-                                      <input type="radio" class="not-styler beyond" name="tons3"  id="ton20">
+                                      <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton20">
                                       <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
                                   </label>
                                   <span class="hint"> 005 </span>
@@ -414,31 +414,31 @@ require_once('header.php');
                       <ul class="color">
                           <li class="white">
                               <label for="ton1111">
-                                <input type="radio" checked class="not-styler beyond" name="tons1"  id="ton1111">
+                                <input type="radio" checked class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton1111">
                                 <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                                <label for="ton2222">
-                                  <input type="radio" class="not-styler beyond" name="tons1"  id="ton2222">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/item-11.jpg" name="tons1"  id="ton2222">
                                   <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                </label>
                           </li>
                           <li>
                               <label for="ton3333">
-                                  <input type="radio" class="not-styler beyond" name="tons1"  id="ton3333">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/item-10.jpg" name="tons1"  id="ton3333">
                                   <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                               <label for="ton4444">
-                                  <input type="radio" class="not-styler beyond" name="tons1"  id="ton4444">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/item-4.jpg" name="tons1"  id="ton4444">
                                   <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                               <label for="ton5555">
-                                  <input type="radio" class="not-styler beyond" name="tons1"  id="ton5555">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton5555">
                                   <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                               </label>
                           </li>
@@ -449,140 +449,140 @@ require_once('header.php');
                                   <ul class="color">
                                     <li class = "white">
                                             <label for="ton1112">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton1112">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton1112">
                                                 <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton2222">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton2222">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton2222">
                                                 <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton3332">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton3332">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton3332">
                                                 <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton4442">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton4442">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/item-4" name="tons1"  id="ton4442">
                                                 <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton5552">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton5552">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton5552">
                                                 <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton62">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton62">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/item-10" name="tons1"  id="ton62">
                                                 <img width="28" height="28" src="/img/tons/ton-6.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton72">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton72">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton72">
                                                 <img width="28" height="28" src="/img/tons/ton-7.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton82">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton82">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton82">
                                                 <img width="28" height="28" src="/img/tons/ton-8.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton92">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton92">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/item-3" name="tons1"  id="ton92">
                                                 <img width="28" height="28" src="/img/tons/ton-9.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton102">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton102">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton102">
                                                 <img width="28" height="28" src="/img/tons/ton-10.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton112">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton112">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton112">
                                                 <img width="28" height="28" src="/img/tons/ton-11.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton122">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton122">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton122">
                                                 <img width="28" height="28" src="/img/tons/ton-12.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton132">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton132">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton132">
                                                 <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton142">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton142">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton142">
                                                 <img width="28" height="28" src="/img/tons/ton-14.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton152">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton152">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton152">
                                                 <img width="28" height="28" src="/img/tons/ton-15.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton162">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton162">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton162">
                                                 <img width="28" height="28" src="/img/tons/ton-16.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton172">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton172">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton172">
                                                 <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton182">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton182">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton182">
                                                 <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton192">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton192">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton192">
                                                 <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton202">
-                                                <input type="radio" class="not-styler beyond" name="tons1"  id="ton202">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons1"  id="ton202">
                                                 <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
@@ -674,31 +674,31 @@ require_once('header.php');
                       <ul class="color">
                           <li class="white">
                               <label for="ton11113">
-                                <input type="radio" checked class="not-styler beyond" name="tons2"  id="ton11113">
+                                <input type="radio" checked class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton11113">
                                 <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                                <label for="ton22223">
-                                  <input type="radio" class="not-styler beyond" name="tons2"  id="ton22223">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton22223">
                                   <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                </label>
                           </li>
                           <li>
                               <label for="ton33333">
-                                  <input type="radio" class="not-styler beyond" name="tons2"  id="ton33333">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton33333">
                                   <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                               <label for="ton44443">
-                                  <input type="radio" class="not-styler beyond" name="tons2"  id="ton44443">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton44443">
                                   <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                               </label>
                           </li>
                           <li>
                               <label for="ton55553">
-                                  <input type="radio" class="not-styler beyond" name="tons2"  id="ton55553">
+                                  <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton55553">
                                   <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                               </label>
                           </li>
@@ -709,140 +709,140 @@ require_once('header.php');
                                   <ul class="color">
                                     <li class = "white">
                                             <label for="ton11123">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton11123">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton11123">
                                                 <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton22223">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton22223">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton22223">
                                                 <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton33323">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton33323">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton33323">
                                                 <img width="28" height="28" src="/img/tons/ton-3.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton44423">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton44423">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton44423">
                                                 <img width="28" height="28" src="/img/tons/ton-4.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton55523">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton55523">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton55523">
                                                 <img width="28" height="28" src="/img/tons/ton-5.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton623">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton623">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton623">
                                                 <img width="28" height="28" src="/img/tons/ton-6.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton723">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton723">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton723">
                                                 <img width="28" height="28" src="/img/tons/ton-7.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton823">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton823">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton823">
                                                 <img width="28" height="28" src="/img/tons/ton-8.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton923">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton923">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton923">
                                                 <img width="28" height="28" src="/img/tons/ton-9.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton1023">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1023">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1023">
                                                 <img width="28" height="28" src="/img/tons/ton-10.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton1123">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1123">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1123">
                                                 <img width="28" height="28" src="/img/tons/ton-11.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton1223">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1223">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1223">
                                                 <img width="28" height="28" src="/img/tons/ton-12.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton1323">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1323">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1323">
                                                 <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton1423">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1423">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1423">
                                                 <img width="28" height="28" src="/img/tons/ton-14.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton1523">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1523">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1523">
                                                 <img width="28" height="28" src="/img/tons/ton-15.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton1623">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1623">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1623">
                                                 <img width="28" height="28" src="/img/tons/ton-16.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 003 </span>
                                         </li>
                                         <li>
                                             <label for="ton1723">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1723">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1723">
                                                 <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 022 </span>
                                         </li>
                                         <li>
                                             <label for="ton1823">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1823">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1823">
                                                 <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 007 </span>
                                         </li>
                                         <li>
                                             <label for="ton1923">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton1923">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton1923">
                                                 <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>
                                         </li>
                                         <li>
                                             <label for="ton2023">
-                                                <input type="radio" class="not-styler beyond" name="tons2"  id="ton2023">
+                                                <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons2"  id="ton2023">
                                                 <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
                                             </label>
                                             <span class="hint"> 005 </span>

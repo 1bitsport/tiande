@@ -1794,7 +1794,7 @@ width:66%;
 .product-text {
 float:right;
 text-align:left;
-width:50%;
+width:49%;
 }
 
 .product-text p,.product-text h2 {
@@ -8802,7 +8802,8 @@ a > img {
 }
 .product-left .main-img,#fast-buy .fast-img {
 float:left;
-width:50%;
+width:49%;
+
 }
 
 .product-left .t-name,#fast-buy .fast-img .t-name {
@@ -9410,7 +9411,7 @@ border:1px solid #9ACA3E;
 
 .green-btn:hover {border: 0; background:#9ACA3E;}
 
-.restore-password input[type=submit].continue.no-active,.pay-page input[type=submit].continue.no-active {
+.restore-password input[type=submit].continue.no-active,.pay-page input[type=submit].continue.no-active, input[type=submit].continue.no-active {
 background:#fff;
 color:#000;
 cursor:default;
@@ -9426,6 +9427,13 @@ box-shadow:0 0 5px #8a8a8a;
 -moz-box-shadow:0 0 5px red;
 -webkit-box-shadow:0 0 5px red;
 border:1px solid red;
+box-shadow:0 0 5px red;
+}
+
+input[type=text].wrong, textarea.wrong {
+-moz-box-shadow:0 0 5px red;
+-webkit-box-shadow:0 0 5px red;
+border:1px solid red !important;
 box-shadow:0 0 5px red;
 }
 

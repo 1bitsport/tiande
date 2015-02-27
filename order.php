@@ -2473,22 +2473,22 @@
 				<div class="restore-circle"></div>	
 				<h2 class="uppercase d-block">Подтверждение личных данных</h2>	  			
 				<div class="order-inner hide off">
-					<form class="personal-data" action="confirm-order.php" method="POST">
+					<form class="personal-data validator" action="confirm-order.php" method="POST">
 						<div class="marginer">
 							<span class="font14 dark-grey l-h2">Данные человека, который примет заказ</span>
 							<div class="cleaner"></div>
-							<input type="text" name="last-name" id="last-name" placeholder="Фамилия" class="d-inline-block">
-							<input type="text" name="first-name" id="first-name" placeholder="Имя" class="d-inline-block">
-							<input type="text" name="middle-name" id="middle-name" placeholder="Отчество" class="d-inline-block">
+							<input type="text" name="last-name" id="last-name" placeholder="Фамилия" class="d-inline-block itsName importantField">
+							<input type="text" name="first-name" id="first-name" placeholder="Имя" class="d-inline-block itsName importantField">
+							<input type="text" name="middle-name" id="middle-name" placeholder="Отчество" class="d-inline-block itsName">
 							<div class="cleaner"></div>
-							<input type="text" name="personal-email" id="personal-email" placeholder="E-mail:">
+							<input type="text" name="personal-email" id="personal-email" placeholder="E-mail:" class="istEmail importantField">
 							<div class="cleaner"></div>
-							<input type="text" name="phone" id="personal-phone" placeholder="Телефон: +x (xxx) xxx xx xx">
+							<input type="text" name="phone" id="personal-phone" placeholder="Телефон: +x (xxx) xxx xx xx" class="itsPhone importantField">
 							<label for="sms"><input type="checkbox" name="get-sms" id="sms">получать SMS о статусе заказа</label>
-							<div class="cleaner"></div>
+							<div class="cleaner"></div itsName>
 							<textarea name="note" id="note" placeholder="Примечание"></textarea>
 						</div>
-						<input type="submit" value="ПРОДОЛЖИТЬ" class="continue active send-form">
+						<input type="submit" value="ПРОДОЛЖИТЬ" class="continue active send-form no-slide-up">
 					</form>
 				</div>
 			</li>

@@ -698,6 +698,13 @@ $(document).ready(function()
       thisTextInput.attr("value", tmp);
     });
 
+    $("input[name='count']").on("input", function() {
+      var regExp = /^\d+$/;
+      if(!regExp.test($(this).val())) {
+        $(this).attr("value", 1);
+      }
+    })
+
     // SIDE Catalog MENU
     $("ul li.has-child").removeClass("selected");
     $("ul li.has-child a").on("click", function(e){
@@ -912,15 +919,18 @@ $(document).ready(function()
 
 
 
-  $(".order .pay-element .continue").on("click", function(){
-    var liElement = $(this).closest("li.pay-element");
-    liElement.find(".order-inner").slideUp();
-    liElement.removeClass("active").addClass("done");
-    // liElement.find(".infoblock").addClass("d-inline-block");
-    liElement.find(".infoblock, .change").show();
-    liElement.next().removeClass("empty").addClass("active").find(".order-inner").slideDown();
-    cartSpecials.reInit();
-    cartSpecials.swipeNext();
+  $(".order .pay-element .continue.active").on("click", function(e){
+    e.stopPropagation();
+    if(!$(this).hasClass("no-slide-up")) {
+      var liElement = $(this).closest("li.pay-element");
+      liElement.find(".order-inner").slideUp();
+      liElement.removeClass("active").addClass("done");
+      // liElement.find(".infoblock").addClass("d-inline-block");
+      liElement.find(".infoblock, .change").show();
+      liElement.next().removeClass("empty").addClass("active").find(".order-inner").slideDown();
+      cartSpecials.reInit();
+      cartSpecials.swipeNext();
+    }
   });
 
   $(".order .pay-element .change").on("click", function(){
@@ -930,9 +940,6 @@ $(document).ready(function()
 
   });
 
-  $(".order .clickable").live("input", function(){
-    
-  });
 
   var forRadioPadding = $("label.checker div").hasClass("jq-radio");
   if(forRadioPadding) {
@@ -1261,14 +1268,123 @@ $(document).ready(function()
   }) 
 
   // 
+  //Валидация форм RegExp
+  var regExpName = /^[a-zA-Zа-яА-Я ]+$/;
+  var regExpEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.[a-zA-Z]{2,6})+$/;
+  var regExpPhone;
+
+  $(".validator").find("input[type='submit'].active").addClass("no-active").removeClass("active");
+  $(".validator .send-form.no-active").on("click", function (e){
+    e.preventDefault();
+  })
 
 
+  function isEmptyFields(classForValidateEmpty) {
+    var err_count = 0;
+
+    $("." + classForValidateEmpty).each(function(e){
+    
+      if(jQuery.trim($(this).val()) == ""){       
+        err_count = err_count + 1;
+      } //  else {err_count = 0;}   
+    })
+
+    if(err_count == 0){     
+      $("." + classForValidateEmpty).closest(".validator").find(".no-active.send-form").removeClass("no-active").addClass('active');  
+      // $(".active.send-form").off();
+    }else{      
+      $("." + classForValidateEmpty).closest(".validator").find(".active.send-form").removeClass("active").addClass('no-active'); 
+      $(".no-active.send-form").on("click",function(e){ e.preventDefault() });
+    } 
+  }
+  function validationFormForAll(typeOfForm, elementVal) {
+
+    if(typeOfForm == "first_and_last_name") {
+      return regExpName.test(jQuery.trim(elementVal)); // +
+    }
+    // if(typeOfForm == "email") {                      // Недоработано
+    //   alert(regExpEmail.test(elementVal))
+    //   return regExpEmail.test(jQuery.trim(elementVal)); // -
+    // }
+    // if(typeOfForm == "phone") {
+      
+    //   return true; //пока что
+    // }
+
+  }
+
+  $(".validator input[type='text'], .validator textarea, .validator input[type='password']").on("keyup change", function(e){
+    if($(this).hasClass("importantField")) {
+      if(jQuery.trim($(this).val()) == "") { $(this).addClass("wrong"); }
+      else { $(this).removeClass("wrong"); }
+    }
+    var classEmpty = "importantField";
+    isEmptyFields(classEmpty);
+
+  })
+
+  $(".validator input[type='submit']").on("click", function(e){
+    e.preventDefault();
+    $(this).closest(".validator").find("input").each(function(){
+      var typeOfForm = "";
+      if($(this).hasClass("itsName")) typeOfForm = "first_and_last_name";
+      // if($(this).hasClass("istEmail")) typeOfForm = "email"; //Недоработано
+      // if($(this).hasClass("itsPhone")) typeOfForm = "phone"; //Недоработано
+      
+      if(!validationFormForAll(typeOfForm, $(this).val())) {
+        $(this).addClass("wrong");
+        $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+      } else { 
+        $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
+        $(".validator .continue.send-form.active").submit(); 
+      }
+    })
+  })
+  // /Валидация форм
+  // Смена картинок товара в зависимости от тона
+
+  $(".not-modal.product-text li").on("click", function(e){
+
+    var input = $(this).find("input");
+    var hrefPic = input.data("pic");
+    // alert(hrefPic)
+    $(this).closest(".product-left").find(".main-img").find("img").attr("src", hrefPic);
+  })
+
+   $("#fast-buy .product-text li").on("click", function(e){
+
+    var input = $(this).find("input");
+    var hrefPic = input.data("pic");
+    // alert(hrefPic)
+    $(this).closest(".product-left").find(".fast-img").find("img").attr("src", hrefPic);
+  })
+
+   $("#akciya .single-tovar .color li").on("click", function(e){
+
+    var input = $(this).find("input");
+    var hrefPic = input.data("pic");
+    // alert(hrefPic)
+    $(this).closest(".single-tovar").find(".img-wrapper").find("img").attr("src", hrefPic);
+  })
+
+  $(".swiper-slide .color li").on("click", function(){
+    var input = $(this).find("input");
+    var hrefPic = input.data("pic");
+    $(this).closest(".swiper-slide").find("a.modal-viewer").find("img").attr("src", hrefPic);
+  })
+
+  $("#catalog-list .color li").on("click", function(){
+    var input = $(this).find("input");
+    var hrefPic = input.data("pic");
+    $(this).closest(".t-item").find("td.img").find("img").attr("src", hrefPic);
+  })
+  // /картинки-тон
 
   $(".this-btn.back").off();
   $("#msg-form .continue.send-form").off();
 
 
-  $(".off .continue").off();
+  $(".off .continue.active").off();
 });
 
 

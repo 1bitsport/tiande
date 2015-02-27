@@ -20,6 +20,8 @@ $(function(){
     });
 
 })
+var firstPress = true;
+
 function jsSliderOpt(){
     return this.init.apply( this, arguments );
 }
@@ -84,10 +86,18 @@ jsSliderOpt.prototype.create = function() {
 
         _t.sliderNode.slider( "option", "values", [ minVal, maxVal ] );
     });
-
+    this.clearNode.on("click", function(){
+        firstPress = true;
+    })
     this.input1Node.bind("change", function(e){
         var minVal = _t.input1Node.val();
         var maxVal = _t.input2Node.val();
+
+        if(minVal == 1 || minVal == -1) {
+            minVal = _t.settings.min;
+            _t.input1Node.attr("value", minVal);
+        }
+
 
         if(maxVal == "") {maxVal = _t.settings.max; _t.rootNode.addClass("selected"); _t.clearNode.show();}
         if(minVal == "") {minVal = _t.settings.min; _t.rootNode.addClass("selected"); _t.clearNode.show();}
@@ -110,10 +120,14 @@ jsSliderOpt.prototype.create = function() {
             _t.input1Node.attr("value", maxVal);
         }
     });
-
     this.input2Node.bind("change", function(e){
         var minVal = _t.input1Node.val();
         var maxVal = _t.input2Node.val();
+
+        if(maxVal == 1 || maxVal == -1) {
+            maxVal = _t.settings.max;
+            _t.input2Node.attr("value", maxVal);
+        }
 
         if(maxVal == "") {maxVal = _t.settings.max; _t.rootNode.addClass("selected"); _t.clearNode.show();}
         if(minVal == "") {minVal = _t.settings.min; _t.rootNode.addClass("selected"); _t.clearNode.show();}
@@ -129,7 +143,7 @@ jsSliderOpt.prototype.create = function() {
 
         if(maxVal < _t.settings.min) {
             maxVal = _t.settings.min;
-            _t.input2Node.attr("value", minVal);
+            _t.input2Node.attr("value", maxVal);
         }
         if(minVal > _t.settings.max) {
             minVal = _t.settings.max;
