@@ -103,7 +103,7 @@ require_once('header.php');
 							<label for="cthird">Баллов</label>
 						</li>
 					</ul> -->
-					<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a>
+					<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a>
 					<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				</form>
 				<div class="cleaner m-bot20"></div>
@@ -267,16 +267,16 @@ require_once('header.php');
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="10%" class="uppercase posrelative font12 "><span class="border-dot-grey">Дата</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="10%" class="uppercase posrelative font12"><span class="border-dot-grey">НАЧИСЛЕНО,<br><span style="text-transform:lowercase;">руб</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="8%" class="uppercase posrelative font12"><span class="border-dot-grey">Уровень</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="8.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Объем уровня,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="10.6%" class="uppercase posrelative font12"><span class="border-dot-grey">% УРОВНЯ</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="5%" class="uppercase posrelative font12"><span class="border-dot-grey">УСЛОВИЕ ЛО OSC</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="12.4%" class="uppercase posrelative font12"><span class="border-dot-grey">РАСЧЕТ</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="8.4%" class="uppercase posrelative font12"><span class="border-dot-grey">ФОНД OSC,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="8.4%" class="uppercase posrelative font12"><span class="border-dot-grey">ФОНД OSC,<br><span style="text-transform:lowercase;">руб</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="4.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Детали</span><img src="img/table-arrows.png" alt=""></th>
+								<th width="10%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Дата</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="10%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">НАЧИСЛЕНО,<br><span style="text-transform:lowercase;">руб</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="8%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Уровень</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="8.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Объем уровня,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="10.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">% УРОВНЯ</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="5%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">УСЛОВИЕ ЛО OSC</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="12.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">РАСЧЕТ</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="8.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФОНД OSC,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="8.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФОНД OSC,<br><span style="text-transform:lowercase;">руб</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="4.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Детали</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
 							</tr>
 						</thead>
 						<tbody>

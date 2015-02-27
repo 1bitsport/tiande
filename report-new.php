@@ -103,7 +103,7 @@ require_once('header.php');
 							<label>Баллов</label>
 						</li>
 					</ul>
-					<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a>
+					<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a>
 					<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				</form>
 				<div class="cleaner m-bot20"></div>
@@ -222,19 +222,20 @@ require_once('header.php');
 						<a class="font14" href="#">50</a>
 						<a class="font14" href="#">ВСЕ</a>
 					</div>
+
 				</div>
 				<div class="cleaner"></div>
 				<div class="main-table">
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="8.6%" class="uppercase posrelative font12 "><span class="border-dot-grey">Место</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="11%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты Спонсора</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">Спонсор</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Дата регистрации</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="20.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Успешных покупателей OSC в 1 уровне</span><img src="img/table-arrows.png" alt="">`</th>
+								<th width="8.6%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Место</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="11%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты Спонсора</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Спонсор</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Дата регистрации</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="20.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Успешных покупателей OSC в 1 уровне</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -284,12 +285,15 @@ require_once('header.php');
 				</div>
 				<div class="paginations m-top20">
 					<div class="pagination">
-						<a class="page current">1</a>
-						<a href="#" class="page">2</a>
-						<a href="#" class="page">3</a>
+						<a href="#" class="page next">&#9668;</a>
+						<a class="page no-border">1</a>
+						<span class="dots page">...</span>
+						<a href="#" class="page">100499</a>
+						<a class="page current">100500</a>
+						<a href="#" class="page">100501</a>
 						<span class="dots page">...</span>
 						<a href="#" class="page">999</a>
-						<a href="#" class="next">&#9658;<!-- <img src="img/next-page.png" alt=""> --></a>
+						<a href="#" class="page next">&#9658;<!-- <img src="img/next-page.png" alt=""> --></a>
 					</div>
 					<div class="cleaner"></div>
 					<ul class="distributers">

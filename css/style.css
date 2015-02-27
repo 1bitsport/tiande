@@ -4852,7 +4852,9 @@ color:#a5a5a5;
 margin:0 5px;
 padding:2px 3px;
 }
-
+.no-border {
+	border: none !important	;
+}
 .report-content .count-tr a {
 color:#58595B;
 margin-right:5px;
@@ -4883,6 +4885,14 @@ color:#6D6E71;
 font-size:14px!important;
 padding-left:7px;
 padding-right:7px;
+}
+
+.main-table th a {
+	color: #6D6E71;
+	font-size: 12px;
+}
+.main-table th a:hover {
+	color: #000;
 }
 
 .main-table .report-table td {
@@ -4975,6 +4985,10 @@ display:none;
 height:10px;
 left:100px;
 padding-left:15px;
+}
+
+.inputer span.wrong {
+	position: static;
 }
 
 .order .left-main {

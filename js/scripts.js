@@ -1297,11 +1297,9 @@ $(document).ready(function()
       $(".no-active.send-form").on("click",function(e){ e.preventDefault() });
     } 
   }
-  function validationFormForAll(typeOfForm, elementVal) {
+  function validationFormForAll(regExp, elementVal) {
 
-    if(typeOfForm == "first_and_last_name") {
-      return regExpName.test(jQuery.trim(elementVal)); // +
-    }
+    return regExp.test(elementVal); // +
     // if(typeOfForm == "email") {                      // Недоработано
     //   alert(regExpEmail.test(elementVal))
     //   return regExpEmail.test(jQuery.trim(elementVal)); // -
@@ -1327,17 +1325,42 @@ $(document).ready(function()
     e.preventDefault();
     $(this).closest(".validator").find("input").each(function(){
       var typeOfForm = "";
-      if($(this).hasClass("itsName")) typeOfForm = "first_and_last_name";
-      // if($(this).hasClass("istEmail")) typeOfForm = "email"; //Недоработано
-      // if($(this).hasClass("itsPhone")) typeOfForm = "phone"; //Недоработано
-      
-      if(!validationFormForAll(typeOfForm, $(this).val())) {
-        $(this).addClass("wrong");
-        $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
-      } else { 
-        $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
-        $(".validator .continue.send-form.active").submit(); 
+      if($(this).hasClass("itsName")) {
+        if(!validationFormForAll(regExpName, $(this).val())) {
+          $(this).addClass("wrong");
+          $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+        } else { 
+          $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
+          // $(".validator .continue.send-form.active").submit(); 
+        }
       }
+      if($(this).hasClass("istEmail")) {
+        if(!validationFormForAll(regExpEmail, $(this).val())) {
+          $(this).addClass("wrong");
+          $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+        } else { 
+          $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
+          // $(".validator .continue.send-form.active").submit(); 
+        }
+      } //Недоработано
+      // if($(this).hasClass("itsPhone")) {
+      //   if(!validationFormForAll(typeOfForm, $(this).val())) {
+      //     $(this).addClass("wrong");
+      //     $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+      //   } else { 
+      //     $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
+      //     $(".validator .continue.send-form.active").submit(); 
+      //   }
+      // } //Недоработано
+      
+      // if(!validationFormForAll(typeOfForm, $(this).val())) {
+      //   $(this).addClass("wrong");
+      //   $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+      // } else { 
+      //   $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
+      //   $(".validator .continue.send-form.active").submit(); 
+      // }
+      $(".validator .continue.send-form.active").submit(); 
     })
   })
   // /Валидация форм
@@ -1378,8 +1401,22 @@ $(document).ready(function()
     var hrefPic = input.data("pic");
     $(this).closest(".t-item").find("td.img").find("img").attr("src", hrefPic);
   })
+
   // /картинки-тон
 
+  // Печать
+  $(".printer").on("click", function(e) {
+    e.preventDefault();
+    window.print();
+  })
+  // /Печать
+
+  //Пара фиксов
+  $(".equality").on("click", function(e) {
+    e.preventDefault();
+  })
+
+  // /фиксы
   $(".this-btn.back").off();
   $("#msg-form .continue.send-form").off();
 

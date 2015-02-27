@@ -95,7 +95,7 @@ require_once('header.php');
 						<label for="cthird">Показать только новых Бизнес-партнеров OSC</label>
 					</li>
 				</ul>
-				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a>
+				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a>
 				<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				<div class="cleaner m-bot20"></div>
 				<span class="slide-content-h slide-up"><span class="border-dot-black">Показать дополнительные фильтры</span>
@@ -226,13 +226,13 @@ require_once('header.php');
 					<table class="report-table font12" >
 						<thead class="">
 							<tr>
-								<th style="min-width: 110px;" class="uppercase posrelative font12 tree-num-anket">Номер анкеты<br>(уровень)<img src="img/little-arrow.png" alt=""></th>
-								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">Статус OSC</span><img src="img/table-arrows.png" alt=""></th>
-								<th style="min-width: 40px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">!</span><img src="img/table-arrows.png" alt=""></th>
-								<th style="min-width: 70px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th style="min-width: 70px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">СО OSC,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><span class="border-dot-grey">Неоплач. ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
+								<th style="min-width: 110px;" class="uppercase posrelative font12 tree-num-anket">Номер анкеты<br>(уровень)<a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Статус OSC</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th style="min-width: 40px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">!</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th style="min-width: 70px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th style="min-width: 70px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">СО OSC,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th style="min-width: 100px;" width="" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Неоплач. ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
 								<th style="min-width: 50px;" width="" class="uppercase posrelative font12">&nbsp;</th>
 							</tr>
 						</thead>

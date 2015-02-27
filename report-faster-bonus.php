@@ -102,7 +102,7 @@ require_once('header.php');
 						<label for="cthird">Баллов</label>
 					</li>
 				</ul> -->
-				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a>
+				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a>
 				<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				<div class="cleaner m-bot20"></div>
 				<span class="slide-content-h slide-up"><span class="border-dot-black">Показать дополнительные фильтры</span>
@@ -255,15 +255,15 @@ require_once('header.php');
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="8.6%" class="uppercase posrelative font12 "><span class="border-dot-grey">Дата</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="11%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер cпонсора</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">Спонсор</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Заказы,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="15.4%" class="uppercase posrelative font12"><span class="border-dot-grey">%</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="6.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Бонус,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt=""></th>
-								<th width="6.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Бонус,<br><span style="text-transform:lowercase;">руб</span></span><img src="img/table-arrows.png" alt=""></th>
+								<th width="8.6%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Дата</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="11%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер cпонсора</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Спонсор</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Заказы,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="15.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">%</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="6.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Бонус,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="6.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Бонус,<br><span style="text-transform:lowercase;">руб</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
 							</tr>
 						</thead>
 						<tbody>

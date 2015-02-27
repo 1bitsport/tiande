@@ -1715,7 +1715,7 @@
                   </li>
                   <li style="padding-left: 5px">или за <span>сегодня</span>  <a href="">неделю</a>  <a href="">месяц</a>  <a href="">квартал</a>  <a href="">полугодие</a>  <a href="">год</a></li>       
                 </ul>
-                <a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a><a href="#" class="this-btn uppercase">Показать в отдельном окне</a>
+                <a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a><a href="#" class="this-btn uppercase">Показать в отдельном окне</a>
                 <span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="/img/saver.gif" alt=""></a></span>
               </form>
               <div class="cleaner m-bot20"></div>

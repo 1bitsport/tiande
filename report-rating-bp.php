@@ -102,7 +102,7 @@ require_once('header.php');
 						<label for="cthird">Баллов</label>
 					</li>
 				</ul>
-				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase">Распечатать</a>
+				<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase  printer">Распечатать</a>
 				<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				<div class="cleaner m-bot20"></div>
 				<span class="slide-content-h slide-up"><span class="border-dot-black">Показать дополнительные фильтры</span>
@@ -224,13 +224,13 @@ require_once('header.php');
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="8.6%" class="uppercase posrelative font12 "><span class="border-dot-grey">Место</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="11%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты Спонсора</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">Спонсор</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Дата регистрации</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="20.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Успешных покупателей OSC в 1 уровне</span><img src="img/table-arrows.png" alt="">`</th>
+								<th width="8.6%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Место</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="11%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты Спонсора</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Спонсор</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Дата регистрации</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="20.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Успешных покупателей OSC в 1 уровне</a><a href="#"><img src="img/table-arrows.png" alt=""></a>`</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -281,13 +281,13 @@ require_once('header.php');
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="8.6%" class="uppercase posrelative font12 "><span class="border-dot-grey">Место</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="11%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты Спонсора</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">Спонсор</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Дата регистрации</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="20.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Количество Бизнес-партнеров в OSC</span><img src="img/table-arrows.png" alt="">`</th>
+								<th width="8.6%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Место</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="11%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты Спонсора</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Спонсор</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Дата регистрации</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="20.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Количество Бизнес-партнеров в OSC</a><a href="#"><img src="img/table-arrows.png" alt=""></a>`</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -338,13 +338,13 @@ require_once('header.php');
 					<table class="report-table font12">
 						<thead class="">
 							<tr>
-								<th width="8.6%" class="uppercase posrelative font12 "><span class="border-dot-grey">Место</span><img src="img/little-arrow.png" alt=""></th>
-								<th width="11%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">ФИО</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Номер анкеты Спонсора</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="16.6%" class="uppercase posrelative font12"><span class="border-dot-grey">Спонсор</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="13.4%" class="uppercase posrelative font12"><span class="border-dot-grey">Дата регистрации</span><img src="img/table-arrows.png" alt=""></th>
-								<th width="20.4%" class="uppercase posrelative font12"><span class="border-dot-grey">ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></span><img src="img/table-arrows.png" alt="">`</th>
+								<th width="8.6%" class="uppercase posrelative font12 "><a href="#" class="border-dot-grey">Место</a><a href="#"><img src="img/little-arrow.png" alt=""></a></th>
+								<th width="11%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ФИО</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Номер анкеты Спонсора</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="16.6%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Спонсор</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="13.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">Дата регистрации</a><a href="#"><img src="img/table-arrows.png" alt=""></a></th>
+								<th width="20.4%" class="uppercase posrelative font12"><a href="#" class="border-dot-grey">ЛО OSC,<br><span style="text-transform:lowercase;">балл</span></a><a href="#"><img src="img/table-arrows.png" alt=""></a>`</th>
 							</tr>
 						</thead>
 						<tbody>
