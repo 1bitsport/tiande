@@ -58,7 +58,7 @@ require_once('header.php');
 <ul>	
 	<li style="margin: 20px;"><a target="_blank" href="sitemap.php">Карта сайта</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile_content.php">Контентный блок</a></li>
-	<li style="margin: 20px;"><a target="_blank" href="profile_info.php">Личный кабинет. Информация.</a></li>
+	<li style="margin: 20px;"><a target="_blank" href="lk-info.php">Личный кабинет. Информация.</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile_orders.php">Личный кабинет. Заказы.</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile_settings.php">Личный кабинет. Настройки.</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="profile_score.php">Личный кабинет. Мои счета.</a></li>

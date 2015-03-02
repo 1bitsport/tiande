@@ -3,6 +3,8 @@ $(document).ready(function()
 
   $("html.no-js").removeClass("no-js");
 
+
+
   var sixOrSeven = 6;
   var fiveOrSix = 5;
   var fourOrFive = 4;
@@ -38,6 +40,7 @@ $(document).ready(function()
     if(print_p_5or6) print_p_5or6.params.slidesPerView = fiveOrSix;
     if(special_p_5or6) special_p_5or6.params.slidesPerView = fiveOrSix;
     if(recent_p_5or6) recent_p_5or6.params.slidesPerView = fiveOrSix;
+    if(gooddeal) gooddeal.params.slidesPerView = sixOrSeven;
 
   })
 
@@ -78,6 +81,20 @@ $(document).ready(function()
         }
       });
 
+    var gooddeal = $("#gooddeal .gooddeal.slider .swiper-container").swiper({
+      createPagination: false,
+      tabs: false,
+      slidesPerView: sixOrSeven,
+      slideWidth: 148,
+      speed: 800, 
+      updateonInit: true,
+      resizeReInit: true,
+      onImagesReady : function(swiper) {
+          
+          swiper.reInit();
+          swiper.resizeFix();
+        }
+    });
     $('#main-slider').swiper({
       pagination: '.pagination',
       paginationClickable: true,
@@ -454,6 +471,8 @@ $(document).ready(function()
         slider1.reInit();
       } else if ($(this).data("key") == "#replacer") {
         slider2.reInit();
+      } else if ($(this).data("key") == "#gooddeal") {
+        gooddeal.reInit();
       }
     });
     var hrefPicture = $("a#single_image").attr("href");
@@ -721,14 +740,12 @@ $(document).ready(function()
   //DOM element:
   
   
-  $(".autoclicker").hide().click();
+  setTimeout(function(){$(".autoclicker").hide().click();}, 1);
 
   // Restore Pass
   // Change Field -> ActiveButtonContinue
   $(".continue, .this-btn").on("click", function (e){
     e.preventDefault();
-	
-
   });
 
   $(".restore-password .continue.active").removeClass("active").addClass("no-active");
@@ -773,7 +790,8 @@ $(document).ready(function()
     $(".restore-password .for-change.number").live('input', function(){
       $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("active");
       var thisText = $(this).val();
-      if(!Number(thisText)) {
+      var regExp = /^\d+$/;
+      if(!regExp.test($.trim(thisText))) {
         $(this).parent().find("a.continue.active").removeClass("active").addClass("no-active");
       }
     });
@@ -1437,6 +1455,17 @@ $(document).ready(function()
     window.print();
   })
   // /Печать
+  // Promo send
+  $("#promo_send").on("click", function(e){
+    e.preventDefault();
+    var promoInput = $(this).closest(".promo").find(".cart-promo-input");
+    var parent = $(this).closest(".promo");
+
+    if($.trim(promoInput.val()) != "" ) {
+      parent.find("span.bonus-orange").css('display', 'block');
+    }
+  })
+  // /Promo
 
   //Пара фиксов
   $(".equality").on("click", function(e) {

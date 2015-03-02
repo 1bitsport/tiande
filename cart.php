@@ -76,7 +76,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>
 				<tr>
@@ -117,7 +117,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>
 				<tr>
@@ -156,7 +156,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>				
 			</tbody>
@@ -205,7 +205,7 @@ require_once('header.php');
 							<div class="cart-item-name"><a class="cart-item-link" href="">Акционный набор 1ND</a></div>
 							<p class="cart-item-attr">Код: 229039</p>	
 							<ul class="cart-inline cart-float-left margin-top-30">
-								<a class="cart-show-detail" href="#">Посмотреть состав</a>
+								<a class="cart-show-detail modal-viewer" data-key="#sost-nabor" href="#">Посмотреть состав</a>
 							</ul>							
 							<div class="cart-clear"></div>
 						</div>						
@@ -234,7 +234,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>
 				<tr>
@@ -244,7 +244,7 @@ require_once('header.php');
 							<div class="cart-item-name"><a class="cart-item-link" href="">Подарочный набор «Легкость ног»</a></div>
 							<p class="cart-item-attr">Код: 229039/017</p>							
 							<ul class="cart-inline cart-float-left margin-top-30">
-								<a class="cart-show-detail" href="#">Посмотреть состав</a>
+								<a class="cart-show-detail modal-viewer" data-key="#sost-nabor" href="#">Посмотреть состав</a>
 							</ul>
 							<ul class="cart-inline cart-float-right cart-icons-margin">
 								<li class="cart-icon-li cart-icon-question"></li>															
@@ -276,7 +276,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>
 				<tr>
@@ -286,7 +286,7 @@ require_once('header.php');
 							<div class="cart-item-name"><a class="cart-item-link" href="">Акционный набор «При покупке зубной пасты Проденталь зубная щетка в подарок»</a></div>
 							<p class="cart-item-attr"></p>	
 							<ul class="cart-inline cart-float-left margin-top-30">
-								<a class="cart-show-detail" href="#">Посмотреть состав</a>
+								<a class="cart-show-detail modal-viewer" data-key="#sost-nabor" href="#">Посмотреть состав</a>
 							</ul>							
 							<ul class="cart-inline cart-float-right cart-icons-margin">
 								<li class="cart-icon-li cart-icon-items"></li>							
@@ -318,7 +318,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 				</tr>				
 			</tbody>
@@ -389,7 +389,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 					<td></td>
 				</tr>
@@ -423,7 +423,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 					<td></td>
 				</tr>
@@ -457,7 +457,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"></a>
+						<a href="#" class="cart-item-remove">X</a>
 					</td>
 					<td style="empty-cells: hide; border-collapse: collapse;"></td>
 				</tr>
@@ -490,10 +490,11 @@ require_once('header.php');
 				<li>Для получения статуса «Бизнес-Парнер» необходимо докупить на 250 баллов или купить набор 1ND</li>				
 			</ul>
 			<p class="cart-promo-code">Использовать промо-код:</p>
-			<div>
+			<div class="promo posrelative">
 				<input class="cart-promo-input form-input" type="text" name="" value="" placeholder="Введите ваш номер" />
 				<input type="submit" class="cart-summary-button button-big-padding button-border" value="Обработать" id="promo_send">
 				<p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
+				<span class="bold m-top20 hide bonus-orange font11">ПОДАРОК ПО ПРОМО-КОДУ &laquo;Гель для душа, код. 30101&raquo;</span>
 			</div>
 		</div>
 		<div class="cart-summary-right">
@@ -903,6 +904,127 @@ require_once('header.php');
 			</div>	
 		</div>
 		
+</div>
+
+<div id="sost-nabor" style="display: none; position: relative; min-width: 480px; min-height: 200px;">
+	<h2>СОСТАВ НАБОРА</h2>
+	<h3>&laquo;Макияж с эффектом обнаженной кожи&raquo;</h3>
+	<table>
+		<thead>
+			<tr>
+				<th width="70">КОД</th>
+				<th width="210">НАИМЕНОВАНИЕ</th>
+				<th width="120">КОЛ-ВО</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="text-center">102002</td>
+				<td class="left10">Гель от ушибов Алтай</td>
+				<td class="text-center">2</td>
+			</tr>
+			<tr>
+				<td class="text-center">201923</td>
+				<td class="left10">Пластырь для лица с бамбуком</td>
+				<td class="text-center">2</td>
+			</tr>
+			<tr>
+				<td class="text-center">109721</td>
+				<td class="left10">Фиточай &laquo;Алтайский самовар&raquo; Витаминный</td>
+				<td class="text-center">2</td>
+			</tr>
+		</tbody>
+		
+	</table>
+</div>
+<a href="#" data-key="#gooddeal" class="autoclicker modal-viewer"></a>
+<div id="gooddeal" style="display: none; position: relative;">
+	<h2>АКЦИОННОЕ ПРЕДЛОЖЕНИЕ ПО СФОРМИРОВАННЫМ ТОВАРАМ В КОРЗИНЕ</h2>
+	<div class="products gooddeal not-slider"> <!-- Внутри модального окна может быть как слайдер, так и просто несколько элементов (не более 7-ми, иначе становится слайдером. Написан простой скрипт для примера в общем файле скриптов). 
+											Чтобы блоки стали слайдами, достаточно присвоить класс slider, чтобы были простые элементы - убрать класс slider и добавить класс not-slider . -->
+		<div class="swiper-container">
+			<div class="arrow-wrapper left"><a href="#" class="arrow arrow-left"></a></div>
+	    	<div class="arrow-wrapper right"><a href="#" class="arrow arrow-right"></a></div>
+	    	<div class="swiper-wrapper">
+	    		<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/set.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/item-6.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/set.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/item-6.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/set.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/item-6.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+              	<div class="product swiper-slide">
+	                <a href="#1" data-key="#fast-buy" class="detailed modal-viewer">
+	                  <img src="/temp/set.jpg" />
+	                  <s>БЫСТРЫЙ ПРОСМОТР</s>
+	                  <span class="name">Гель для умывания «Естественная красота»</span>
+	                </a>
+	                <table class="rate-n-have price"><tr><td><b class="have">в наличии</b></td></tr></table>
+	                <a href="#1"  class="buy">ЗАМЕНИТЬ</a>
+	                <span class="bonus-orange">Выгода: 600 руб</span>
+              	</div>
+
+		
+
+              	
+		</div>
+	</div>
 </div>
 <?
 require_once('footer.php');

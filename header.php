@@ -9,7 +9,8 @@
   <link href="/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
-  
+  <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+  <meta name="format-detection" content="telephone=no">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
   <script src="/js/idangerous.swiper.js"></script>
@@ -32,6 +33,7 @@
   </noscript>
 
   <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
     <script src="/js/html5shiv.min.js"></script>
     <script src="/js/jquery.textPlaceholder.js"></script>
     <script>

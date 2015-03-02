@@ -1162,7 +1162,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove"></a>
+										<a href="#" class="cart-item-remove">X</a>
 									</td>
 								</tr>
 								<tr>
@@ -1194,7 +1194,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove"></a>
+										<a href="#" class="cart-item-remove">X</a>
 									</td>
 								</tr>
 								<tr>
@@ -1226,7 +1226,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove"></a>
+										<a href="#" class="cart-item-remove">X</a>
 									</td>
 								</tr>				
 							</tbody>
@@ -1495,7 +1495,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>
   									<tr>
@@ -1530,7 +1530,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>
   									<tr>
@@ -1566,7 +1566,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>				
   								</tbody>
@@ -1631,7 +1631,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<td></td>
   									</tr>
@@ -1661,7 +1661,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<td></td>
   									</tr>
@@ -1691,7 +1691,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<td style="empty-cells: hide; border-collapse: collapse;"></td>
   									</tr>
@@ -1773,7 +1773,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>
 
@@ -1821,7 +1821,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>
 
@@ -1870,7 +1870,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   									</tr>				
   								</tbody>
@@ -1946,7 +1946,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<!-- <td></td> -->
   									</tr>
@@ -1986,7 +1986,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<!-- <td></td> -->
   									</tr>
@@ -2026,7 +2026,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove"></a>
+  											<a href="#" class="cart-item-remove">X</a>
   										</td>
   										<!-- <td style="empty-cells: hide; border-collapse: collapse;"></td> -->
   									</tr>
