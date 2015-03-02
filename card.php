@@ -1160,125 +1160,118 @@ require_once('header.php');
               <div class="arrow-wrapper left"><a href="#" class="arrow arrow-left"></a></div>
               <div class="arrow-wrapper right"><a href="#" class="arrow arrow-right"></a></div>
               <div class="swiper-wrapper">
+                <!-- <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
+                        </div> -->
                 
-                
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
 
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
 
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
 
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
 
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
 
                 <div class="swiper-slide swiper-square">
                   <div>
-                    <a href="#1" class="modal-viewer" data-key="#master-modal">
                       <span class="helper">
-                        <img src="/temp/master-class.jpg" alt="">
-                                                                        
+                        <a href="#1" class="modal-viewer" data-key="#master-modal">
+                          <img src="/temp/master-class.jpg" alt="">          
+                        </a>                                    
                         <span class="overlay"></span>
                         <span class="title-square">
                           <span class="presentation">Презентация</span>
                           КРАСИВЫЕ НОГИ круглый год!
                         </span>
-                      </span>   
-                    </a>
-                    <div class="under-btn">
-                        <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn"></span></a>
-                    </div>
+                        <div class="under-btn"> 
+                          <a href="#123321"><span class="d-link">Скачать презентацию</span><span class="download-btn">&nbsp;</span></a>
+                        </div>
+                      </span>                  
                   </div>
                 </div>
-
-                
-
-                
+             
               </div>
             </section>
 

@@ -31,7 +31,7 @@ require_once('header.php');
 					<a href="#"><span>М</span>ои отчеты</a>
 				</li>
 				<li class="">
-					<div class="report-menu-icon report-menu-tool active"></div>
+					<div class="report-menu-icon report-menu-tool"></div>
 					<a href="#"><span>М</span>ои инструменты</a>
 				</li>
 				<li class="">
@@ -76,46 +76,49 @@ require_once('header.php');
 				<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=1MmmrzoFF2cPjcZLCTQ5vEAsDBv9VUBA&height=450"></script>
 			</div>
 			<div class="additional-filters map-searcher">
-				<div class="inputer">
-					<label class="font14 dark-grey">Страна:</label>
-					<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
-					</a>
-					<input type="text" placeholder="Введите страну" class="inputs-focus" name="country">
+				<form action="">
+					<div class="inputer">
+						<label class="font14 dark-grey">Страна:</label>
+						<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
+						</a>
+						<input type="text" placeholder="Введите страну" class="inputs-focus" name="country">
 
-					<ul class="dropdown-town">
-					   <li data-value="Россия">Россия</li>
-					   <li data-value="Украина">Украина</li>
-					   <li data-value="Белоруссия">Белоруссия</li>
-					</ul>
-				</div>
+						<ul class="dropdown-town">
+						   <li data-value="Россия">Россия</li>
+						   <li data-value="Украина">Украина</li>
+						   <li data-value="Белоруссия">Белоруссия</li>
+						</ul>
+					</div>
 
-				<div class="inputer">
-					<label class="font14 dark-grey">Область/Край:</label>
-					<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
-					</a>
-					<input type="text" placeholder="Введите область" class="inputs-focus" name="area">
+					<div class="inputer">
+						<label class="font14 dark-grey">Область/Край:</label>
+						<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
+						</a>
+						<input type="text" placeholder="Введите область" class="inputs-focus" name="area">
 
-					<ul class="dropdown-town">
-					   <li data-value="Алтайский край">Алтайский край</li>
-					   <li data-value="Московская область">Московская область</li>
-					   <li data-value="Краснодарский край">Краснодарский край</li>
-					</ul>
-				</div>
+						<ul class="dropdown-town">
+						   <li data-value="Алтайский край">Алтайский край</li>
+						   <li data-value="Московская область">Московская область</li>
+						   <li data-value="Краснодарский край">Краснодарский край</li>
+						</ul>
+					</div>
 
-				<div class="inputer">
-					<label class="font14 dark-grey">Область/Край:</label>
-					<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
-					</a>
-					<input type="text" placeholder="Введите город" class="inputs-focus" name="city">
+					<div class="inputer">
+						<label class="font14 dark-grey">Область/Край:</label>
+						<a href="#" class="equality list"><span class="little-arrow"><i></i></span>					
+						</a>
+						<input type="text" placeholder="Введите город" class="inputs-focus" name="city">
 
-					<ul class="dropdown-town">
-					   <li data-value="Барнаул">Барнаул</li>
-					   <li data-value="Москва">Москва</li>
-					   <li data-value="Краснодар">Краснодар</li>
-					</ul>
-				</div>
-					<label class="font14 dark-grey">&nbsp;</label>
-					<a href="#" class="green-btn active find">НАЙТИ</a>
+						<ul class="dropdown-town">
+						   <li data-value="Барнаул">Барнаул</li>
+						   <li data-value="Москва">Москва</li>
+						   <li data-value="Краснодар">Краснодар</li>
+						</ul>
+					</div>
+						<label class="font14 dark-grey">&nbsp;</label>
+						<!-- <a href="#" class="green-btn active find">НАЙТИ</a> -->
+						<input class="green-btn active find" type="submit" value="НАЙТИ">
+				</form>
 				<div class="cleaner"></div>
 			</div>
 

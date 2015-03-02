@@ -39,6 +39,10 @@ require_once('header.php');
 					<a href="#"><span>О</span>братная связь</a>
 				</li>
 				<li class="">
+					<div class="report-menu-icon report-menu-info"></div>
+					<a href="#"><span>И</span>нформация</a>
+				</li>
+				<li class="">
 					<div class="report-menu-icon report-menu-office"></div>
 					<a href="#"><span>О</span>нлайн офис</a>
 				</li>

@@ -7,7 +7,6 @@ require_once('header.php');
 	</div>
 	<a href="" class="continue active posabsolute order-link">ПОСМОТРЕТЬ ЗАКАЗ</a>
 	<div class="cleaner"></div>
-	<form action="" method="POST">
 		<ul class="ul-balls">
 			<li class="pay-element">
 				<div class="restore-circle"></div>	
@@ -26,11 +25,13 @@ require_once('header.php');
 		          	<span class="arrow"></span>
 	  			</h2>
 	  			<div class="pay-inside">
-	  				<input type="checkbox" name="personal-pay" id="" class="pay-checkbox"> <span class="just-text dark-grey">Оплатить</span><input class="form-input d-inline-block sum" placeholder="Введите сумму" type="text" name="personal-count" id=""> <span class="just-text dark-grey">из имеющихся на счете 999 999 999 руб</span>
-	  				<div class="payer">
-	  					<input class="form-input d-inline-block" type="password" name="pay-pass" placeholder="Введите Ваш пароль" id="pay-pass"> <input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
-	  				</div>
-	  				<label class="d-block light-grey">Для списания средств с персонального счета требуется ввести действующий пароль от личного кабинета</label>
+		  			<form action="">
+		  				<input type="checkbox" name="personal-pay" id="" class="pay-checkbox"> <span class="just-text dark-grey">Оплатить</span><input class="form-input d-inline-block sum" placeholder="Введите сумму" type="text" name="personal-count" id=""> <span class="just-text dark-grey">из имеющихся на счете 999 999 999 руб</span>
+		  				<div class="payer">
+		  					<input class="form-input d-inline-block" type="password" name="pay-pass" placeholder="Введите Ваш пароль" id="pay-pass"> <input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
+		  				</div>
+		  				<label class="d-block light-grey">Для списания средств с персонального счета требуется ввести действующий пароль от личного кабинета</label>
+		  			</form>
 	  			</div>
 			</li>
 
@@ -51,11 +52,13 @@ require_once('header.php');
 		          	<span class="arrow"></span>
 	  			</h2>
 	  			<div class="pay-inside">
-	  				<input type="checkbox" name="bonus-pay" id="" class="pay-checkbox"> <span class="just-text dark-grey">Оплатить</span><input class="form-input d-inline-block sum" placeholder="Введите сумму" type="text" name="personal-count" id=""> <span class="just-text dark-grey">из имеющихся на счете 999 999 999 руб</span>
-	  				<div class="payer">
-	  					<input class="form-input d-inline-block" type="password" name="pay-pass" placeholder="Введите Ваш пароль" id="pay-pass"> <input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
-	  				</div>
-	  				<label class="d-block light-grey">Для списания средств с бонусного счета требуется ввести действующий пароль от личного кабинета</label>
+		  			<form action="">
+		  				<input type="checkbox" name="bonus-pay" id="" class="pay-checkbox"> <span class="just-text dark-grey">Оплатить</span><input class="form-input d-inline-block sum" placeholder="Введите сумму" type="text" name="personal-count" id=""> <span class="just-text dark-grey">из имеющихся на счете 999 999 999 руб</span>
+		  				<div class="payer">
+		  					<input class="form-input d-inline-block" type="password" name="pay-pass" placeholder="Введите Ваш пароль" id="pay-pass"> <input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
+		  				</div>
+		  				<label class="d-block light-grey">Для списания средств с бонусного счета требуется ввести действующий пароль от личного кабинета</label>
+		  			</form>
 	  			</div>
 			</li>
 
@@ -79,7 +82,9 @@ require_once('header.php');
 	  			<div class="wrap-li">
 		  			<label class="d-block light-grey top-marginer">После оплаты заказа через «Онлайн оплату» невозможно оплатить заказ с бонусного или персонального счета</label>
 		  			<div class="send-wrap">
-		  				<input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
+			  			<form action="">
+			  				<input type="submit" class="send-form continue active" value="ОПЛАТИТЬ">
+			  			</form>
 		  			</div>
 		  			<div class="pay-methods posabsolute">
 		  				<ul>
@@ -100,7 +105,6 @@ require_once('header.php');
 	  		  	</div>
 			</li>
 		</ul>
-	</form>
 </div>
 
 <?

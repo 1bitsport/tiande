@@ -45,7 +45,7 @@ require_once('header.php');
                     	<tr class="t-item result inProducts">
                             <td class="img">
                                 <a href="#">
-                                    <img src="/verstka_catalog/catalog-list/images/item1.jpg" alt="">
+                                    <img src="/img/images/catalog-list/item1.jpg" alt="">
                                 </a>
                             </td>
                             <td class="left">
@@ -117,7 +117,7 @@ require_once('header.php');
                         <tr class="t-item result inProducts">
                             <td class="img">
                                 <a href="#">
-                                    <img src="/verstka_catalog/catalog-list/images/item1.jpg" alt="">
+                                    <img src="/img/images/catalog-list/item1.jpg" alt="">
                                 </a>
                             </td>
                             <td class="left">
@@ -189,7 +189,7 @@ require_once('header.php');
                         <tr class="t-item result inProducts">
                             <td class="img">
                                 <a href="#">
-                                    <img src="/verstka_catalog/catalog-list/images/item1.jpg" alt="">
+                                    <img src="/img/images/catalog-list/item1.jpg" alt="">
                                 </a>
                             </td>
                             <td class="left">

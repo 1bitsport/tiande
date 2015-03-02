@@ -39,6 +39,10 @@ require_once('header.php');
 					<a href="#"><span>О</span>братная связь</a>
 				</li>
 				<li class="">
+					<div class="report-menu-icon report-menu-info"></div>
+					<a href="#"><span>И</span>нформация</a>
+				</li>
+				<li class="">
 					<div class="report-menu-icon report-menu-office"></div>
 					<a href="#"><span>О</span>нлайн офис</a>
 				</li>
@@ -68,7 +72,7 @@ require_once('header.php');
 		<div class="report-content-in">
 			<h2>ОТЧЕТ: <a href="">РЕЙТИНГ БП OSC</a></h2>
 			<div class="report-main-filter">
-				<form>
+				<form action="">
 					<ul class="report-main-filter-stroke">
 						<li style="padding-right: 5px">Период:</li>
 						<li>
@@ -84,26 +88,26 @@ require_once('header.php');
 					</ul>
 					<ul class="report-main-filter-additional">                
 						<li>
-							<input id="cfirst" type="checkbox" name="" hidden />
+							<input id="cfirst" type="radio" class="square-radio" name="variant_type" hidden />
 							<label for="cfirst">Показать структуру деревом</label>
 						</li>
 						<li>
-							<input id="csecond" type="checkbox" name="" hidden />
+							<input id="csecond" type="radio" class="square-radio" name="variant_type" hidden />
 							<label for="csecond">Показать только новых Дистрибьюторов</label>
 						</li>
 						<li>
-							<input id="cthird" type="checkbox" name="" hidden />
+							<input id="cthird" type="radio" class="square-radio" name="variant_type" hidden />
 							<label for="cthird">Показать только новых Бизнес-партнеров OSC</label>
 						</li>
 
 						<li>
-							<input id="cfourth" type="checkbox" name="" hidden />
+							<input id="cfourth" type="radio" class="square-radio" name="variant_type" hidden />
 							<label for="cfourth">Рейтинг по количеству Успешных покупателей OSC в первом уровне c ЛО OSC</label>
 							<input type="text" placeholder="" class="inputs-focus short-field" name="num" id="num-anket">
 							<label>Баллов</label>
 						</li>
 					</ul>
-					<a href="#" class="green-btn uppercase">Показать</a><a href="#" class="this-btn uppercase printer">Распечатать</a>
+					<input type="submit" class="green-btn" value="ПОКАЗАТЬ"><a href="#" class="this-btn uppercase printer">Распечатать</a>
 					<span class="saver d-inline-block font14 dark-grey">Сохранить: <a href="#" ><img src="img/saver.gif" alt=""></a></span>
 				</form>
 				<div class="cleaner m-bot20"></div>
@@ -200,7 +204,8 @@ require_once('header.php');
 							</ul>
 						</div>
 						<div class="cleaner"></div>
-						<a href="#" class="green-btn uppercase f-right">Фильтровать</a>
+						
+						<input type="submit" class="green-btn uppercase f-right" value="Фильтровать">
 					</form>
 					<div class="cleaner"></div>
 				</div>

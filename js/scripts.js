@@ -214,13 +214,8 @@ $(document).ready(function()
       slidesPerView: threeOrFour,
       loopAdditionalSlides: 3,
       speed: 800, 
-      // updateonInit: true,
       loop: true,
-      slidesPerViewFit: false,
-      resizeReInit: true,
-      onInit : function() {
-        
-      }
+      resizeReInit: true
   });
 
   var print_p_5or6 = $('#print-p .swiper-container').swiper({

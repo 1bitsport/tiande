@@ -491,10 +491,12 @@ require_once('header.php');
 			</ul>
 			<p class="cart-promo-code">Использовать промо-код:</p>
 			<div class="promo posrelative">
-				<input class="cart-promo-input form-input" type="text" name="" value="" placeholder="Введите ваш номер" />
-				<input type="submit" class="cart-summary-button button-big-padding button-border" value="Обработать" id="promo_send">
-				<p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
-				<span class="bold m-top20 hide bonus-orange font11">ПОДАРОК ПО ПРОМО-КОДУ &laquo;Гель для душа, код. 30101&raquo;</span>
+				<form action="">
+					<input class="cart-promo-input form-input" type="text" name="" value="" placeholder="Введите ваш номер" />
+					<input type="submit" class="cart-summary-button button-big-padding button-border" value="Обработать" id="promo_send">
+					<p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
+					<span class="bold m-top20 hide bonus-orange font11">ПОДАРОК ПО ПРОМО-КОДУ &laquo;Гель для душа, код. 30101&raquo;</span>
+				</form>
 			</div>
 		</div>
 		<div class="cart-summary-right">
