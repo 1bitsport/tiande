@@ -41,23 +41,25 @@ require_once('header.php');
 			<li class="restore-step third">
 				<div class="restore-circle"></div>				
 				<h2 class="uppercase">Процедура восстановления</h2>
-				<div class="form-content email hide marginer">
+				<div class="form-content email hide marginer validator">
 					<label for="number-form">На адрес электронной почты будет отправлена инструкция по восстановлению пароля.</label>
-					<input type="text" name="user-email" id="user-email" placeholder="Введите ваш e-mail" class="for-change email">
-					<a href="#next" class="continue active uppercase">Восстановить</a>
+					<input type="text" name="user-email" id="user-email" placeholder="Введите ваш e-mail" class="for-change email importantField">
+					<!-- <a href="#next" class="continue active uppercase">Восстановить</a> -->
+					<input type="submit" class="continue send-form active uppercase" value="Восстановить">
 				</div>
 
-				<div class="form-content eiac hide marginer">
-					<input type="text" name="user-email" id="user-email-eiac" placeholder="Введите ваш e-mail" class="kadum_vonap not-styler email">
-					<textarea class="kadum_vonap not-styler comment-field" placeholder="Введите Ваш комментарий"></textarea>
+				<div class="form-content eiac hide marginer validator">
+					<input type="text" name="user-email" id="user-email-eiac" placeholder="Введите ваш e-mail" class="importantField not-styler email">
+					<textarea class="importantField not-styler comment-field" placeholder="Введите Ваш комментарий"></textarea>
 					<label>Загрузите отсканированную страницу Вашего паспорта (разворот с фотографией)</label>
 
 					<div class="type_file">
-					    <input type="file" size="28" class="inputFile kadum_vonap not-styler" onchange='document.getElementById("fileName").value=this.value' />
+					    <input type="file" size="28" class="inputFile not-styler" onchange='document.getElementById("fileName").value=this.value' />
 					    <div class="fonTypeFile"><a href="" class="uppercase browse send-form">ОБЗОР</a></div>
 					    <input type="text" class="inputFileVal" readonly="readonly" id="fileName" />
 					</div>
-					<a href="restore-pass-after-form.php" class="kadum_vonap_button continue active uppercase">Восстановить</a>
+					<!-- <a href="restore-pass-after-form.php" class="kadum_vonap_button continue active uppercase">Восстановить</a> -->
+					<input type="submit" class="continue send-form active uppercase" value="Восстановить">
 				</div>
 			</li>
 		</ul>

@@ -42,7 +42,6 @@ $(document).ready(function()
   })
 
     // Слайдеры
-    // var elSlidesCount = $('.swiper-container > .swiper-wrapper > .swiper-slide').length;
 
       var slider1 = $('.tovar-slides-modal .swiper-container').swiper({
         createPagination: false,
@@ -55,7 +54,7 @@ $(document).ready(function()
         updateOnImagesReady: true,
         resizeReInit: true,
         onImagesReady : function(swiper) {
-          //fancyModal();
+          
           swiper.reInit();
           swiper.resizeFix();
         }
@@ -73,7 +72,7 @@ $(document).ready(function()
         updateOnImagesReady: true,
         resizeReInit: true,
         onImagesReady : function(swiper) {
-          //fancyModal();
+          
           swiper.reInit();
           swiper.resizeFix();
         }
@@ -82,7 +81,7 @@ $(document).ready(function()
     $('#main-slider').swiper({
       pagination: '.pagination',
       paginationClickable: true,
-      // autoplay: 5000,
+      autoplay: 5000,
       speed: 1000
     });
 
@@ -95,7 +94,7 @@ $(document).ready(function()
       updateonInit: true,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
     });
 
@@ -108,7 +107,7 @@ $(document).ready(function()
       updateonInit: true,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
     });
 
@@ -142,7 +141,7 @@ $(document).ready(function()
       updateonInit: true,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
     });
 
@@ -167,7 +166,8 @@ $(document).ready(function()
       loop: true,
     });
 
-  // $('#sets .swiper-container').swiper({
+// Возможно пригодится позже
+  // $('#sets .swiper-container').swiper({ 
   //   loop:true,
   //   speed:800,
   //   updateonInit: true,
@@ -188,7 +188,7 @@ $(document).ready(function()
       loop: true,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
   });
 
@@ -202,7 +202,7 @@ $(document).ready(function()
       slidesPerViewFit: false,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
   });
 
@@ -215,7 +215,7 @@ $(document).ready(function()
       loop: true,
       resizeReInit: true,
       onInit : function() {
-        //fancyModal();
+        
       }
   });
 
@@ -228,7 +228,7 @@ $(document).ready(function()
     slidesPerViewFit: false,
     resizeReInit: true,
     onInit : function() {
-        //fancyModal();
+        
       }
   });
 
@@ -240,7 +240,7 @@ $(document).ready(function()
     slidesPerViewFit: false,
     resizeReInit: true,
     onInit : function() {
-        //fancyModal();
+        
       }
   });
 
@@ -286,7 +286,6 @@ $(document).ready(function()
       loop : false,
       speed: 400,
       initialSlide : -1,
-      // resistance : false,
       slidesPerView: 1,
       onSlideChangeStart: function(){
         updateNavPosition(contentSwiper2, navSwiper2)
@@ -329,7 +328,6 @@ $(document).ready(function()
           $(".swiper-nav").find(".arrow-left").hide();  
         }
       },
-      // mode : 'horizontal',
       
       //Thumbnails Clicks
       onSlideClick: function(){
@@ -430,7 +428,7 @@ $(document).ready(function()
       var altForTitle = $("#polygraphy .swiper-slide-active > img").attr("alt"); // Забираем имя листовки из альта.
       $("#polygraphy .will-added").replaceWith("<span class='will-added'>" + altForTitle + "</span>"); // Заменяем предыдущий спан на новый.
       //Теперь ниже займёмся подстановкой ссылки на скаичвание
-      var linkForDownload = $("#polygraphy .swiper-slide-active > img").data("link"); // Вляли линк из пользовательского атрибута
+      var linkForDownload = $("#polygraphy .swiper-slide-active > img").data("link"); // Взяли линк из пользовательского атрибута
       $("#polygraphy .downl > a").replaceWith("<a href='" + linkForDownload + "'><img src='img/download.png' alt=''><span>Скачать " + altForTitle + "</span></a>"); // Воткнули линк из пользовательского атрибута + поменяли текст ссылки.
     }
 
@@ -444,7 +442,6 @@ $(document).ready(function()
     })
 
    $(".modal-viewer").on("click", function (e){
-      // e.stopPropagation();
       e.preventDefault();
       
       $.fancybox( $(this).data("key"), {
@@ -463,10 +460,7 @@ $(document).ready(function()
     $("#big-pic .big-pic").append("<img src='"+hrefPicture+"'>");
   
 
-    // Стилизация кнопок переключателей (radio buttons)
-    // if($(".not-styler").length){}else{
-    //   $('input:not([type="file"])').styler();
-    // }
+    // Стилизация кнопок переключателей (radio buttons, checkbox, etc)
 
     $('input:not(.not-styler)').styler();
 
@@ -481,7 +475,7 @@ $(document).ready(function()
         $(dataAttr + " .need-scroll").removeClass("need-scroll");
       }
       var anyEl = $("*");
-
+// Ещё одна стилизация скроллбара. Стилизация к блоку с таблицей
         $(".tablescroll_wrapper").mCustomScrollbar({
           theme : "tiande",
           setHeight : 150,
@@ -577,7 +571,6 @@ $(document).ready(function()
     function openPopup(e, obj)
     {
       e.stopPropagation();
-      //$(this).removeClass('.hover-nojs');
       var wasActive = obj.hasClass('active');
 
       $('.has-popup.active').removeClass('active');
@@ -654,7 +647,7 @@ $(document).ready(function()
       $('#countries').removeClass('active')
     });
 
-    $('.hook').on('click', function(e){ 
+    $('.hook').on('click', function(e){ // При нажатии на ссылку с классом hook, из атрибута href берётся id элемента к которому должен быть плавный скролл (элемент должен быть записан с # в атрибуте)
       e.preventDefault();
       var idFromHref = $(this).attr('href');
       $('html,body').stop().animate({ scrollTop: $(idFromHref).offset().top }, 1000);
@@ -675,7 +668,6 @@ $(document).ready(function()
       $(this).parent().hide();
     });
     $("body").on("click",function(e){
-      // e.stopPropagation()
         $(".dropdown-sort").hide();
     });
 
@@ -782,7 +774,7 @@ $(document).ready(function()
       $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("active");
       var thisText = $(this).val();
       if(!Number(thisText)) {
-        $(this).parent().find(".continue.active").removeClass("active").addClass("no-active");
+        $(this).parent().find("a.continue.active").removeClass("active").addClass("no-active");
       }
     });
   
@@ -794,11 +786,11 @@ $(document).ready(function()
     }
   });
 
-	$(".restore-password .for-change").live("input", function(){
-      $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("send-form");
-      $(".continue.send-form").off();
+	// $(".restore-password .for-change").live("input", function(){
+ //      $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("send-form");
+ //      $(".continue.send-form").off();
 	  
-	});
+	// });
   
 	$('.kadum_vonap').on('keyup change', function(e){		
 		var error = 0;
@@ -818,14 +810,14 @@ $(document).ready(function()
 	});					
   
   
-  $(".restore-password .for-change.email").live("input", function(){
-    $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("send-form");
-    $(".continue.send-form").off();
-    var thisText = $(this).val();
-    if(thisText == '') {
-      $(this).parent().find(".continue.send-form").removeClass("send-form").addClass("no-active");
-    }
-  });
+  // $(".restore-password .for-change.email").live("input", function(){
+  //   $(this).parent().find(".continue.no-active").removeClass("no-active").addClass("send-form");
+  //   $(".continue.send-form").off();
+  //   var thisText = $(this).val();
+  //   if(thisText == '') {
+  //     $(this).parent().find(".continue.send-form").removeClass("send-form").addClass("no-active");
+  //   }
+  // });
 
   $(".restore-password input[name='repeat-pass']").live("input", function(){
     var justFirstTry = $(".restore-password input[name='pass']");
@@ -855,7 +847,6 @@ $(document).ready(function()
   });
 
   $(".send-wrap .send-form, .order-link").off(); 
-  // $("div.order .continue").off();
   // CART QUANTITY
 
   $('.cart-quantity-action').on('click', function(){
@@ -867,14 +858,13 @@ $(document).ready(function()
         $(this).parent().find('input').val(quantity + 1);
       }   
     });
-    // $('.cart-arrow').on('click',function(){
-    //   $(this).parent().next('.cart-li').toggle();
-    //   $(this).find('span:last').toggleClass('up');
-    //   $(this).find('span:last').toggleClass('down');
-    //   if(!$('.cart-li').length){
-    //     $('.dd').show();
-    //   } 
-    // });
+  $(".cart-quantity-input input").on("keyup change input", function(e){
+    var regExp = /^\d+$/;
+    if(!regExp.test($(this).val())) {
+      $(this).attr("value", 1);
+    }
+  })
+
     $('.cart-color-select img').hover(function(){
       $(this).next('.cart-color').toggle();   
     }, function(){
@@ -894,11 +884,7 @@ $(document).ready(function()
         $('.dd').show();
       } 
     });
-    // $('.cart-color-select img').hover(function(){
-    //   $(this).next('.cart-color').toggle();   
-    // }, function(){
-    //   $(this).next('.cart-color').toggle();
-    // });
+
     $('.cart-item-remove').on('click', function(e){
       e.preventDefault();
       $(this).closest("tr").hide('slow');
@@ -912,7 +898,7 @@ $(document).ready(function()
        url: "somewhere.php",
        data: "isDeleted=Y",
        success: function(msg){
-         alert(1);
+         alert("Success!");
        }
      });
     });
@@ -925,7 +911,6 @@ $(document).ready(function()
       var liElement = $(this).closest("li.pay-element");
       liElement.find(".order-inner").slideUp();
       liElement.removeClass("active").addClass("done");
-      // liElement.find(".infoblock").addClass("d-inline-block");
       liElement.find(".infoblock, .change").show();
       liElement.next().removeClass("empty").addClass("active").find(".order-inner").slideDown();
       cartSpecials.reInit();
@@ -977,10 +962,10 @@ $(document).ready(function()
     var liText = $(this).html();
     var ourInput = $(this).parent().prevAll(".drop");
     ourInput.val(liText);
+    $(this).closest(".js-select").find("input").focus().blur();
     $(this).parent().hide();
   });
   $("body").on("click",function(e){
-    // e.stopPropagation()
       $(".dropdown-select").hide();
   });
 
@@ -1000,11 +985,8 @@ $(document).ready(function()
     $(this).parent().hide();
   });
   
-  // $(".order-arrow").toggle(function() {
-  //     $(this).next().show();
-  //   });
+
   $("body, .order, body").on("click",function(e){
-    // e.stopPropagation()
       $(".dropdown-town").hide();
   });
 
@@ -1039,9 +1021,6 @@ $(document).ready(function()
     $('.report-left-content').toggle('slow');
     $('.report-left-menu').css({'width':'auto'}); 
     $('.report-left-menu').toggleClass('auto-width');
-    // setTimeout(function(){
-    // $(".report-content-in").toggleClass('width-90');
-    // }, 700)
   });
   $('.report-left-menu-toggle').toggle(function(){
         $(".report-content-in").animate({'width':'90%'}, 600);
@@ -1115,8 +1094,7 @@ $(document).ready(function()
       if(!isNaN(codeProduct[i]) && codeProduct[i] != " ") {
         result += codeProduct[i];      
       }
-    }
-    // result = Number(result);  
+    } 
     $(this).closest("#add-popup").prevAll(".cart-adder-input").val(result);
   });
 
@@ -1139,19 +1117,7 @@ $(document).ready(function()
 
   });
 
-  // $("#edit-refer").on("keyup", function(){
-  //   var checkInput = $(this).val().search(reg);
-  //   var value = $(this).val();
-  //   if(reg.test(value)) {
-  //     value = $(this).val().replace(reg, "");
-  //     $(this).val(value);
-  //   } 
-    // else {
-    //   var str = $(this).val();
-    //   str.slice(0, -1);
-    //   $(this).val(str);
-    // }
-  // });
+
 
   $(".this-btn.save").on("click", function(e){
     e.preventDefault();
@@ -1160,7 +1126,6 @@ $(document).ready(function()
     $(".fancybox-close").click();
   })
 
-  // onclick="getElementById('edit-refer').value=getElementById('refer').value;"
   $(".new-msg.down").hide().removeClass("down").addClass("up");
   $(".slide-msg").on("click", function(e){
     e.preventDefault();
@@ -1201,15 +1166,13 @@ $(document).ready(function()
 
   $(".toggle").on("click", function(e){
     e.preventDefault();
-    // $(this).removeClass("take-down").addClass("take-up");
     var that = $(this);
     
     if(that.hasClass("take-up")) {
       var thisTr = that.closest('tr');
       var thisTrLevel = that.closest('tr').data("level");
       var thisFuckingTBody = that.closest("tbody");
-      // thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").find(".toggle.take-up").removeClass("take-up").addClass("take-down");
-	    // thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").hide();
+
 
       thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").each(function(){             
         if(parseInt($(this).data('level')) > parseInt(thisTrLevel)){          
@@ -1225,20 +1188,13 @@ $(document).ready(function()
       var thisTr = that.closest('tr');
       var thisTrLevel = that.closest('tr').data("level");
       var thisFuckingTBody = that.closest("tbody");
-      //thisTrLevel++;
-      // thisTrLevel++;
-      //alert(thisTrLevel);			
+			
 		thisTr.nextUntil("tr[data-level='"+thisTrLevel+"']").each(function(){							
 			if(parseInt($(this).data('level')) == parseInt(thisTrLevel)+1){					
 				$(this).show();				
 			}
 		});
 		that.removeClass("take-down").addClass("take-up");
-		//alert(nextItem);	
-      
-		  
-	  		
-      //that.removeClass("take-down").addClass("take-up");
     }else if(that.hasClass("none")) {
       return false;
     }
@@ -1256,9 +1212,9 @@ $(document).ready(function()
     }
   }
 
-  $(".check-the-loader").on("click", function (e) { // ПРостейший пример использования лоадера к родителю ссылки. Это всего лишь пример, использовать в проекте это не нужно.
+  $(".check-the-loader").on("click", function (e) { // ПРостейший пример(!!!) использования лоадера к предыдущему элементу относительно ссылки. Но использовать надо к блоку, в который будет подгружаться информация
     e.preventDefault();
-    var el = $(this).prev();  // В переменную кладётся уже выбранный DOM-элемент, НЕ СЕЛЕКТОР!!!!!
+    var el = $(this).prev();  // В переменную кладётся уже выбранный DOM-элемент, НЕ СЕЛЕКТОР!!!!! 
     loaderAdder(el); // Собственно, вызов функции, определённой выше.
   })
 
@@ -1271,97 +1227,158 @@ $(document).ready(function()
   //Валидация форм RegExp
   var regExpName = /^[a-zA-Zа-яА-Я ]+$/;
   var regExpEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.[a-zA-Z]{2,6})+$/;
-  var regExpPhone;
+  var regExpPhone = /^[0-9()+ -]+$/;
+  var regExpNum = /^\d+$/;
 
-  $(".validator").find("input[type='submit'].active").addClass("no-active").removeClass("active");
-  $(".validator .send-form.no-active").on("click", function (e){
+  $(".validator").find("input[type='submit']").addClass("no-active").removeClass("active"); // Кнопка неактивна
+  $(".validator input[type='submit'].no-active").on("click", function (e){ //Снимаем с неактивной визуально кнопки действие по умолчанию
     e.preventDefault();
   })
 
 
-  function isEmptyFields(classForValidateEmpty) {
+  function isEmptyFields(classForValidateEmpty, thisValidator) { // Проверка всех обязательных полей на заполненность.
     var err_count = 0;
 
-    $("." + classForValidateEmpty).each(function(e){
+    $(thisValidator).find("." + classForValidateEmpty).each(function(e){
     
-      if(jQuery.trim($(this).val()) == ""){       
+      if(jQuery.trim($(this).val()) == ""){      
         err_count = err_count + 1;
-      } //  else {err_count = 0;}   
+      }   
     })
 
     if(err_count == 0){     
-      $("." + classForValidateEmpty).closest(".validator").find(".no-active.send-form").removeClass("no-active").addClass('active');  
-      // $(".active.send-form").off();
+      $(thisValidator).find("input[type='submit']").removeClass("no-active").addClass('active');  
     }else{      
-      $("." + classForValidateEmpty).closest(".validator").find(".active.send-form").removeClass("active").addClass('no-active'); 
-      $(".no-active.send-form").on("click",function(e){ e.preventDefault() });
+      $(thisValidator).find(".active.send-form").removeClass("active").addClass('no-active'); 
+      $("input[type='submit'].no-active").on("click",function(e){ 
+        e.preventDefault();
+      });
+    } 
+  }
+  function chekAllTextAreas(classForValidate, thisValidator){    
+    var tenSim;
+    $(thisValidator).find("." + classForValidate).each(function(e){
+      tenSim = $(this).val().length;
+      if(tenSim >= 10) {
+        $(this).removeClass("wrong");
+      } else {
+        $(this).addClass("wrong");
+      }
+    })
+  }
+
+
+  function isEmptyFieldsWrong(classForValidateEmpty, thisValidator) { // Проверка всех обязательных полей на заполненность.
+    var err_count = 0;
+
+    $(thisValidator).find("." + classForValidateEmpty).each(function(e){
+    
+      if(jQuery.trim($(this).val()) == ""){    
+        $(this).addClass("wrong");   
+        err_count = err_count + 1;
+      }   
+    })
+
+    if(err_count == 0){     
+      $(thisValidator).find("input[type='submit']").removeClass("no-active").addClass('active');  
+    }else{      
+      $(thisValidator).find(".active.send-form").removeClass("active").addClass('no-active'); 
+      $("input[type='submit'].no-active").on("click",function(e){ 
+        e.preventDefault();
+      });
     } 
   }
   function validationFormForAll(regExp, elementVal) {
 
-    return regExp.test(elementVal); // +
-    // if(typeOfForm == "email") {                      // Недоработано
-    //   alert(regExpEmail.test(elementVal))
-    //   return regExpEmail.test(jQuery.trim(elementVal)); // -
-    // }
-    // if(typeOfForm == "phone") {
-      
-    //   return true; //пока что
-    // }
+    return regExp.test(jQuery.trim(elementVal)); 
 
   }
 
-  $(".validator input[type='text'], .validator textarea, .validator input[type='password']").on("keyup change", function(e){
+  $(".validator input[type='text'], .validator textarea, .validator input[type='password']").on("keyup change blur", function(e){ // Проверка текущего обязательного поля на заполненность.
     if($(this).hasClass("importantField")) {
       if(jQuery.trim($(this).val()) == "") { $(this).addClass("wrong"); }
       else { $(this).removeClass("wrong"); }
     }
+    if($(this).hasClass("tenSim")) {
+      var tenSim = $(this).val().length;
+      if(tenSim >= 10) {
+        $(this).removeClass("wrong");
+      } else {
+        $(this).addClass("wrong");
+      }
+    }
+    var parentValidator = $(this).closest(".validator");
     var classEmpty = "importantField";
-    isEmptyFields(classEmpty);
+    isEmptyFields(classEmpty, parentValidator); // Проверка всех обязательных полей на заполненность.
 
   })
 
   $(".validator input[type='submit']").on("click", function(e){
-    e.preventDefault();
+    var parentValidator = $(this).closest(".validator");
+    var classEmpty = "importantField";
+    var classTenSim = "tenSim";
+    isEmptyFieldsWrong(classEmpty, parentValidator);
+    chekAllTextAreas(classTenSim, parentValidator);
     $(this).closest(".validator").find("input").each(function(){
-      var typeOfForm = "";
       if($(this).hasClass("itsName")) {
         if(!validationFormForAll(regExpName, $(this).val())) {
           $(this).addClass("wrong");
-          $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+          $(".validator input[type='submit']").removeClass("active").addClass("no-active");
         } else { 
-          $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
-          // $(".validator .continue.send-form.active").submit(); 
+          $(this).removeClass("wrong");
+          $(".validator input[type='submit']").removeClass("no-active").addClass("active");  
         }
       }
-      if($(this).hasClass("istEmail")) {
+      if($(this).hasClass("itsEmail")) {
         if(!validationFormForAll(regExpEmail, $(this).val())) {
           $(this).addClass("wrong");
-          $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
+          $(".validator input[type='submit']").removeClass("active").addClass("no-active");
         } else { 
-          $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
-          // $(".validator .continue.send-form.active").submit(); 
+          $(this).removeClass("wrong");
+          $(".validator input[type='submit']").removeClass("no-active").addClass("active");  
         }
-      } //Недоработано
-      // if($(this).hasClass("itsPhone")) {
-      //   if(!validationFormForAll(typeOfForm, $(this).val())) {
-      //     $(this).addClass("wrong");
-      //     $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
-      //   } else { 
-      //     $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
-      //     $(".validator .continue.send-form.active").submit(); 
-      //   }
-      // } //Недоработано
-      
-      // if(!validationFormForAll(typeOfForm, $(this).val())) {
-      //   $(this).addClass("wrong");
-      //   $(".validator .continue.send-form.active").removeClass("active").addClass("no-active");
-      // } else { 
-      //   $(".validator .continue.send-form.no-active").removeClass("no-active").addClass("active"); 
-      //   $(".validator .continue.send-form.active").submit(); 
-      // }
-      $(".validator .continue.send-form.active").submit(); 
+      }
+      if($(this).hasClass("itsPhone")) {
+        if(!validationFormForAll(regExpPhone, $(this).val())) {
+          $(this).addClass("wrong");
+          $(".validator input[type='submit']").removeClass("active").addClass("no-active");
+        } else { 
+          $(this).removeClass("wrong");
+          $(".validator input[type='submit']").removeClass("no-active").addClass("active");  
+        }
+      }
+      if($(this).hasClass("itsNumber")) {
+        if(!validationFormForAll(regExpNum, $(this).val())) {
+          $(this).addClass("wrong");
+          $(".validator input[type='submit']").removeClass("active").addClass("no-active");
+        } else { 
+          $(this).removeClass("wrong");
+          $(".validator input[type='submit']").removeClass("no-active").addClass("active");  
+        }
+      }
     })
+
+    var wrongChecker = false;
+    $(this).closest(".validator").find("input").each(function(){
+      if($(this).hasClass("wrong")){
+        wrongChecker = false;
+        return false;
+      } else {
+        wrongChecker = true;
+      }
+    })
+    $(this).closest(".validator").find("textarea").each(function(){
+      if($(this).hasClass("wrong")){
+        wrongChecker = false;
+        return false;
+      } else {
+        wrongChecker = true;
+      }
+    })
+    if(wrongChecker) {
+      $(this).closest("form").submit(); 
+    }
+
   })
   // /Валидация форм
   // Смена картинок товара в зависимости от тона
@@ -1370,7 +1387,6 @@ $(document).ready(function()
 
     var input = $(this).find("input");
     var hrefPic = input.data("pic");
-    // alert(hrefPic)
     $(this).closest(".product-left").find(".main-img").find("img").attr("src", hrefPic);
   })
 
@@ -1378,7 +1394,6 @@ $(document).ready(function()
 
     var input = $(this).find("input");
     var hrefPic = input.data("pic");
-    // alert(hrefPic)
     $(this).closest(".product-left").find(".fast-img").find("img").attr("src", hrefPic);
   })
 
@@ -1386,24 +1401,36 @@ $(document).ready(function()
 
     var input = $(this).find("input");
     var hrefPic = input.data("pic");
-    // alert(hrefPic)
     $(this).closest(".single-tovar").find(".img-wrapper").find("img").attr("src", hrefPic);
   })
 
-  $(".swiper-slide .color li").on("click", function(){
+  $(".swiper-slide .color li").on("click", function(e){
     var input = $(this).find("input");
     var hrefPic = input.data("pic");
     $(this).closest(".swiper-slide").find("a.modal-viewer").find("img").attr("src", hrefPic);
   })
 
-  $("#catalog-list .color li").on("click", function(){
+  $("#catalog-list .color li").on("click", function(e){
     var input = $(this).find("input");
     var hrefPic = input.data("pic");
     $(this).closest(".t-item").find("td.img").find("img").attr("src", hrefPic);
   })
 
   // /картинки-тон
+  // Календари
+  $("ul.month li").on("click", function(e){
+    $(this).toggleClass("selected");
+  })
 
+  $(".actually-calendar a").on("click", function(e){
+    e.preventDefault();
+  })
+  $(".actually-calendar td").on("click", function(e){
+    $(".actually-calendar td").removeClass("active");
+    $(this).addClass("active");
+  })
+
+  // /Календари
   // Печать
   $(".printer").on("click", function(e) {
     e.preventDefault();

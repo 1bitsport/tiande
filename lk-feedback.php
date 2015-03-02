@@ -55,25 +55,28 @@ require_once('header.php');
 					Мы дорожим вашим мнением и готовы  выслушать всё, что вы хотите сообщить. <br>
 					Ответим в течение суток с момента отправки сообщения.
 				</p>
-				<form action="">
-				<div class="js-select">
-				  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop" name="topic-msg" id="the-topic-msg">
-				  	<div class="select-arrow clickable"></div>
-					<ul class="dropdown-select short">
-						<li>Технические проблемы с доступом</li>
-						<li>Ошибки в расчетах</li>
-	        			<li>Смена личных данных</li>
-				    </ul>
-				</div>
-				<select name="topic" class="country short form-input nojs-select">        <!-- Добавить текстовый инпут + блок dropdown при включенном джава скрипте и скрыть селект(будет показан при отключеном js) -->
-					<option style="display:none" value="" selected default>Страна</option> 
-					<option value="Технические проблемы с доступом">Технические проблемы с доступом</option>
-					<option value="Ошибки в расчетах">Ошибки в расчетах</option>
-					<option value="Смена личных данных">Смена личных данных</option>
-				</select>
-				<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input"></textarea>
-				<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
-				<div class="cleaner"></div>
+				<form action="" class="validator">
+					<div class="js-select">
+					  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop importantField" name="topic-msg" id="the-topic-msg">
+						<span class="wrong">Выбор темы обязателен</span>
+
+					  	<div class="select-arrow clickable"></div>
+						<ul class="dropdown-select short">
+							<li>Технические проблемы с доступом</li>
+							<li>Ошибки в расчетах</li>
+		        			<li>Смена личных данных</li>
+					    </ul>
+					</div>
+					<select name="topic" class="country short form-input nojs-select">        <!-- Добавить текстовый инпут + блок dropdown при включенном джава скрипте и скрыть селект(будет показан при отключеном js) -->
+						<option style="display:none" value="" selected default>Страна</option> 
+						<option value="Технические проблемы с доступом">Технические проблемы с доступом</option>
+						<option value="Ошибки в расчетах">Ошибки в расчетах</option>
+						<option value="Смена личных данных">Смена личных данных</option>
+					</select>
+					<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input importantField tenSim"></textarea>
+					<span class="wrong">Минимальный размер сообщения 10 символов</span>
+					<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
+					<div class="cleaner"></div>
 				</form>
 			</div>
 		</div>
@@ -139,27 +142,28 @@ require_once('header.php');
 		Мы дорожим вашим мнением и готовы  выслушать всё, что вы хотите сообщить. <br>
 		Ответим в течение суток с момента отправки сообщения.
 	</p>
-	<form action="">
-	<div class="js-select">
-	  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop" name="topic-msg" id="the-topic-msg">
-	  	<div class="select-arrow clickable"></div>
-		<ul class="dropdown-select short">
-			<li>Технические проблемы с доступом</li>
-			<li>Ошибки в расчетах</li>
-	        <li>Смена личных данных</li>
-	    </ul>
-	</div>
-	<select name="topic" class="country short form-input nojs-select">        <!-- Добавить текстовый инпут + блок dropdown при включенном джава скрипте и скрыть селект(будет показан при отключеном js) -->
-		<option style="display:none" value="" selected default>Страна</option> 
-		<option value="Технические проблемы с доступом">Технические проблемы с доступом</option>
-		<option value="Ошибки в расчетах">Ошибки в расчетах</option>
-		<option value="Смена личных данных">Смена личных данных</option>
-	</select>
-	<div class="wrong">
-		<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input"></textarea>
-		<span class="wrong">Минимальный размер сообщения 10 символов</span>
-	</div>
-	<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
+	<form action="" class="validator">
+		<div class="js-select">
+		  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop importantField" name="topic-msg" id="the-topic-msg">
+		  	<span class="wrong">Выбор темы обязателен</span>
+		  	<div class="select-arrow clickable"></div>
+			<ul class="dropdown-select short">
+				<li>Технические проблемы с доступом</li>
+				<li>Ошибки в расчетах</li>
+		        <li>Смена личных данных</li>
+		    </ul>
+		</div>
+		<select name="topic" class="country short form-input nojs-select">        <!-- Добавить текстовый инпут + блок dropdown при включенном джава скрипте и скрыть селект(будет показан при отключеном js) -->
+			<option style="display:none" value="" selected default>Страна</option> 
+			<option value="Технические проблемы с доступом">Технические проблемы с доступом</option>
+			<option value="Ошибки в расчетах">Ошибки в расчетах</option>
+			<option value="Смена личных данных">Смена личных данных</option>
+		</select>
+		<div class="">
+			<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input importantField tenSim"></textarea>
+			<span class="wrong">Минимальный размер сообщения 10 символов</span>
+		</div>
+		<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
 	</form>
 </div>
 <?

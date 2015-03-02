@@ -31,12 +31,14 @@ require_once('header.php');
 					и мы обязательно ответим на него.  Для более опреативного получения информации оставьте в сообщении свои 
 					контактные данные. 
 				</p>
-				<form action="">
-					<input type="text" placeholder="ФИО" name="fio" class="long fio form-input">
+				<form action="" class="validator">
+					<input type="text" placeholder="ФИО" name="fio" class="long fio form-input importantField">
+                    <span class="wrong">Поле не может быть пустым</span>
 					<div class="cleaner"></div>
-					<input type="text" placeholder="E-mail" name="email" class="short form-input">
-					<div class="js-select wrong">
-                      	<input type="text" placeholder="Страна" class="input-select short form-input drop" name="country" id="the-country">
+					<input type="text" placeholder="E-mail" name="email" class="short form-input importantField">
+                    <span class="wrong">Поле не может быть пустым</span>
+					<div class="js-select">
+                      	<input type="text" placeholder="Страна" class="input-select short form-input drop importantField" name="country" id="the-country">
                       	<span class="wrong">Выбор страны обязателен</span>
                       	<div class="select-arrow clickable"></div>
                     	<ul class="dropdown-select short">
@@ -55,10 +57,13 @@ require_once('header.php');
 						<option value="Польша">Польша</option>
 						<option value="Румыния">Румыния</option>
 					</select>
+                    <span class="wrong">Выбор страны обязателен</span>
+
 					
 					<div class="cleaner"></div>
 					<div class="js-select">
-                      	<input type="text" placeholder="Тема сообщения" class="input-select form-input mid drop" name="topic" id="the-topic">
+                      	<input type="text" placeholder="Тема сообщения" class="input-select form-input mid drop importantField" name="topic" id="the-topic">
+                      	<span class="wrong">Выбор темы обязателен</span>
                       	<div class="select-arrow clickable"></div>
                     	<ul class="dropdown-select mid">
                     		<li>Бизнес</li>
@@ -76,9 +81,12 @@ require_once('header.php');
 						<option value="Online office">Online office</option>
 						<option value="Бухгалтерский и налоговый учет">Бухгалтерский и налоговый учет</option>
 					</select>
+                    <span class="wrong">Выбор темы обязателен</span>
 					<div class="cleaner"></div>
-					<textarea name="msg-text" placeholder="Текст сообщения" class="form-input" id=""></textarea>
-					<input type="submit" name="send" class="green-btn" value="ОТПРАВИТЬ">
+					<textarea name="msg-text" placeholder="Текст сообщения" class="form-input importantField" id=""></textarea>
+                    <span class="wrong">Поле должно содержать минимум 10 символов</span>
+
+					<input type="submit" name="send" class="green-btn continue active" value="ОТПРАВИТЬ">
 				</form>
 			</div>
 			

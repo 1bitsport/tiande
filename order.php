@@ -2479,9 +2479,9 @@
 							<div class="cleaner"></div>
 							<input type="text" name="last-name" id="last-name" placeholder="Фамилия" class="d-inline-block itsName importantField">
 							<input type="text" name="first-name" id="first-name" placeholder="Имя" class="d-inline-block itsName importantField">
-							<input type="text" name="middle-name" id="middle-name" placeholder="Отчество" class="d-inline-block itsName">
+							<input type="text" name="middle-name" id="middle-name" placeholder="Отчество" class="d-inline-block">
 							<div class="cleaner"></div>
-							<input type="text" name="personal-email" id="personal-email" placeholder="E-mail:" class="istEmail importantField">
+							<input type="text" name="personal-email" id="personal-email" placeholder="E-mail:" class="itsEmail importantField">
 							<div class="cleaner"></div>
 							<input type="text" name="phone" id="personal-phone" placeholder="Телефон: +x (xxx) xxx xx xx" class="itsPhone importantField">
 							<label for="sms"><input type="checkbox" name="get-sms" id="sms">получать SMS о статусе заказа</label>

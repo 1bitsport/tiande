@@ -9434,6 +9434,10 @@ color:#000;
 cursor:default;
 }
 
+input[type=submit].green-btn.continue {
+	width: auto;
+}
+
 .form-input:focus,.restore-password input[type=text]:focus,.form-input:focus,.restore-password textarea:focus,.order .personal-data input[type=text]:focus,.form-input:focus,.order .personal-data textarea:focus,.feedback .form-input.focused {
 -moz-box-shadow:0 0 5px #8a8a8a;
 -webkit-box-shadow:0 0 5px #8a8a8a;
@@ -10503,7 +10507,7 @@ ul > li.has-child.selected > a:after {
 	cursor: pointer;
 }
 
-
+/*Modal Service Center*/
 #sc {
 	font-size: 14px;
 	color: #414042;
@@ -10522,3 +10526,21 @@ ul > li.has-child.selected > a:after {
 #sc .img-td {
 	vertical-align: bottom;
 }
+/*/Modal Service Center*/
+
+/*For Form-Validator*/
+.validator span.wrong {
+	/*position: static;*/
+	margin-top: 3px;
+	/*margin-bottom: 5px;*/
+}
+.feedback-inner .validator span.wrong {
+	position: absolute;
+	margin: 3px 0 0 0;
+}
+
+.validator input.wrong + span.wrong,
+.validator textarea.wrong + span.wrong {
+	display: block;
+}
+/*/For Form-Validator*/
