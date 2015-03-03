@@ -57,9 +57,11 @@ jsSliderOpt.prototype.create = function() {
             _t.clearNode.show();
         }
     });
+        _t.input1Node.val(_t.settings.min);
+    _t.input2Node.val(_t.settings.max);
     this.clearNode.bind("click", function(e){
-        _t.input1Node.val("");
-        _t.input2Node.val("");
+        _t.input1Node.val(_t.settings.min);
+        _t.input2Node.val(_t.settings.max);
         _t.sliderNode.slider( "option", "values", [ _t.settings.min, _t.settings.max ] );
         _t.rootNode.removeClass("selected");
         _t.clearNode.hide();
@@ -89,10 +91,12 @@ jsSliderOpt.prototype.create = function() {
     this.clearNode.on("click", function(){
         firstPress = true;
     })
-    this.input1Node.bind("change", function(e){
+    this.input1Node.bind("keyup input change", function(e){
         var minVal = _t.input1Node.val();
         var maxVal = _t.input2Node.val();
-
+        _t.rootNode.addClass("selected");
+        _t.clearNode.show();
+        
         if(minVal == 1 || minVal == -1) {
             minVal = _t.settings.min;
             _t.input1Node.attr("value", minVal);
@@ -120,9 +124,11 @@ jsSliderOpt.prototype.create = function() {
             _t.input1Node.attr("value", maxVal);
         }
     });
-    this.input2Node.bind("change", function(e){
+    this.input2Node.bind("keyup input change", function(e){
         var minVal = _t.input1Node.val();
         var maxVal = _t.input2Node.val();
+        _t.rootNode.addClass("selected");
+        _t.clearNode.show();
 
         if(maxVal == 1 || maxVal == -1) {
             maxVal = _t.settings.max;

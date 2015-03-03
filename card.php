@@ -28,14 +28,14 @@ require_once('header.php');
             <ul class="color">
                 <li class="white">
                     <label for="ton1">
-                      <input type="radio" checked class="not-styler beyond" data-pic="/temp/set.jpg" data-pic="/temp/set.jpg" name="tons3"  id="ton1">
+                      <input type="radio" checked class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton1">
                       <img width="28" height="28" src="/img/tons/ton-1.jpg" alt=""/>
                     </label>
                     <span class="hint"> 003 </span>
                 </li>
                 <li>
                      <label for="ton2">
-                        <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" data-pic="/temp/set.jpg" name="tons3"  id="ton2">
+                        <input type="radio" class="not-styler beyond" data-pic="/temp/set.jpg" name="tons3"  id="ton2">
                         <img width="28" height="28" src="/img/tons/ton-2.jpg" alt=""/>
                      </label>
                     <span class="hint"> 022 </span>
