@@ -1761,7 +1761,7 @@ margin-left: 10px;
 }
 
 div.line {
-border-bottom:1px solid #58595B;
+border-bottom:1px solid #aeaeae;
 margin:2% 0;
 }
 
@@ -1919,8 +1919,8 @@ top:8px;
 }
 
 #sets .ton .moreitems:hover .popup {
-left:0;
-top:-50px;
+left: -183px;
+top: -18px;
 }
 
 .ton .moreitems:hover .popup {
@@ -2032,9 +2032,10 @@ width:auto;
 }
 
 .product-right .other-info ul {
-border-bottom:1px solid #58595B;
+border-bottom:1px solid #e5e5e5;
 font-size:12px;
 padding:10px 0;
+width: 300px;
 }
 
 .product-right .other-info ul li {
@@ -2182,13 +2183,16 @@ text-align:center;
 }
 
 #videos .swiper-container .swiper-square div .helper .play-btn {
-background:url(/img/play.png) center center no-repeat;
-display:block;
-height:100%;
-left:0;
-position:absolute;
-top:0;
-width:100%;
+background: url(/img/play-sprite.png) left center no-repeat;
+display: block;
+height: 51px;
+left: 0;
+position: absolute;
+top: 0;
+right: 0;
+width: 51px;
+bottom: 0;
+margin: auto;
 }
 
 #videos .swiper-container .swiper-square div span.title-square {
@@ -5156,13 +5160,17 @@ top:0;
 #add-popup .content {
 width:265px;
 }
-
+.space {
+	height: 20px;
+	clear: both;
+}
 #add-popup .content .items {
 border:0;
 font-size:10px;
 height:auto;
 line-height:12px;
 max-height:220px;
+margin-bottom: 0 !important;
 overflow:auto;
 padding:0;
 }
@@ -9061,7 +9069,7 @@ font-size:14px;
 line-height:28px;
 margin-left:10px;
 text-align:center;
-width:90px;
+width:115px;
 }
 
 .product-right .price-block div,#fast-buy .price-block div {
@@ -9197,8 +9205,13 @@ position:relative;
 width:100%;
 }
 
-#videos .swiper-container .swiper-square div a:hover .helper .play-btn,#master-c .swiper-container .swiper-square div:hover a:hover .helper .download-btn,#print-p .swiper-container .swiper-square div:hover a:hover .helper .download-btn {
-background:url(/img/play-hover.png) center center no-repeat;
+#videos .swiper-container .swiper-square div:hover .helper .play-btn,#master-c .swiper-container .swiper-square div:hover a:hover .helper .download-btn,#print-p .swiper-container .swiper-square div:hover a:hover .helper .download-btn {
+background:url(/img/play-sprite.png) center center no-repeat;
+}
+
+#videos .swiper-container .swiper-square div .helper .play-btn:hover {
+background:url(/img/play-sprite.png) right center no-repeat;
+
 }
 
 #videos .swiper-container .swiper-square div img,#master-c .swiper-container .swiper-square div img {
@@ -9236,7 +9249,7 @@ top:3px;
 width:36px;
 }
 
-#master-c .swiper-container .swiper-square div:hover a:hover .overlay,#master-c .swiper-container .swiper-square div:hover a .overlay {
+#master-c .swiper-container .swiper-square div:hover .overlay,#master-c .swiper-container .swiper-square div:hover .overlay {
 background:#75B443;
 filter:alpha(opacity=100);
 opacity:1;

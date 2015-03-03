@@ -373,10 +373,10 @@ require_once('header.php');
             <li class="item-3"><a href="">Партнерская программа</a></li>
           </ul>
           <ul>
-            <li class="item-4"><a href="">Видео</a></li>
-            <li class="item-5"><a href="">Мастер-классы</a></li>
-            <li class="item-6"><a href="">Активные компоненты</a></li>
-            <li class="item-7"><a href="">Печатная продукция</a></li>
+            <li class="item-4"><a class="hook" href="#videos">Видео</a></li>
+            <li class="item-5"><a class="hook" href="#master-c">Мастер-классы</a></li>
+            <li class="item-6"><a class="hook" href="#active-comp">Активные компоненты</a></li>
+            <li class="item-7"><a class="hook" href="#print-p">Печатная продукция</a></li>
           </ul>
         </div>
       </div>

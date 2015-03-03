@@ -482,7 +482,7 @@ require_once('header.php');
 	</div>
 	<div class="cart-summary">
 		<div class="cart-summary-left">
-			<a class="cart-summary-button button-big-padding button-border">Акционные предложения</a>
+			<a data-key="#gooddeal" class="cart-summary-button button-big-padding button-border modal-viewer">Акционные предложения</a>
 			<ul class="cart-summary-list">
 				<li>До бесплатной доставки не хватает 500 руб.</li>
 				<li>До скидки «20%» не хватает 600 руб.</li>
@@ -799,110 +799,39 @@ require_once('header.php');
 
 					      <!-- Add Codd :) -->
 	    	<div>
-				<input class="cart-adder-input form-input" type="text" name="" value="" placeholder="Введите код товара" />
-				<a class="green-btn uppercase">Добавить</a>
-				<div class="popup right" id="add-popup">
-		          <div class="content">
+		    	<form action="">
+					<input class="cart-adder-input form-input" type="text" name="" value="" placeholder="Введите код товара" />
+					<a class="green-btn uppercase">Добавить</a>
 
-		            <div class="items scrollbar-inner">
+					<div class="popup right" id="add-popup">
+			          <div class="content">
 
-		              <a href="#1" class="item has-bonus">
-		                <img src="temp/basket-item-1.png" class="image"/>
-		                <div class="description">
-		                  <span class="name">Гель для умывания «Естественная красота»</span>
-		                  <table>
-		                    <tr>
-		                      <td class="col-1 code">Код: 28658</td>
-		                      <td class="col-1">Объем: 1 мл</td>
+			            <div class="items scrollbar-inner">
 
-		                    </tr>
-		                    <tr>
-		                      <td><i>3 007 руб.<i></td>
-		                      <td>15 203 руб.</td>
-		                      <td class="col-2">75 Б</td>
-		                    </tr>
-		                  </table>
-		                </div>
-		              </a>
+			              <a href="#1" class="item has-bonus">
+			                <img src="temp/basket-item-1.png" class="image"/>
+			                <div class="description">
+			                  <span class="name">Гель для умывания «Естественная красота»</span>
+			                  <table>
+			                    <tr>
+			                      <td class="col-1 code">Код: 28658</td>
+			                      <td class="col-1">Объем: 1 мл</td>
 
-		              <a href="#1" class="item">
-		                <img src="temp/basket-item-2.png" class="image"/>
-		                <div class="description">
-		                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
-		                  <table>
-		                    <tr>
-		                      <td class="col-1 code">Код: 75922</td>
-		                      <td class="col-1">Объем: 1 мл</td>
+			                    </tr>
+			                    <tr>
+			                      <td><i>3 007 руб.<i></td>
+			                      <td>15 203 руб.</td>
+			                      <td class="col-2">75 Б</td>
+			                    </tr>
+			                  </table>
+			                </div>
+			              </a>
 
-		                    </tr>
-		                    <tr>
-		                      <td><i>3 007 руб.<i></td>
-		                      <td>15 203 руб.</td>
-		                      <td class="col-2">75 Б</td>
-		                    </tr>
-		                  </table>
-		                </div>
-		              </a>
-
-		              <a href="#1" class="item has-bonus">
-		                <img src="temp/basket-item-3.png" class="image"/>
-		                <div class="description">
-		                  <span class="name">Гель для умывания «Естественная красота»</span>
-		                  <table>
-		                    <tr>
-		                      <td class="col-1 code">Код: 05672</td>
-		                      <td class="col-1">Объем: 1 мл</td>
-
-		                    </tr>
-		                    <tr>
-		                      <td><i>3 007 руб.<i></td>
-		                      <td>15 203 руб.</td>
-		                      <td class="col-2">75 Б</td>
-		                    </tr>
-		                  </table>
-		                </div>
-		              </a>
-
-		              <a href="#1" class="item has-bonus">
-		                <img src="temp/basket-item-1.png" class="image"/>
-		                <div class="description">
-		                  <span class="name">Гель для умывания «Естественная красота»</span>
-		                  <table>
-		                    <tr>
-		                      <td class="col-1 code">Код: 34621</td>
-		                      <td class="col-1">Объем: 1 мл</td>
-
-		                    </tr>
-		                    <tr>
-		                      <td><i>3 007 руб.<i></td>
-		                      <td>15 203 руб.</td>
-		                      <td class="col-2">75 Б</td>
-		                    </tr>
-		                  </table>
-		                </div>
-		              </a>
-
-		              <a href="#1" class="item m-bot20">
-		                <img src="temp/basket-item-2.png" class="image"/>
-		                <div class="description">
-		                  <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
-		                  <table>
-		                    <tr>
-		                      <td class="col-1 code">Код: 55386</td>
-		                      <td class="col-1">Объем: 1 мл</td>
-
-		                    </tr>
-		                    <tr>
-		                      <td><i>3 007 руб.<i></td>
-		                      <td>15 203 руб.</td>
-		                      <td class="col-2">75 Б</td>
-		                    </tr>
-		                  </table>
-		                </div>
-		              </a>
-
-		            </div>
-				</div>
+			              
+							<div class="space"></div>
+			            </div>
+					</div>
+				</form>
 			</div>	
 		</div>
 		
@@ -939,7 +868,6 @@ require_once('header.php');
 		
 	</table>
 </div>
-<a href="#" data-key="#gooddeal" class="autoclicker modal-viewer"></a>
 <div id="gooddeal" style="display: none; position: relative;">
 	<h2>АКЦИОННОЕ ПРЕДЛОЖЕНИЕ ПО СФОРМИРОВАННЫМ ТОВАРАМ В КОРЗИНЕ</h2>
 	<div class="products gooddeal not-slider"> <!-- Внутри модального окна может быть как слайдер, так и просто несколько элементов (не более 7-ми, иначе становится слайдером. Написан простой скрипт для примера в общем файле скриптов). 

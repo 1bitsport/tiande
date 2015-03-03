@@ -662,9 +662,10 @@ $(document).ready(function()
     });
 
     $('.hook').on('click', function(e){ // При нажатии на ссылку с классом hook, из атрибута href берётся id элемента к которому должен быть плавный скролл (элемент должен быть записан с # в атрибуте)
+      e.stopPropagation();
       e.preventDefault();
       var idFromHref = $(this).attr('href');
-      $('html,body').stop().animate({ scrollTop: $(idFromHref).offset().top }, 1000);
+      $('html,body').stop().animate({ scrollTop: $(idFromHref).offset().top - $("#top-submenu").height() }, 1000);
     });
     // Сортировка каталога (при js дизайнерский элемент, при отсутствии - стандартный select)
     $("*").removeClass("no-js");
@@ -1109,6 +1110,7 @@ $(document).ready(function()
       }
     } 
     $(this).closest("#add-popup").prevAll(".cart-adder-input").val(result);
+    $(this).closest("#add-popup").hide();
   });
 
   $("body, .cart-adder-input").on("click",function(e){
