@@ -3090,7 +3090,7 @@
                 <span class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">ПОДАРОК</div>
                             <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
                             <button  class="btn-buy">Купить</button>
@@ -3111,7 +3111,7 @@
                 <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
                             <table class="pp-table">
                                 <tbody><tr>
@@ -3163,7 +3163,7 @@
                 <span  class="action ico-action-finger orange-icon coins-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СУПЕРЦЕНА!</div>
                             <p class="pp-desc">
                                 выгодная покупка
@@ -3184,7 +3184,7 @@
                 <span  class="action ico-action-finger orange-icon present-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">ПОДАРОК</div>
                             <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
                             <button  class="btn-buy">Купить</button>
@@ -3205,7 +3205,7 @@
                 <span  class="action ico-action-finger orange-icon percent-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
                             <table class="pp-table">
                                 <tbody><tr>
@@ -3257,7 +3257,7 @@
                 <span  class="action ico-action-finger orange-icon new-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">НОВИНКА!</div>
                             <p class="pp-desc">
                                 Товар впервые в продаже.
@@ -3278,7 +3278,7 @@
                 <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СУПЕРЦЕНА!</div>
                             <p class="pp-desc">
                                 выгодная покупка
@@ -3322,7 +3322,7 @@
                 <span class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">ПОДАРОК</div>
                             <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
                             <button  class="btn-buy">Купить</button>
@@ -3343,7 +3343,7 @@
                 <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
                             <table class="pp-table">
                                 <tbody><tr>
@@ -3395,7 +3395,7 @@
                 <span  class="action ico-action-finger orange-icon coins-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СУПЕРЦЕНА!</div>
                             <p class="pp-desc">
                                 выгодная покупка
@@ -3416,7 +3416,7 @@
                 <span  class="action ico-action-finger orange-icon present-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">ПОДАРОК</div>
                             <p class="pp-desc ">Стоимость подарка по накопительной программе<br><span class="bonus-orange font16 l-h2">100 баллов!</span></p>
                             <button  class="btn-buy">Купить</button>
@@ -3437,7 +3437,7 @@
                 <span  class="action ico-action-finger orange-icon percent-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СПЕЦПРЕДЛОЖЕНИЯ!</div>
                             <table class="pp-table">
                                 <tbody><tr>
@@ -3489,7 +3489,7 @@
                 <span  class="action ico-action-finger orange-icon new-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">НОВИНКА!</div>
                             <p class="pp-desc">
                                 Товар впервые в продаже.
@@ -3510,7 +3510,7 @@
                 <span  class="action ico-action-finger orange-icon finger-orange has-popup">                     
                     <i></i>
                     <div class="popup center">
-                        <div style="width: 185px;" class="content center popup-text">
+                        <div style="width: 210px;" class="content center popup-text">
                             <div class="pp-title">СУПЕРЦЕНА!</div>
                             <p class="pp-desc">
                                 выгодная покупка
