@@ -468,11 +468,19 @@ $(document).ready(function()
         slider2.reInit();
       } else if ($(this).data("key") == "#gooddeal") {
         gooddeal.reInit();
+      } else if($(this).data("key") == "#big-pic") {
+        verticalMiddlerPic();
       }
     });
     var hrefPicture = $("a#single_image").attr("href");
     $("#big-pic .big-pic").append("<img src='"+hrefPicture+"'>");
-  
+
+    function verticalMiddlerPic(){
+        var block = $("#big-pic .big-pic");
+        var blockHeight = block.height();
+        block.css({"line-height":blockHeight + "px"});
+    }
+    $(window).on("resize", verticalMiddlerPic);
 
     // Стилизация кнопок переключателей (radio buttons, checkbox, etc)
 
@@ -1374,6 +1382,7 @@ $(document).ready(function()
     })
 
     var wrongChecker = false;
+    var textareaChecker = false;
     $(this).closest(".validator").find("input").each(function(){
       if($(this).hasClass("wrong")){
         wrongChecker = false;
@@ -1384,13 +1393,13 @@ $(document).ready(function()
     })
     $(this).closest(".validator").find("textarea").each(function(){
       if($(this).hasClass("wrong")){
-        wrongChecker = false;
+        textareaChecker = false;
         return false;
       } else {
-        wrongChecker = true;
+        textareaChecker = true;
       }
     })
-    if(wrongChecker) {
+    if(wrongChecker && textareaChecker) {
       $(this).closest("form").submit(); 
     }
 
