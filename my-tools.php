@@ -55,7 +55,7 @@ require_once('header.php');
 			<div class="report-left-content">
 				<p><a href="">МОИ ИНСТРУМЕНТЫ</a></p>
 				<ul>
-					<li><a href="">РЕФЕРАЛЬНЫЕ ССЫЛКИ</a></li>
+					<li class="selected"><a href="">РЕФЕРАЛЬНЫЕ ССЫЛКИ</a></li>
 					<li><a href="">ОДНОСТРАНИЧНЫЙ САЙТ</a></li>
 					<li><a href="">ИНТЕРНЕТ КОНФЕРЕЦНИЯ</a></li>
 					<li><a href="">РАССЫЛЬЩИК</a></li>			

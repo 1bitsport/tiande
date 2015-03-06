@@ -128,8 +128,7 @@ require_once('header.php');
 						<form>
 						<div class="inputer">
 							<label for="ordersball" class="font14 dark-grey">Начислено, руб:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="ordersball" id="ordersball">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 							<ul class="dropdown-town">
@@ -140,12 +139,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="lvl" class="font14 dark-grey">Уровень</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="lvl" id="lvl">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 							<ul class="dropdown-town">
@@ -156,12 +162,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="percent" class="font14 dark-grey">Объем уровня, балл:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="percent" id="percent">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -173,12 +186,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="bonusball" class="font14 dark-grey">% Уровня:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusball" id="bonusball">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -190,12 +210,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">Условие ЛО OSC:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -207,12 +234,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">Фонд OSC, балл:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -224,12 +258,19 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">Фонд OCS, руб:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -241,6 +282,14 @@ require_once('header.php');
 							   <li data-btn=">=" data-value="Больше или равно (>=)">Больше или равно (&gt; =)</li>
 							   <li data-btn="<>" data-value="Не равно (<>)">Не равно (&lt;&gt;)</li>
 							</ul>
+							<select name="" id="" class="equality-select nojs-sort" >
+								<option value="1">=</option>
+								<option value="2">&gt;</option>
+								<option value="3">&lt;</option>
+								<option value="4">&lt; =</option>
+								<option value="5">&gt; =</option>
+								<option value="6">&lt;&gt;</option>
+							</select>
 						</div>
 						<div class="cleaner"></div>
 						<a href="#" class="green-btn uppercase f-right">Фильтровать</a>

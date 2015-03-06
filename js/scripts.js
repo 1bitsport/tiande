@@ -481,6 +481,32 @@ $(document).ready(function()
         block.css({"line-height":blockHeight + "px"});
     }
     $(window).on("resize", verticalMiddlerPic);
+    var flag = false;
+    $(window).on("resize", function(e){
+      // alert($(".gooddeal.not-slider .swiper-slide").length);
+      var gooddealSliderBlock = $("#gooddeal .gooddeal");
+      if($(".gooddeal.not-slider .swiper-slide").length > 5 && $(window).width() < 1000 ) {
+        gooddealSliderBlock.removeClass("not-slider").addClass("slider");
+        gooddealSliderBlock.find(".swiper-slide").css({"width":"148px", "max-width":"148px"});
+        if(!flag){
+          var gooddeal = $("#gooddeal .gooddeal.slider .swiper-container").swiper({
+            createPagination: false,
+            tabs: false,
+            slidesPerView: sixOrSeven,
+            slideWidth: 148,
+            speed: 800, 
+            updateonInit: true,
+            resizeReInit: true,
+            onImagesReady : function(swiper) {
+          
+              swiper.reInit();
+              swiper.resizeFix();
+            }
+          });
+          flag = true;
+        } else {gooddeal.reInit();}
+      }
+    });
 
     // Стилизация кнопок переключателей (radio buttons, checkbox, etc)
 
@@ -926,7 +952,6 @@ $(document).ready(function()
     });
 
 
-
   $(".order .pay-element .continue.active").on("click", function(e){
     e.stopPropagation();
     if(!$(this).hasClass("no-slide-up")) {
@@ -934,6 +959,8 @@ $(document).ready(function()
       liElement.find(".order-inner").slideUp();
       liElement.removeClass("active").addClass("done");
       liElement.find(".infoblock, .change").show();
+      if(liElement.next().hasClass("incorrect")) liElement.next().show();
+      if(liElement.hasClass("incorrect")) setTimeout(function(){liElement.hide()}, 400);
       liElement.next().removeClass("empty").addClass("active").find(".order-inner").slideDown();
       cartSpecials.reInit();
       cartSpecials.swipeNext();
@@ -1038,6 +1065,13 @@ $(document).ready(function()
     $(this).nextAll("div[data-city='"+valueCity+"'].city").show();
   });
 
+  $(".city-select input").on("keyup change input", function(){
+    $(this).nextAll(".dropdown-town").show();
+    if($.trim($(this).val()) == "") {
+      $(this).nextAll(".dropdown-town").hide();
+    }
+  })
+
   $('.report-left-menu-toggle').on('click', function(){
     $(this).toggleClass('report-left-menu-toggle-clicked');
     $('.report-left-content').toggle('slow');
@@ -1057,24 +1091,28 @@ $(document).ready(function()
   $(".little-arrow").on("click",function(e){
     e.stopPropagation();
     e.preventDefault();
-    $(this).parent().nextAll(".dropdown-town").show();
+    $(this).closest(".inputer").find(".dropdown-town").show();
   });
 
   $(".report-content .dropdown-town li").on("click", function(e){
     e.stopPropagation();
     var liText = $(this).data("value");
     var forBtn = $(this).data("btn");
-    var ourInput = $(this).parent().prevAll("input");
-    var ourBtn = $(this).parent().prevAll(".equality");
-    ourBtn = ourBtn.find(".any-icon");
-    ourInput.val(liText);
-    ourBtn.text(forBtn);
-    $(this).parent().hide();
+    var ourInput = $(this).parent().prevAll("input:not(.equality)");
+    var ourInputMini = $(this).closest(".inputer").find(".equality");
+    // ourBtn = ourBtn.find(".any-icon");
+    // ourInput.val(liText);
+    ourInputMini.val(forBtn);
+    $(this).closest(".dropdown-town").hide();
   });
 
-  $(".additional-filters .inputer input[type='text']").on("input",function(e){
+
+  $(".additional-filters .inputer input[type='text']").on("keyup change input",function(e){
     e.stopPropagation();
     $(this).parent().find(".reset").show();
+    if($.trim($(this).val()) == "") {
+    $(this).parent().find(".reset").hide();
+    }
   });
 
 
@@ -1185,6 +1223,10 @@ $(document).ready(function()
     $(".tree-element.has-child").find(".toggle").removeClass("take-down").addClass("take-up");
     tableResizer();
   });
+
+  function toggleLineFixer(){
+
+  }
 
 
   $(".toggle").on("click", function(e){

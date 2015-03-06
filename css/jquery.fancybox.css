@@ -37,6 +37,8 @@
 
 .fancybox-opened {
 	z-index: 8030;
+	width: auto !important;
+	padding-right: 20px;
 }
 
 .fancybox-opened .fancybox-skin {
@@ -53,6 +55,8 @@
 .fancybox-inner {
 	overflow: hidden !important;
 	height: auto !important;
+	width: auto !important;
+	/*min-width: 800px;*/
 }
 
 .fancybox-type-iframe .fancybox-inner {

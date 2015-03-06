@@ -119,8 +119,7 @@ require_once('header.php');
 						<form>
 						<div class="inputer">
 							<label for="ordersball" class="font14 dark-grey">Уровень:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="ordersball" id="ordersball">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 							<ul class="dropdown-town">
@@ -166,8 +165,7 @@ require_once('header.php');
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">ЛО OSC, балл:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -183,8 +181,7 @@ require_once('header.php');
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">СО OCS, балл:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 
@@ -200,8 +197,7 @@ require_once('header.php');
 
 						<div class="inputer">
 							<label for="bonusrub" class="font14 dark-grey">Неоплач. ЛО OSC	, балл:</label>
-							<a href="#" class="equality"><span class="any-icon">=</span><span class="little-arrow"><i></i></span>					
-							</a>
+							<input type="text" class="equality any-icon no-js" readonly value="="><span class="little-arrow"><i></i></span>
 							<input type="text" placeholder="Введите значение" class="inputs-focus" name="bonusrub" id="bonusrub">
 							<span href="#" class="posabsolute font10 reset">сбросить</span>
 

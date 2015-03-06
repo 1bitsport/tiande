@@ -288,8 +288,29 @@
 		                                            </li>
 		                                            <li>
 		                                                <label>
-		                                                    <input type="radio" class="not-styler beyond" data-pic="/temp/item-2.jpg" name="tons7">
-		                                                    <img width="28" height="28" src="/img/tons/ton-13.jpg" alt=""/>
+		                                                    <input type="radio" class="not-styler beyond" data-pic="/temp/item-6.jpg" name="tons7">
+		                                                    <img width="28" height="28" src="/img/tons/ton-17.jpg" alt=""/>
+		                                                </label>
+		                                                <span class="hint"> 022 </span>
+		                                            </li>
+		                                            <li>
+		                                                <label>
+		                                                    <input type="radio" class="not-styler beyond" data-pic="/temp/item-5.jpg" name="tons7">
+		                                                    <img width="28" height="28" src="/img/tons/ton-18.jpg" alt=""/>
+		                                                </label>
+		                                                <span class="hint"> 007 </span>
+		                                            </li>
+		                                            <li>
+		                                                <label>
+		                                                    <input type="radio" class="not-styler beyond" data-pic="/temp/item-4.jpg" name="tons7">
+		                                                    <img width="28" height="28" src="/img/tons/ton-19.jpg" alt=""/>
+		                                                </label>
+		                                                <span class="hint"> 005 </span>
+		                                            </li>
+		                                            <li>
+		                                                <label>
+		                                                    <input type="radio" class="not-styler beyond" data-pic="/temp/item-3.jpg" name="tons7">
+		                                                    <img width="28" height="28" src="/img/tons/ton-20.jpg" alt=""/>
 		                                                </label>
 		                                                <span class="hint"> 005 </span>
 		                                            </li>
