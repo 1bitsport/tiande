@@ -15,7 +15,7 @@ require_once('header.php');
     <form action="">
       <div class="product-left">
         <div class="main-img">
-          <a  id="single_image" data-key="#big-pic" class="detailed modal-viewer" href="http://kasstorg.ru/bitrix/templates/ecomercepro_s1/images/map4.png"><span class="increaser"></span><img src="/temp/headWasher.jpg" alt="" class="product-face"><!-- <img class="over-ton" src="/img/ton-on-img.png" alt=""> --></a>
+          <a  id="single_image" data-key="#big-pic" class="detailed modal-viewer" href="http://landing-cloud.fsolweb.tmweb.ru/img/slides-bg/bg3.jpg"><span class="increaser"></span><img src="/temp/headWasher.jpg" alt="" class="product-face"><!-- <img class="over-ton" src="/img/ton-on-img.png" alt=""> --></a>
           <br><span class="t-name">004 Шампунь "Шампунь"</span>
         </div>
         <div class="product-text not-modal">

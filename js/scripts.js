@@ -2,7 +2,9 @@ $(document).ready(function()
 {
 
   $("html.no-js").removeClass("no-js");
-
+  var winHeight = $(window).height();
+  var oldHeight = winHeight;
+  var isFancyOpened = false;
 
 
   var sixOrSeven = 6;
@@ -77,7 +79,7 @@ $(document).ready(function()
         onImagesReady : function(swiper) {
           
           swiper.reInit();
-          swiper.resizeFix();
+          // swiper.resizeFix();
         }
       });
 
@@ -452,15 +454,21 @@ $(document).ready(function()
     $(".up a.link").on("click", function(e){
       e.preventDefault();
     })
+    function flagger() {
+      if(isFancyOpened) isFancyOpened = false;
+      else isFancyOpened = true;
+      alert(isFancyOpened);
 
+    }
    $(".modal-viewer").on("click", function (e){
       e.preventDefault();
-      
+      var fancyOpened = isFancyOpened;
       $.fancybox( $(this).data("key"), {
         onStart :  function(e) {
-        $.fancybox.showActivity();
-        $.fancybox.resize();
-        },
+          flagger();
+          $.fancybox.showActivity();
+          $.fancybox.resize();
+        }
       });
       if($(this).data("key") == "#replacer-tovar") {
         slider1.reInit();
@@ -469,6 +477,7 @@ $(document).ready(function()
       } else if ($(this).data("key") == "#gooddeal") {
         gooddeal.reInit();
       } else if($(this).data("key") == "#big-pic") {
+        mainImgResizer();
         verticalMiddlerPic();
       }
     });
@@ -477,36 +486,70 @@ $(document).ready(function()
 
     function verticalMiddlerPic(){
         var block = $("#big-pic .big-pic");
+        block.css({"line-height":"normal"});
         var blockHeight = block.height();
         block.css({"line-height":blockHeight + "px"});
     }
-    $(window).on("resize", verticalMiddlerPic);
-    var flag = false;
-    $(window).on("resize", function(e){
-      // alert($(".gooddeal.not-slider .swiper-slide").length);
-      var gooddealSliderBlock = $("#gooddeal .gooddeal");
-      if($(".gooddeal.not-slider .swiper-slide").length > 5 && $(window).width() < 1000 ) {
-        gooddealSliderBlock.removeClass("not-slider").addClass("slider");
-        gooddealSliderBlock.find(".swiper-slide").css({"width":"148px", "max-width":"148px"});
-        if(!flag){
-          var gooddeal = $("#gooddeal .gooddeal.slider .swiper-container").swiper({
-            createPagination: false,
-            tabs: false,
-            slidesPerView: sixOrSeven,
-            slideWidth: 148,
-            speed: 800, 
-            updateonInit: true,
-            resizeReInit: true,
-            onImagesReady : function(swiper) {
-          
-              swiper.reInit();
-              swiper.resizeFix();
-            }
-          });
-          flag = true;
-        } else {gooddeal.reInit();}
+
+    function mainImgResizer(){
+      var newHeight = $(window).height();
+      var block = $("#big-pic .big-pic");
+      var img = $("#big-pic .big-pic img");
+      var imgHeight = img.height();
+      // alert(oldHeight);
+      if(newHeight > oldHeight){
+        var diffHeight = newHeight - oldHeight;
+        if(newHeight >= 760 ){
+          block.css({"height":"660px"});
+        } else {
+          // var resHeight = block.height() + diffHeight;
+          var resHeight = newHeight - 100;
+          block.css({"height":resHeight+"px"});
+        }
+      } else {
+        var diffHeight = oldHeight - newHeight;
+        if(newHeight <= 600 ){
+          block.css({"height":"500px"});
+        } else {
+          // var resHeight = block.height() - diffHeight;
+          var resHeight = newHeight - 100;
+          block.css({"height":resHeight+"px"});
+        }
       }
+
+      oldHeight = newHeight; 
+      // alert(oldHeight);
+    }
+    $(window).on("resize", function(){
+      mainImgResizer();
+      verticalMiddlerPic();
     });
+    var flag = false;
+    // $(window).on("resize", function(e){
+    //   // alert($(".gooddeal.not-slider .swiper-slide").length);
+    //   var gooddealSliderBlock = $("#gooddeal .gooddeal");
+    //   if($(".gooddeal.not-slider .swiper-slide").length > 5 && $(window).width() < 1000 ) {
+    //     gooddealSliderBlock.removeClass("not-slider").addClass("slider");
+    //     gooddealSliderBlock.find(".swiper-slide").css({"width":"148px", "max-width":"148px"});
+    //     if(!flag){
+    //       var gooddeal = $("#gooddeal .gooddeal.slider .swiper-container").swiper({
+    //         createPagination: false,
+    //         tabs: false,
+    //         slidesPerView: sixOrSeven,
+    //         slideWidth: 148,
+    //         speed: 800, 
+    //         updateonInit: true,
+    //         resizeReInit: true,
+    //         onImagesReady : function(swiper) {
+          
+    //           swiper.reInit();
+    //           swiper.resizeFix();
+    //         }
+    //       });
+    //       flag = true;
+    //     } else {gooddeal.reInit();}
+    //   }
+    // });
 
     // Стилизация кнопок переключателей (radio buttons, checkbox, etc)
 
@@ -514,7 +557,8 @@ $(document).ready(function()
 
 
     // Стилизация скролл-бара
-    $('#basket .items, #add-popup .items').scrollbar();
+    // $('#basket .items, #add-popup .items').scrollbar();
+    $('#basket .items').scrollbar();
 
 
     function hitTheTable(dataAttr) {
@@ -905,6 +949,11 @@ $(document).ready(function()
       }else if(action == '+'){
         $(this).parent().find('input').val(quantity + 1);
       }   
+      var quantSumma = 0;
+      $(this).closest("table.cart-table").find("table.cart-quantity").find("input").each(function(){
+        quantSumma += parseInt($(this).val());
+      });
+      $(this).closest(".cart-table").find(".count-sum").text(quantSumma);
     });
   $(".cart-quantity-input input").on("keyup change input", function(e){
     var regExp = /^\d+$/;
@@ -912,6 +961,8 @@ $(document).ready(function()
       $(this).attr("value", 1);
     }
   })
+
+
 
     $('.cart-color-select img').hover(function(){
       $(this).next('.cart-color').toggle();   
@@ -1031,6 +1082,7 @@ $(document).ready(function()
     var liText = $(this).html();
     var ourInput = $(this).parent().prevAll(".drop");
     ourInput.val(liText);
+    $(this).closest("td").find("input").focus().blur();
     $(this).parent().hide();
   });
   
@@ -1136,13 +1188,23 @@ $(document).ready(function()
     $(this).parent().nextAll(".tab[data-group='"+dataGroup+"']").fadeIn();
     $(this).addClass("active");
   });
-
+  var boolScroll = true;
   $(".cart-adder-input").on("input", function(){
       var thisCode = $(this).val();
       if(!Number(thisCode)) {
         return false;
       } else {
         $(this).nextAll("#add-popup").show();
+          if(boolScroll) {
+            $("#add-popup .items").mCustomScrollbar({
+              theme : "tiande",
+              scrollbarPosition: "inside",
+              scrollButtons:{ 
+                enable: true
+              }
+            });
+            boolScroll = false;
+          }
       }
   });
 
@@ -1313,11 +1375,14 @@ $(document).ready(function()
 
     if(err_count == 0){     
       $(thisValidator).find("input[type='submit']").removeClass("no-active").addClass('active');  
+      if(classForValidateEmpty == "adress-table .drop") $(thisValidator).find(".active.send-form").removeClass("no-slide-up");
+
     }else{      
       $(thisValidator).find(".active.send-form").removeClass("active").addClass('no-active'); 
+      if(classForValidateEmpty == "adress-table .drop") $(thisValidator).find(".no-active.send-form").addClass("no-slide-up");
       $("input[type='submit'].no-active").on("click",function(e){ 
         e.preventDefault();
-      });
+      });      
     } 
   }
   function chekAllTextAreas(classForValidate, thisValidator){    
@@ -1358,6 +1423,12 @@ $(document).ready(function()
     return regExp.test(jQuery.trim(elementVal)); 
 
   }
+
+  $(".adress-table input[type='text']").on("keyup change blur", function(e){
+    var parentValidator = $(this).closest("form");
+    var classEmpty = "adress-table .drop";
+    isEmptyFields(classEmpty, parentValidator);
+  })
 
   $(".validator input[type='text'], .validator textarea, .validator input[type='password']").on("keyup change blur", function(e){ // Проверка текущего обязательного поля на заполненность.
     if($(this).hasClass("importantField")) {
@@ -1446,6 +1517,16 @@ $(document).ready(function()
     }
 
   })
+  $(".order-inner form input[type='submit']").removeClass("active").addClass("no-active").addClass("no-slide-up");
+  $(".incorrect form input[type='submit']").removeClass("no-active").addClass("active").removeClass("no-slide-up");
+  $(".order-inner form input[type='submit'].no-active").on("click", function(e){
+    return false;
+  });
+
+  $(".var1.real-adress.active input[type='radio'], .oplata-radio-chk input[type='radio'], .self-show-up .city input[type='radio'] ").on("change", function(e){
+    $(this).closest(".order-inner").find("input[type='submit']").removeClass("no-active").addClass("active").removeClass("no-slide-up");
+
+  })
   // /Валидация форм
   // Смена картинок товара в зависимости от тона
 
@@ -1498,10 +1579,23 @@ $(document).ready(function()
 
   // /Календари
   // Печать
-  $(".printer").on("click", function(e) {
+  // $(".printer").on("click", function(e) {
+  //   e.preventDefault();
+  //   window.print();
+  // })
+
+  $('.printer').on('click', function(e){
     e.preventDefault();
-    window.print();
-  })
+    var printing_css='<link href="/css/style.css" rel="stylesheet" type="text/css">';
+    var html_to_print=printing_css+$('.main-table').html();
+    var iframe=$('<iframe id="print_frame">');
+    $('body').append(iframe);
+    var doc = $('#print_frame')[0].contentDocument || $('#print_frame')[0].contentWindow.document;
+    var win = $('#print_frame')[0].contentWindow || $('#print_frame')[0];
+    doc.getElementsByTagName('body')[0].innerHTML=html_to_print;
+    win.print();
+    $('iframe').remove();
+  });
   // /Печать
   // Promo send
   $("#promo_send").on("click", function(e){
@@ -1523,7 +1617,7 @@ $(document).ready(function()
   // /фиксы
   $(".this-btn.back").off();
   $("#msg-form .continue.send-form").off();
-
+   $("input[name='next-step'].continue.active.send-form").off();
 
   $(".off .continue.active").off();
 });

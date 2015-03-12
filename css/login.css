@@ -75,6 +75,7 @@ input {
 	min-width: 960px;
     max-width: 1216px;
 	max-height: 600px;
+	min-height: 450px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -261,9 +262,10 @@ span.remember {
 }
 
 input:focus {
-    -webkit-box-shadow: 0 0 5px #8a8a8a;
-    -moz-box-shadow: 0 0 5px #8a8a8a;
-    box-shadow: 0 0 5px #8a8a8a;
+-moz-box-shadow: 0 0 5px #8a8a8a;
+-webkit-box-shadow: 0 0 5px #8a8a8a;
+border-color: #757474;
+box-shadow: 0 0 5px #8a8a8a;
 }
 
 
@@ -359,7 +361,7 @@ input {
 }
 
 .after-login {
-	color: #939597;
+	color: #58595B;
 	margin: 10px 0 10px 0;
 	padding-left: 15px;
 	/*background: url('../img/what.png') 0 0 no-repeat;*/
@@ -384,7 +386,7 @@ input {
 
 .copyr {
 	font-size: 1.2em;
-	color: #939597;
+	color: #58595B;
 }
 
 .copyr a {
@@ -403,7 +405,7 @@ div.copyr {
 }
 
 div.copyr span {
-	border-bottom: 1px solid #939597;
+	border-bottom: 1px solid #58595B;
 }
 
 div.copyr span:hover {
@@ -420,6 +422,7 @@ div.copyr span:hover {
 	color: #808285;
 	text-align: center;
 	line-height: 1.25;
+	font-weight: bold;
 }
 .right-main {
 	width: 49%;
@@ -453,9 +456,10 @@ div.copyr span:hover {
 
 .copyr-new {
 	color: #808285;
-	text-align: center;
+	text-align: right;
 	font-size: 11px;
 	margin-bottom: 15px;
+	margin-right: 70px;
 }
 
 .copyr-new a:hover {

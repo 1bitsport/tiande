@@ -366,7 +366,7 @@
     <a href="#1" class="order-logo"></a>
   </div>
   <div class="right-header">
-    <div class="cart-info font12 black "><span class="uppercase">Ваш заказ: </span> В корзине <span class="has-popup"><a href="" class="has-popup"><span class="inner-info border-dot-black">4 позиция(-ии) на сумму 4 520 руб. и на <span class="bonus-orange">400 Б</span></span></a>
+    <div class="cart-info font12 black "><img class="cart-bag" src="/img/2cart.png" alt=""><span class="uppercase">Ваш заказ: </span> В корзине <span class="has-popup"><a href="" class="has-popup"><span class="inner-info border-dot-black">4 позиция(-ии) на сумму 4 520 руб. и на <span class="bonus-orange">400 Б</span></span></a>
       <i></i>
         <div class="popup center menu">
           <div class="content">
@@ -487,11 +487,11 @@
                     <td class="cart-result">
                       <strong>ИТОГО:</strong>       
                     </td>
-                    <td>3</td>
-                    <td class="color-orange cart-font-14">&nbsp;</td>
-                    <td class="cart-font-14 ">&nbsp;</td>
-                    <td class="color-orange cart-font-14">15 Б.</td>
-                    <td class="cart-font-14 ">350 руб.</td>
+                    <td class="count-sum cart-bold">3</td>
+                    <td class="color-orange cart-font-14 cart-bold">&nbsp;</td>
+                    <td class="cart-font-14 cart-bold">&nbsp;</td>
+                    <td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+                    <td class="cart-font-14 cart-bold">350 руб.</td>
                   </tr>
                 </tfoot> 
               </table>
@@ -611,11 +611,11 @@
                     <td class="cart-result">
                       <strong>ИТОГО:</strong>       
                     </td>
-                    <td>3</td>
-                    <td class="color-orange cart-font-14">&nbsp;</td>
-                    <td class="cart-font-14 ">&nbsp;</td>
-                    <td class="color-orange cart-font-14">15 Б.</td>
-                    <td class="cart-font-14 ">350 руб.</td>
+                    <td class="count-sum cart-bold">3</td>
+                    <td class="color-orange cart-font-14 cart-bold">&nbsp;</td>
+                    <td class="cart-font-14 cart-bold">&nbsp;</td>
+                    <td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+                    <td class="cart-font-14 cart-bold">350 руб.</td>
                   </tr>
                 </tfoot> 
               </table>
@@ -723,9 +723,9 @@
                     <td class="cart-result">
                       <strong>ИТОГО:</strong>       
                     </td>
-                    <td>3</td>         
-                    <td class="color-orange cart-font-14">15 Б.</td>
-                    <td class="cart-font-14 ">350 руб.</td>
+                    <td class="count-sum cart-bold">3</td>         
+                    <td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+                    <td class="cart-font-14 color-orange cart-bold">350 Б.</td>
                   </tr>
                 </tfoot>  
               </table>
@@ -744,7 +744,7 @@
                 <table align="right">
                   <tr>
                     <td class="cart-summary-tbl-left">СУММА:</td>
-                    <td class="cart-summary-tbl-right">9 999 300 руб</td>         
+                    <td class="cart-summary-tbl-right cart-bold">9 999 300 руб</td>         
                   </tr>
                   
                   <tr>
@@ -777,24 +777,24 @@
                         </div>
                       </span>
                     </td>
-                    <td class="cart-summary-tbl-right">123 456 руб (5%)</td>         
+                    <td class="cart-summary-tbl-right cart-bold">123 456 руб (5%)</td>         
                   </tr> 
 
                   <tr>
                     <td class="cart-summary-tbl-left tbl-border">ДОСТАВКА:</td>
-                    <td class="cart-summary-tbl-right tbl-border">9 999 300 руб</td>         
+                    <td class="cart-summary-tbl-right tbl-border cart-bold">9 999 300 руб</td>         
                   </tr>
                   <tr>
                     <td class="cart-summary-tbl-left tbl-after-border">ИТОГО СУММА:</td>
-                    <td class="cart-summary-tbl-right tbl-after-border color-orange">500 000 руб</td>         
+                    <td class="cart-summary-tbl-right tbl-after-border cart-bold">500 000 руб</td>         
                   </tr> 
                   <tr>
                     <td class="cart-summary-tbl-left">ИТОГО БАЛЛОВ:</td>
-                    <td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>          
+                    <td class="cart-summary-tbl-right color-orange cart-bold">500 999 999 Б</td>          
                   </tr>
                   <tr>
                     <td class="cart-summary-tbl-left">ИТОГО ПОДАРКИ:</td>
-                    <td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>          
+                    <td class="cart-summary-tbl-right color-orange cart-bold">500 999 999 Б</td>          
                   </tr>
                 </table>
             </div>
@@ -1162,7 +1162,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove">X</a>
+										<a href="#" class="cart-item-remove"><span>X</span></a>
 									</td>
 								</tr>
 								<tr>
@@ -1194,7 +1194,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove">X</a>
+										<a href="#" class="cart-item-remove"><span>X</span></a>
 									</td>
 								</tr>
 								<tr>
@@ -1226,7 +1226,7 @@
 									</td>
 									
 									<td>
-										<a href="#" class="cart-item-remove">X</a>
+										<a href="#" class="cart-item-remove"><span>X</span></a>
 									</td>
 								</tr>				
 							</tbody>
@@ -1245,9 +1245,11 @@
 				<div class="restore-circle"></div>	
 				<h2 class="uppercase d-block">Способ и адрес получения заказа</h2>
 				<div class="order-inner hide">
-					<form class="delivery-type" action="">
-						<input type="radio" name="deliver" checked value="someone-else" id="radio-someone-else" data-show="delivery-show-up" class="radio"><label class="radio-label" for="radio-someone-else" onclick=""></label>
-						<input type="radio" name="deliver" value="self" id="radio-self" class="radio"><label data-show="self-show-up" class="radio-label" for="radio-self" onclick=""></label>
+					<form action="">
+            <div class="delivery-type">
+  						<input type="radio" name="deliver" checked value="someone-else" id="radio-someone-else" class="radio"><label class="radio-label overlay-text" for="radio-someone-else" onclick="">ДОСТАВКА</label>
+  						<input type="radio" name="deliver" value="self" id="radio-self" class="radio"><label class="radio-label overlay-text" for="radio-self" onclick="">САМОВЫВОЗ</label>
+            </div>
 						<div class="delivery-show-up">	
 							<ul class="variants font14">
 								<li data-link="var1" class="uppercase active"><a href="">Выбрать из действующих</a></li>
@@ -1267,7 +1269,7 @@
 							<div class="var2 new-adress">
 								<span class="font14 dark-grey">Укажите адрес для определения условий и стоимости доставки</span>
 								<div class="cleaner"></div>
-								<span class="font14 dark-grey country"><a href="#">Страна: Россия</a></span>	
+								<span class="font14 dark-grey country">Страна: Россия</span>	
 								<table class="width-100 adress-table">
 									<thead>
 										<tr>
@@ -1388,8 +1390,8 @@
 			<li class="pay-element empty">			  
 				<div class="restore-circle"></div>	
 				<h2 class="uppercase d-block">Способ доставки</h2>	  			
-				<div class="order-inner hide">
-					<form action="" method="" class="marginer">
+				<div class="order-inner marginer oplata-radio-chk hide">
+					<form action="" method="">
 						<div class="marginer">
 							<div class="variant-head">
 								<span class="type-of-delivery black"><span class="uppercase border-solid-black">Самовывоз: </span> 150-1020 руб. ~ 3-7 дней</span>
@@ -1495,7 +1497,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>
   									<tr>
@@ -1530,7 +1532,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>
   									<tr>
@@ -1566,7 +1568,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>				
   								</tbody>
@@ -1579,11 +1581,11 @@
   										<td class="cart-result">
   											<strong>ИТОГО:</strong>				
   										</td>
-  										<td>&nbsp;</td>
-  										<td class="color-orange cart-font-14">&nbsp;</td>
-  										<td class="cart-font-14 ">&nbsp;</td>
-  										<td class="color-orange cart-font-14">15 Б.</td>
-  										<td class="cart-font-14 ">350 руб.</td>
+  										<td class="count-sum cart-bold">3</td>
+  										<td class="color-orange cart-font-14 cart-bold">&nbsp;</td>
+  										<td class="cart-font-14 cart-bold">&nbsp;</td>
+  										<td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+  										<td class="cart-font-14 cart-bold">350 руб.</td>
   										<td>&nbsp;</td>
   									</td>
   								</tfoot> 
@@ -1631,7 +1633,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<td></td>
   									</tr>
@@ -1661,7 +1663,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<td></td>
   									</tr>
@@ -1691,7 +1693,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<td style="empty-cells: hide; border-collapse: collapse;"></td>
   									</tr>
@@ -1705,9 +1707,9 @@
   										<td class="cart-result">
   											<strong>ИТОГО:</strong>				
   										</td>
-  										<td>&nbsp;</td>					
-  										<td class="color-orange cart-font-14">15 Б.</td>
-  										<td class="cart-font-14 ">350 руб.</td>
+  										<td class="count-sum cart-bold">3</td>					
+  										<td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+  										<td class="cart-font-14 color-orange cart-bold">30 Б.</td>
   										<td>&nbsp;</td>
   										<td></td>
   									</td>
@@ -1773,7 +1775,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>
 
@@ -1821,7 +1823,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>
 
@@ -1870,7 +1872,7 @@
   											<span>123 456 78</span>&nbsp;руб.
   										</td>
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   									</tr>				
   								</tbody>
@@ -1883,11 +1885,11 @@
   										<td class="cart-result">
   											<strong class="red">ИТОГО:</strong>				
   										</td>
-  										<td class="font16 ">3</td>
-  										<td class="color-orange cart-font-14">&nbsp;</td>
-  										<td class="cart-font-14 ">&nbsp;</td>
-  										<td class="color-orange cart-font-14">15 Б.</td>
-  										<td class="cart-font-14 ">350 руб.</td>
+  										<td class="font16 count-sum cart-bold">3</td>
+  										<td class="color-orange cart-font-14 cart-bold">&nbsp;</td>
+  										<td class="cart-font-14 cart-bold">&nbsp;</td>
+  										<td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+  										<td class="cart-font-14 cart-bold">350 руб.</td>
   										<td>&nbsp;</td>
   									</td>
   								</tfoot>	
@@ -1946,7 +1948,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<!-- <td></td> -->
   									</tr>
@@ -1986,7 +1988,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<!-- <td></td> -->
   									</tr>
@@ -2026,7 +2028,7 @@
   											<span>10</span>&nbsp;Б.
   										</td>					
   										<td>
-  											<a href="#" class="cart-item-remove">X</a>
+  											<a href="#" class="cart-item-remove"><span>X</span></a>
   										</td>
   										<!-- <td style="empty-cells: hide; border-collapse: collapse;"></td> -->
   									</tr>
@@ -2040,9 +2042,9 @@
   										<td class="cart-result">
   											<strong class="red">ИТОГО:</strong>				
   										</td>
-  										<td>&nbsp;</td>					
-  										<td class="color-orange cart-font-14">15 Б.</td>
-  										<td class="cart-font-14 ">350 руб.</td>
+  										<td class="count-sum cart-bold">3</td>					
+  										<td class="color-orange cart-font-14 cart-bold">15 Б.</td>
+  										<td class="cart-font-14 color-orange cart-bold">30 Б.</td>
   										<td>&nbsp;</td>
   										<td></td>
   									</td>
@@ -2062,7 +2064,7 @@
   								<table align="right">
   									<tr>
   										<td class="cart-summary-tbl-left">СУММА:</td>
-  										<td class="cart-summary-tbl-right">9 999 300 руб</td>					
+  										<td class="cart-summary-tbl-right cart-bold">9 999 300 руб</td>					
   									</tr>
   									<tr>
   										<td class="cart-summary-tbl-left tbl-border">СКИДКА ПО ЗАКАЗУ:
@@ -2094,19 +2096,19 @@
   												</div>
   											</span>
   										</td>
-  										<td class="cart-summary-tbl-right tbl-border">123 456 руб (5%)</td>					
+  										<td class="cart-summary-tbl-right tbl-border cart-bold">123 456 руб (5%)</td>					
   									</tr>	
   									<tr>
   										<td class="cart-summary-tbl-left tbl-after-border">ИТОГО СУММА:</td>
-  										<td class="cart-summary-tbl-right tbl-after-border color-orange">500 000 руб</td>					
+  										<td class="cart-summary-tbl-right tbl-after-border cart-bold">500 000 руб</td>					
   									</tr>	
   									<tr>
   										<td class="cart-summary-tbl-left">ИТОГО БАЛЛОВ:</td>
-  										<td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>					
+  										<td class="cart-summary-tbl-right color-orange cart-bold">500 999 999 Б</td>					
   									</tr>
   									<tr>
   										<td class="cart-summary-tbl-left">ИТОГО ПОДАРКИ:</td>
-  										<td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>					
+  										<td class="cart-summary-tbl-right color-orange cart-bold">500 999 999 Б</td>					
   									</tr>
   									<tr>
   										<td colspan="2" style="text-align: right; padding-top: 10px;">
@@ -2434,7 +2436,7 @@
                             </div>
                           </a>
 
-                          <a href="#1" class="item m-bot20">
+                          <a href="#1" class="item">
                             <img src="/temp/basket-item-2.png" class="image"/>
                             <div class="description">
                               <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
@@ -2472,9 +2474,9 @@
 			<li class="pay-element empty">			  
 				<div class="restore-circle"></div>	
 				<h2 class="uppercase d-block">Подтверждение личных данных</h2>	  			
-				<div class="order-inner hide off">
-					<form class="personal-data validator" action="confirm-order.php" method="POST">
-						<div class="marginer">
+				<div class="order-inner validator hide off">
+					<form action="confirm-order.php" method="POST">
+						<div class="personal-data marginer">
 							<span class="font14 dark-grey l-h2">Данные человека, который примет заказ</span>
 							<div class="cleaner"></div>
 							<input type="text" name="last-name" id="last-name" placeholder="Фамилия" class="d-inline-block itsName importantField">

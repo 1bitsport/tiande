@@ -520,7 +520,7 @@
 <div class="cleaner"></div>
 <main>
 
-<div class="order">
+<div class="order order-confirm">
   <div class="page-h">
     <h1>ПОДТВЕРЖДЕНИЕ ЗАКАЗА</h1>
   </div>
@@ -918,7 +918,7 @@
             
             
             <div class="cleaner"></div>
-            <h2 class="uppercase d-block border-solid-grey p-bot20 m-top20">Информация о заказе</h2>
+            <h2 class="uppercase d-block border-solid-lgrey p-bot20 m-top20">Информация о заказе</h2>
             <div class="order-info">
               <div class="posrelative">
                 <table class="order-table marginer">
@@ -953,7 +953,7 @@
                     </tr>
 
                     <tr>
-                      <td colspan="2" class="uppercase inserted">Дополнительное предложение</td>
+                      <td colspan="2" class="uppercase inserted"><span>Дополнительное предложение</span></td>
                     </tr>
                   </tbody>
                 </table>
@@ -962,15 +962,17 @@
               </div>
             </div>
             <div class="line"></div>
-            <form action="confirm-order-final.php">
+            <form action="confirm-order-final.php" method="POST">
               <p class="cart-promo-code">Использовать промо-код:</p>
-              <div>
-                <input class="cart-promo-input" type="text" name="" value="" placeholder="Введите ваш номер" />
-                <a class="cart-summary-button button-big-padding button-border">Обработать</a>
-                <p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
+              <div class="promo marginer posrelative">
+                <form action="" method="GET">
+                  <input class="cart-promo-input form-input" type="text" name="" value="" placeholder="Введите ваш номер" />
+                  <input type="submit" class="cart-summary-button button-big-padding button-border" value="Обработать" id="promo_send" name="promo-sbmt">
+                  <p class="cart-promo-desc">Если у вас есть промо-код, укажите его для получения скидки или подарка</p>
+                  <span class="bold m-top20 hide bonus-orange font11">ПОДАРОК ПО ПРОМО-КОДУ &laquo;Гель для душа, код. 30101&raquo;</span>
+                </form>
               </div>
-              <input type="submit" value="ПОДТВЕРДИТЬ" class="continue active send-form">
-            </form>
+              <a href="confirm-order-final.php" class="continue active send-form">ПОДТВЕРДИТЬ</a>
           </div>
 				</div>
 			</li>

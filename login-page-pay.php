@@ -44,7 +44,7 @@
 							<label class="square-checker"><input type="checkbox" name="remember"><span></span><span class="remember">Запомнить</span></label>
 							<span class="forgot"><a href="" title="Забыли пароль">Забыли пароль?</a></span>
 							<div class="cleaner"></div>
-							<a href="" class="personal-cab" title="Зарегистрировать личный кабинет">Зарегистрировать личный кабинет</a>
+							<a href="" class="personal-cab" title="Зарегистрировать личный кабинет">Зарегистрировать<br> личный кабинет</a>
 							<input type="submit" class="login-btn" value="ВОЙТИ" name="login">
 						</form>
 						<div class="cleaner"></div>
@@ -62,9 +62,9 @@
 		</div>
 		<div class="cleaner"></div>
 		<div class="wrap">
-			<div class="copyr-new">Есть вопросы? Звони <a href="">+7 965 137 0181</a></div>
 		</div>
 		<div class="line"></div>
+			<div class="copyr-new">Есть вопросы? Звони <a href="">+7 965 137 0181</a></div>
 
 	</div>
 </body>

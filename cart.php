@@ -6,9 +6,9 @@ require_once('header.php');
 
 <div id="cart-container">
 <form action="">
-	<div id="cart-header"><span class="uppercase my-cart">Моя корзина:</span>&nbsp;<span class="cart-font-16">4 позиция(-ии) на сумму 4 520 руб. и на <span class="color-orange">400 Б</span></span></div>
-	<div class="cart-li">		
-		<div class="cart-circle"></div>				
+	<div id="cart-header"><img class="cart-bag" src="/img/2cart.png" alt=""><span class="uppercase my-cart">Моя корзина:</span>&nbsp;<span class="cart-font-16">4 позиция(-ии) на сумму 4 520 руб. и на <span class="color-orange">400 Б</span></span></div>
+	<div class="cart-li done">		
+		<div class="restore-circle"></div>				
 		<span class="cart-arrow"><span class="cart-arrow-header">Товары</span><span class="up"></span></span>
 	</div>
 	<div class="cart-li cart-li-padding">
@@ -16,11 +16,11 @@ require_once('header.php');
 			<thead>
 				<tr>
 					<th width="10%">&nbsp;</th>
-					<th width="23%">НАИМЕНОВАНИЕ</th>
+					<th width="20%">НАИМЕНОВАНИЕ</th>
 					<th width="10%">КОЛ-ВО</th>
 					<th width="13%">ЦЕНА БАЛЛ</th>
 					<th width="14.5%">ЦЕНА</th>
-					<th width="10%">СУММА БАЛЛ</th>
+					<th width="14%">СУММА БАЛЛ</th>
 					<th width="14.5%">СУММА</th>
 					<th width="5%">&nbsp;</th>
 				</tr>				
@@ -76,7 +76,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>
 				<tr>
@@ -117,7 +117,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>
 				<tr>
@@ -156,7 +156,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -169,18 +169,18 @@ require_once('header.php');
 					<td class="cart-result">
 						<strong>ИТОГО:</strong>				
 					</td>
-					<td>&nbsp;</td>
+					<td class="count-sum cart-bold">3</td>
 					<td class="color-orange cart-font-14">&nbsp;</td>
 					<td class="cart-font-14 cart-bold">&nbsp;</td>
-					<td class="color-orange cart-font-14">15 Б.</td>
+					<td class="color-orange cart-bold cart-font-14">15 Б.</td>
 					<td class="cart-font-14 cart-bold">350 руб.</td>
 					<td>&nbsp;</td>
 				</td>
 			</tfoot>
 		</table>
 	</div>
-	<div class="cart-li">
-		<div class="cart-circle"></div>
+	<div class="cart-li done">
+		<div class="restore-circle"></div>
 		<span class="cart-arrow"><span class="cart-arrow-header">Наборы и акции</span><span class="up"></span></span>
 	</div>
 	<div class="cart-li cart-li-padding">
@@ -188,11 +188,11 @@ require_once('header.php');
 			<thead>
 				<tr>
 					<th width="10%">&nbsp;</th>
-					<th width="23%">НАИМЕНОВАНИЕ</th>
+					<th width="20%">НАИМЕНОВАНИЕ</th>
 					<th width="10%">КОЛ-ВО</th>
 					<th width="13%">ЦЕНА БАЛЛ</th>
 					<th width="14.5%">ЦЕНА</th>
-					<th width="10%">СУММА БАЛЛ</th>
+					<th width="14%">СУММА БАЛЛ</th>
 					<th width="14.5%">СУММА</th>
 					<th width="5%">&nbsp;</th>
 				</tr>				
@@ -234,7 +234,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>
 				<tr>
@@ -276,7 +276,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>
 				<tr>
@@ -318,7 +318,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -331,18 +331,18 @@ require_once('header.php');
 					<td class="cart-result">
 						<strong>ИТОГО:</strong>				
 					</td>
-					<td>&nbsp;</td>
+					<td class="count-sum cart-bold">3</td>
 					<td class="color-orange cart-font-14">&nbsp;</td>
 					<td class="cart-font-14 cart-bold">&nbsp;</td>
-					<td class="color-orange cart-font-14">15 Б.</td>
+					<td class="color-orange cart-bold cart-font-14">15 Б.</td>
 					<td class="cart-font-14 cart-bold">350 руб.</td>
 					<td>&nbsp;</td>
 				</td>
 			</tfoot>	
 		</table>		
 	</div>
-	<div class="cart-li cart-li-prelast">
-		<div class="cart-circle-bottom"></div>
+	<div class="cart-li done cart-li-prelast">
+		<div class="restore-circle"></div>
 		<span class="cart-arrow"><span class="cart-arrow-header">Подарки</span><span class="up"></span></span>					
 	</div>
 	<div class="cart-li cart-li-last cart-li-padding">		
@@ -350,7 +350,7 @@ require_once('header.php');
 			<thead>
 				<tr>
 					<th width="10%">&nbsp;</th>
-					<th width="23%">НАИМЕНОВАНИЕ</th>
+					<th width="20%">НАИМЕНОВАНИЕ</th>
 					<th width="13%">КОЛ-ВО</th>
 					<th width="15%">CТОИМОСТЬ БАЛЛ</th>
 					<th width="15%">ИТОГО БАЛЛ</th>	
@@ -389,7 +389,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 					<td></td>
 				</tr>
@@ -423,7 +423,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 					<td></td>
 				</tr>
@@ -457,7 +457,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove">X</a>
+						<a href="#" class="cart-item-remove"><span>X</span></a>
 					</td>
 					<td style="empty-cells: hide; border-collapse: collapse;"></td>
 				</tr>
@@ -471,8 +471,8 @@ require_once('header.php');
 					<td class="cart-result">
 						<strong>ИТОГО:</strong>				
 					</td>
-					<td>&nbsp;</td>					
-					<td class="color-orange cart-font-14">15 Б.</td>
+					<td class="count-sum cart-bold">3</td>					
+					<td class="color-orange cart-bold cart-font-14">15 Б.</td>
 					<td class="cart-font-14 cart-bold">350 руб.</td>
 					<td>&nbsp;</td>
 					<td></td>
@@ -503,7 +503,7 @@ require_once('header.php');
 			<table align="right">
 				<tr>
 					<td class="cart-summary-tbl-left">СУММА:</td>
-					<td class="cart-summary-tbl-right">9 999 300 руб</td>					
+					<td class="cart-summary-tbl-right cart-bold">9 999 300 руб</td>					
 				</tr>
 				<tr>
 					<td class="cart-summary-tbl-left tbl-border">СКИДКА ПО ЗАКАЗУ:
@@ -535,19 +535,19 @@ require_once('header.php');
 							</div>
 						</span>
 					</td>
-					<td class="cart-summary-tbl-right tbl-border">123 456 руб (5%)</td>					
+					<td class="cart-summary-tbl-right tbl-border cart-bold">123 456 руб (5%)</td>					
 				</tr>	
 				<tr>
 					<td class="cart-summary-tbl-left tbl-after-border">ИТОГО СУММА:</td>
-					<td class="cart-summary-tbl-right tbl-after-border color-orange">500 000 руб</td>					
+					<td class="cart-summary-tbl-right tbl-after-border cart-bold">500 000 руб</td>					
 				</tr>	
 				<tr>
 					<td class="cart-summary-tbl-left">ИТОГО БАЛЛОВ:</td>
-					<td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>					
+					<td class="cart-summary-tbl-right color-orange  cart-bold">500 999 999 Б</td>					
 				</tr>
 				<tr>
 					<td class="cart-summary-tbl-left">ИТОГО ПОДАРКИ:</td>
-					<td class="cart-summary-tbl-right color-orange">500 999 999 Б</td>					
+					<td class="cart-summary-tbl-right color-orange  cart-bold">500 999 999 Б</td>					
 				</tr>
 				<tr>
 					<td colspan="2" style="text-align: right; padding-top: 10px;">
@@ -809,26 +809,99 @@ require_once('header.php');
 			            <div class="items scrollbar-inner">
 
 			              <a href="#1" class="item has-bonus">
-			                <img src="temp/basket-item-1.png" class="image"/>
-			                <div class="description">
-			                  <span class="name">Гель для умывания «Естественная красота»</span>
-			                  <table>
-			                    <tr>
-			                      <td class="col-1 code">Код: 28658</td>
-			                      <td class="col-1">Объем: 1 мл</td>
+                            <img src="/temp/basket-item-1.png" class="image"/>
+                            <div class="description">
+                              <span class="name">Гель для умывания «Естественная красота»</span>
+                              <table>
+                                <tr>
+                                  <td class="col-1 code">Код: 28658</td>
+                                  <td class="col-1">Объем: 1 мл</td>
 
-			                    </tr>
-			                    <tr>
-			                      <td><i>3 007 руб.<i></td>
-			                      <td>15 203 руб.</td>
-			                      <td class="col-2">75 Б</td>
-			                    </tr>
-			                  </table>
-			                </div>
-			              </a>
+                                </tr>
+                                <tr>
+                                  <td><i>3 007 руб.<i></td>
+                                  <td>15 203 руб.</td>
+                                  <td class="col-2">75 Б</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </a>
 
-			              
-							<div class="space"></div>
+                          <a href="#1" class="item">
+                            <img src="/temp/basket-item-2.png" class="image"/>
+                            <div class="description">
+                              <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
+                              <table>
+                                <tr>
+                                  <td class="col-1 code">Код: 75922</td>
+                                  <td class="col-1">Объем: 1 мл</td>
+
+                                </tr>
+                                <tr>
+                                  <td><i>3 007 руб.<i></td>
+                                  <td>15 203 руб.</td>
+                                  <td class="col-2">75 Б</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </a>
+
+                          <a href="#1" class="item has-bonus">
+                            <img src="/temp/basket-item-3.png" class="image"/>
+                            <div class="description">
+                              <span class="name">Гель для умывания «Естественная красота»</span>
+                              <table>
+                                <tr>
+                                  <td class="col-1 code">Код: 05672</td>
+                                  <td class="col-1">Объем: 1 мл</td>
+
+                                </tr>
+                                <tr>
+                                  <td><i>3 007 руб.<i></td>
+                                  <td>15 203 руб.</td>
+                                  <td class="col-2">75 Б</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </a>
+
+                          <a href="#1" class="item has-bonus">
+                            <img src="/temp/basket-item-1.png" class="image"/>
+                            <div class="description">
+                              <span class="name">Гель для умывания «Естественная красота»</span>
+                              <table>
+                                <tr>
+                                  <td class="col-1 code">Код: 34621</td>
+                                  <td class="col-1">Объем: 1 мл</td>
+
+                                </tr>
+                                <tr>
+                                  <td><i>3 007 руб.<i></td>
+                                  <td>15 203 руб.</td>
+                                  <td class="col-2">75 Б</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </a>
+
+                          <a href="#1" class="item">
+                            <img src="/temp/basket-item-2.png" class="image"/>
+                            <div class="description">
+                              <span class="name">Увлажняющий крем с питательной основой, цветущий вид и здоровье</span>
+                              <table>
+                                <tr>
+                                  <td class="col-1 code">Код: 55386</td>
+                                  <td class="col-1">Объем: 1 мл</td>
+
+                                </tr>
+                                <tr>
+                                  <td><i>3 007 руб.<i></td>
+                                  <td>15 203 руб.</td>
+                                  <td class="col-2">75 Б</td>
+                                </tr>
+                              </table>
+                            </div>
+                          </a>
 			            </div>
 					</div>
 				</form>
@@ -839,7 +912,7 @@ require_once('header.php');
 
 <div id="sost-nabor" style="display: none; position: relative; min-width: 480px; min-height: 200px;">
 	<h2>СОСТАВ НАБОРА</h2>
-	<h3>&laquo;Макияж с эффектом обнаженной кожи&raquo;</h3>
+	<h3><a href="#">&laquo;Макияж с эффектом обнаженной кожи&raquo;</a></h3>
 	<table>
 		<thead>
 			<tr>
@@ -851,17 +924,17 @@ require_once('header.php');
 		<tbody>
 			<tr>
 				<td class="text-center">102002</td>
-				<td class="left10">Гель от ушибов Алтай</td>
+				<td class="left10"><a href="#">Гель от ушибов Алтай</a></td>
 				<td class="text-center">2</td>
 			</tr>
 			<tr>
 				<td class="text-center">201923</td>
-				<td class="left10">Пластырь для лица с бамбуком</td>
+				<td class="left10"><a href="#">Пластырь для лица с бамбуком</a></td>
 				<td class="text-center">2</td>
 			</tr>
 			<tr>
 				<td class="text-center">109721</td>
-				<td class="left10">Фиточай &laquo;Алтайский самовар&raquo; Витаминный</td>
+				<td class="left10"><a href="#">Фиточай &laquo;Алтайский самовар&raquo; Витаминный</a></td>
 				<td class="text-center">2</td>
 			</tr>
 		</tbody>

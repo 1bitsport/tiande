@@ -83,7 +83,7 @@
 	<div class="vertical-mid">
 		<div class="right-main">
 			<div class="right-wrap">
-				<p class="uppercase font16   l-h2">Заказ необходимо оплатить до 22 сентября 2014 года</p>
+				<p class="uppercase font16">Заказ необходимо оплатить до: <br> 22 сентября 2014 года</p>
 				<a href="#" class="green-btn m-bot20">РАСПЕЧАТАТЬ НАКЛАДНУЮ</a>
 				<div class="cleaner"></div>
 				<a href="#" class="green-btn">ОПЛАТИТЬ</a>
