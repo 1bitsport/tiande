@@ -17,9 +17,9 @@ require_once('header.php');
 				<tr>
 					<th width="10%">&nbsp;</th>
 					<th width="20%">НАИМЕНОВАНИЕ</th>
-					<th width="10%">КОЛ-ВО</th>
+					<th width="9%">КОЛ-ВО</th>
 					<th width="13%">ЦЕНА БАЛЛ</th>
-					<th width="14.5%">ЦЕНА</th>
+					<th width="15.5%">ЦЕНА</th>
 					<th width="14%">СУММА БАЛЛ</th>
 					<th width="14.5%">СУММА</th>
 					<th width="5%">&nbsp;</th>
@@ -76,7 +76,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>
 				<tr>
@@ -117,7 +117,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>
 				<tr>
@@ -156,7 +156,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -234,7 +234,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>
 				<tr>
@@ -276,7 +276,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>
 				<tr>
@@ -318,7 +318,7 @@ require_once('header.php');
 						<span>123 456 78</span>&nbsp;руб.
 					</td>
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 				</tr>				
 			</tbody>
@@ -389,7 +389,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 					<td></td>
 				</tr>
@@ -423,7 +423,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 					<td></td>
 				</tr>
@@ -457,7 +457,7 @@ require_once('header.php');
 						<span>10</span>&nbsp;Б.
 					</td>					
 					<td>
-						<a href="#" class="cart-item-remove"><span>X</span></a>
+						<a href="#" class="cart-item-remove"><img src="/img/svg/remover.svg"></a>
 					</td>
 					<td style="empty-cells: hide; border-collapse: collapse;"></td>
 				</tr>
@@ -484,10 +484,10 @@ require_once('header.php');
 		<div class="cart-summary-left">
 			<a data-key="#gooddeal" class="cart-summary-button button-big-padding button-border modal-viewer">Акционные предложения</a>
 			<ul class="cart-summary-list">
-				<li>До бесплатной доставки не хватает 500 руб.</li>
-				<li>До скидки «20%» не хватает 600 руб.</li>
-				<li>Для входа в парнерскую программу «TianDe OSC» необходимо докупить на 5000 руб.</li>
-				<li>Для получения статуса «Бизнес-Парнер» необходимо докупить на 250 баллов или купить набор 1ND</li>				
+				<li class="green">До бесплатной доставки не хватает 500 руб.</li>
+				<li class="green">До скидки «20%» не хватает 600 руб.</li>
+				<li class="grey">Для входа в парнерскую программу «TianDe OSC» необходимо докупить на 5000 руб.</li>
+				<li class="grey">Для получения статуса «Бизнес-Парнер» необходимо докупить на 250 баллов или купить набор 1ND</li>				
 			</ul>
 			<p class="cart-promo-code">Использовать промо-код:</p>
 			<div class="promo posrelative">
@@ -508,7 +508,7 @@ require_once('header.php');
 				<tr>
 					<td class="cart-summary-tbl-left tbl-border">СКИДКА ПО ЗАКАЗУ:
 						<span class="cart-summary-info">
-						<span class="instead-what-img">?</span>
+						<span class="instead-what-img" onclick="">?</span>
 							<i></i>
 							<div class="cart-popup">
 								<div class="cart-info-content">
@@ -1025,7 +1025,7 @@ require_once('header.php');
 
 		
 
-              	
+            </div>
 		</div>
 	</div>
 </div>

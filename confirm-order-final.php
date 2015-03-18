@@ -36,6 +36,7 @@
   <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/jquery.textPlaceholder.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
     <script>
     $(document).ready(function()
     {
@@ -48,6 +49,14 @@
     <style>
     #copy-button { display: block !important }
     </style>
+  <![endif]-->
+
+  <!--[if IE 8]>
+  <link href="/css/style_ie8.css" rel="stylesheet" type="text/css">
+  <style>
+    @import("/css/style_ie8.css");
+  </style>
+  <script type="text/javascript" src="/js/PIE.js"></script>
   <![endif]-->
 
 </head>
@@ -83,7 +92,7 @@
 	<div class="vertical-mid">
 		<div class="right-main">
 			<div class="right-wrap">
-				<p class="uppercase font16">Заказ необходимо оплатить до: <br> 22 сентября 2014 года</p>
+				<p class="uppercase font16 m-bot15">Заказ необходимо оплатить до: <br> 22 сентября 2014 года</p>
 				<a href="#" class="green-btn m-bot20">РАСПЕЧАТАТЬ НАКЛАДНУЮ</a>
 				<div class="cleaner"></div>
 				<a href="#" class="green-btn">ОПЛАТИТЬ</a>

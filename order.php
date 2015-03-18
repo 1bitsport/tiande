@@ -37,18 +37,27 @@
   <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/jquery.textPlaceholder.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
     <script>
     $(document).ready(function()
     {
       $("input[placeholder]").textPlaceholder();
     })
     </script>
+
   <![endif]-->
 
   <!--[if IE]>
     <style>
     #copy-button { display: block !important }
     </style>
+  <![endif]-->
+  <!--[if IE 8]>
+    <link href="/css/style_ie8.css" rel="stylesheet" type="text/css">
+    <style>
+      @import("/css/style_ie8.css");
+    </style>
+    <script type="text/javascript" src="/js/PIE.js"></script>
   <![endif]-->
 
 </head>
@@ -1455,10 +1464,10 @@
   								<thead>
   									<tr>
   										<th width="10%">КОД</th>
-  										<th width="25%">НАИМЕНОВАНИЕ</th>
-  										<th width="10%">КОЛ-ВО</th>
+  										<th width="24%">НАИМЕНОВАНИЕ</th>
+  										<th width="9%">КОЛ-ВО</th>
   										<th width="13%">ЦЕНА БАЛЛ</th>
-  										<th width="13%">ЦЕНА</th>
+  										<th width="15%">ЦЕНА</th>
   										<th width="10%">СУММА БАЛЛ</th>
   										<th width="14%">СУММА</th>
   										<th width="5%">&nbsp;</th>
@@ -2054,10 +2063,10 @@
   						<div class="cart-summary">
   							<div class="cart-summary-left">
   								<ul class="cart-summary-list">
-  									<li>До бесплатной доставки не хватает 500 руб.</li>
-  									<li>До скидки «20%» не хватает 600 руб.</li>
-  									<li>Для входа в парнерскую программу «TianDe OSC» необходимо докупить на 5000 руб.</li>
-  									<li>Для получения статуса «Бизнес-Парнер» необходимо докупить на 250 баллов или купить набор 1ND</li>				
+  									<li class="green">До бесплатной доставки не хватает 500 руб.</li>
+  									<li class="green">До скидки «20%» не хватает 600 руб.</li>
+  									<li class="grey">Для входа в парнерскую программу «TianDe OSC» необходимо докупить на 5000 руб.</li>
+  									<li class="grey">Для получения статуса «Бизнес-Парнер» необходимо докупить на 250 баллов или купить набор 1ND</li>				
   								</ul>
   							</div>
   							<div class="cart-summary-right">

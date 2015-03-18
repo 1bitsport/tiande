@@ -1,0 +1,37 @@
+li.cart-icon-li {
+height:23px;
+margin:0!important;
+overflow:hidden;
+padding:0!important;
+width:25px;
+background-image: none;
+}
+
+.cart-icon-money {
+background-image: url(../img/sprite_orange_mini.png) !important;
+background-position: -173px 0px;
+}
+
+.cart-icon-love {
+background-image: url(../img/sprite_orange_mini.png) !important;
+background-position: -57px 0px;
+}
+
+.cart-icon-new {
+background-image: url(../img/sprite_orange_mini.png) !important;
+background-position: -203px 0px;
+}
+
+.cart-icon-question {
+background-image: url(../img/sprite_orange_mini.png) !important;
+background-position: -87px 0px;
+}
+
+.cart-icon-items {
+background-image: url(../img/sprite_orange_mini.png) !important;
+background-position: -144px 0px;
+}
+
+.cart-icon-li:hover {
+filter:alpha(opacity=80);
+}

@@ -1,5 +1,10 @@
 $(document).ready(function()
 {
+  if (window.PIE) {
+        $('.jq-radio, .instead-what-img, .restore-circle, .cart-item-remove, header .col-3 .search [type=text], .modal, input, .error span, .this-btn, .cart-info-content, .ui-tooltip, s, a, textarea, .popup .content').each(function() {
+            PIE.attach(this);
+        });
+    }
 
   $("html.no-js").removeClass("no-js");
   var winHeight = $(window).height();
@@ -53,16 +58,11 @@ $(document).ready(function()
         tabs: false,
         slidesPerView: fourOrFive,
         loopAdditionalSlides: 12,
-        slideWidth: 160,
+        // slideWidth: 160,
         speed: 800, 
         updateonInit: true,
         updateOnImagesReady: true,
         resizeReInit: true,
-        onImagesReady : function(swiper) {
-          
-          swiper.reInit();
-          swiper.resizeFix();
-        }
       });
       // slider1.reInit();
 
@@ -71,16 +71,11 @@ $(document).ready(function()
         createPagination: false,
         tabs: true,
         slidesPerView: fourOrFive,
-        slideWidth: 160,
+        // slideWidth: 160,
         speed: 800, 
         updateonInit: true,
         updateOnImagesReady: true,
         resizeReInit: true,
-        onImagesReady : function(swiper) {
-          
-          swiper.reInit();
-          // swiper.resizeFix();
-        }
       });
 
     var gooddeal = $("#gooddeal .gooddeal.slider .swiper-container").swiper({
@@ -172,6 +167,7 @@ $(document).ready(function()
       slidesPerView: fiveOrSix,
       slideWidth: 148,
       resizeReInit: true,
+      loop: false,
       speed: 800, 
     });
 
@@ -471,16 +467,28 @@ $(document).ready(function()
         }
       });
       if($(this).data("key") == "#replacer-tovar") {
-        slider1.reInit();
+        setTimeout(function(){
+          slider1.resizeFix();
+          slider1.reInit();
+          slider1.resizeFix();
+        }, 5);
       } else if ($(this).data("key") == "#replacer") {
-        slider2.reInit();
+        setTimeout(function(){
+          slider2.resizeFix();
+          slider2.reInit();
+          slider2.resizeFix();
+        }, 5);
       } else if ($(this).data("key") == "#gooddeal") {
-        gooddeal.reInit();
+        setTimeout(function(){
+          gooddeal.resizeFix();
+          gooddeal.reInit();
+          gooddeal.resizeFix();
+        }
       } else if($(this).data("key") == "#big-pic") {
         mainImgResizer();
         verticalMiddlerPic();
       }
-    });
+    }); 
     var hrefPicture = $("a#single_image").attr("href");
     $("#big-pic .big-pic").append("<img src='"+hrefPicture+"'>");
 
@@ -1587,8 +1595,8 @@ $(document).ready(function()
   $('.printer').on('click', function(e){
     e.preventDefault();
     var printing_css='<link href="/css/style.css" rel="stylesheet" type="text/css">';
-    var html_to_print=printing_css+$('.main-table').html();
-    var iframe=$('<iframe id="print_frame">');
+    var html_to_print=printing_css+$(this).closest('.report-content-in').find('.main-table').html();
+    var iframe=$('<iframe id="print_frame"></iframe>');
     $('body').append(iframe);
     var doc = $('#print_frame')[0].contentDocument || $('#print_frame')[0].contentWindow.document;
     var win = $('#print_frame')[0].contentWindow || $('#print_frame')[0];

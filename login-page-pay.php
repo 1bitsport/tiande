@@ -18,11 +18,19 @@
 	<!--[if lt IE 9]>
 		<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE678.js"></script>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> 
 	<![endif]-->
 
 	<!--[if IE 9]>
 		<script src="http://css3-pie.googlecode.com/svn/trunk/PIE_IE9.js"></script>
 	<![endif]-->
+
+	<!--[if IE 8]>
+  <link href="/css/style_ie8.css" rel="stylesheet" type="text/css">
+  <style>
+    @import("/css/style_ie8.css");
+  </style>
+  <![endif]-->
 
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 </head>

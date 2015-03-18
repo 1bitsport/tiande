@@ -301,7 +301,7 @@ require_once('header.php');
         <div class="price-block">
           <div><span class="now-price">2 700 000 руб.</span>
           <span class="what">
-          <span class="instead-what-img">?</span>
+          <span class="instead-what-img" onclick="">?</span>
             <i></i>
             <div class="popup">
               <div class="content">

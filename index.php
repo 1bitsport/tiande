@@ -24,7 +24,9 @@ require_once('header.php');
 	<li style="margin: 20px;"><a target="_blank" href="restore-pass-final.php">Восстановление пароля. Новый пароль</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="restore-pass-final-wrong.php">Восстановление пароля. Новый пароль. Ошибки в полях</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="pay-page.php">Оплата</a></li>
-	<li style="margin: 20px;"><a target="_blank" href="cart.php">Корзина</a></li>
+	<li style="margin: 20px;"><a target="_blank" href="cart.php">Корзина + Акционные предложения (7 элементов, не слайдер)</a></li>
+	<li style="margin: 20px;"><a target="_blank" href="cart-2-el.php">Корзина + Акционные предложения (2 элементов, не слайдер)</a></li>
+	<li style="margin: 20px;"><a target="_blank" href="cart-slider.php">Корзина + Акционные предложения (слайдер)</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="login-page-pay.php">Оформление заказа(логин-страничка если не авторизовались)</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="order.php">Оформление заказа</a></li>
 	<li style="margin: 20px;"><a target="_blank" href="report-new.php">Отчёты</a></li>
