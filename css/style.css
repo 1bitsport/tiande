@@ -7432,19 +7432,25 @@ padding-left:35px;
 text-align:left;
 }
 
+.queries .query-list td h4 {
+color: #000;
+}
+
 .queries .query-list .bg-img {
 background-image:url(../img/lk-fb-pics.png);
 background-repeat:no-repeat;
 line-height:20px;
-padding-bottom:3px;
+padding-bottom:5px;
 padding-left:35px;
-padding-top:2px;
+padding-top:5px;
 }
 
 .queries .query-list .bg-img.one {
-background-position:left top;
+background-position: -1px -4px;
 }
-
+.queries .query-list .bg-img.three {
+background-position: -1px -85px;
+}
 .queries .query-list .bg-img.two {
 background-position:left center;
 }
@@ -10367,7 +10373,7 @@ margin-top:0;
 display:none;
 }
 
-body.modal-active #overlay .modal .close:hover,.queries .query-list .bg-img.three,ul.expand-toggler li.close-all {
+body.modal-active #overlay .modal .close:hover,ul.expand-toggler li.close-all {
 background-position:left bottom;
 }
 
@@ -11625,9 +11631,9 @@ cursor:pointer;
 
 .dropdown-select li,.dropdown-sort li {
 color:#939395;
-padding-bottom:3px;
+padding-bottom:1px;
 padding-left:5px;
-padding-top:3px;
+padding-top:1px;
 }
 
 .feedback textarea.form-input:placeholder,.feedback textarea.form-input::-webkit-input-placeholder,.feedback textarea.form-input:-moz-placeholder,.feedback textarea.form-input::-moz-placeholder,.review textarea.form-input:placeholder,.review textarea.form-input::-webkit-input-placeholder,.review textarea.form-input:-moz-placeholder,.review textarea.form-input::-moz-placeholder {

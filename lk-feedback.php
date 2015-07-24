@@ -57,7 +57,7 @@ require_once('header.php');
 				</p>
 				<form action="" class="validator last-step">
 					<div class="js-select">
-					  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop importantField" name="" id="">
+					  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop importantField" name="topic-msg" id="the-topic-msg">
 						<span class="wrong">Выбор темы обязателен</span>
 
 					  	<div class="select-arrow clickable"></div>
@@ -73,10 +73,6 @@ require_once('header.php');
 						<option value="Ошибки в расчетах">Ошибки в расчетах</option>
 						<option value="Смена личных данных">Смена личных данных</option>
 					</select>
-					<div class="cleaner"></div>
-					<input type="text" placeholder="Введите заголовок" class="input-select long form-input importantField" name="" id="">
-					<span class="wrong">Заголовок обязателен</span>
-					<div class="cleaner"></div>
 					<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input importantField tenSim"></textarea>
 					<span class="wrong">Минимальный размер сообщения 10 символов</span>
 					<input type="submit" value="ОТПРАВИТЬ" class="send-form continue active">
@@ -103,6 +99,7 @@ require_once('header.php');
 						<td class="black">01028328</td>
 						<td class="msg-td">
 							<h3>ВОПРОС ПО ЛИЧНОМУ КАБИНЕТУ</h3>
+							<h4>Заголовок</h4>
 							<p>Не получается войти в личный кабинет (Online office) с логином lariska@tiande.ru. Помогите </p>
 						</td>
 						<td>
@@ -114,6 +111,7 @@ require_once('header.php');
 						<td class="black">01028213</td>
 						<td class="msg-td">
 							<h3>СМЕНА ЛИЧНЫХ ДАННЫХ</h3>
+							<h4>Заголовок</h4>
 							<p>Подскажите пожалуйста, как сменить почтовый адрес в настройках личного кабинета. </p>
 						</td>
 						<td>
@@ -125,6 +123,7 @@ require_once('header.php');
 						<td class="black">01028301</td>
 						<td class="msg-td">
 							<h3>ОШИБКИ В РАСЧЕТАХ</h3>
+							<h4>Заголовок</h4>
 							<p>Почему у меня в отчетах нет баллов по Петровой Ларисе? Она мой дистрибъютор лин ...</p>
 						</td>
 						<td>
@@ -146,7 +145,7 @@ require_once('header.php');
 		Мы дорожим вашим мнением и готовы  выслушать всё, что вы хотите сообщить. <br>
 		Ответим в течение суток с момента отправки сообщения.
 	</p>
-	<form action="" class="validator last-step">
+	<form action="" class="validator">
 		<div class="js-select">
 		  	<input type="text" placeholder="Выберите тему сообщения" class="input-select long form-input drop importantField" name="topic-msg" id="the-topic-msg">
 		  	<span class="wrong">Выбор темы обязателен</span>
@@ -163,10 +162,6 @@ require_once('header.php');
 			<option value="Ошибки в расчетах">Ошибки в расчетах</option>
 			<option value="Смена личных данных">Смена личных данных</option>
 		</select>
-		<div class="cleaner"></div>
-		<input type="text" placeholder="Введите заголовок сообщения" class="input-select long form-input importantField" name="title-msg" id="the-title-msg">
-		<span class="wrong">Заголовок обязателен</span>
-		<div class="cleaner"></div>
 		<div class="">
 			<textarea name="text-msg" placeholder="Введите текст сообщения" id="" class="form-input importantField tenSim"></textarea>
 			<span class="wrong">Минимальный размер сообщения 10 символов</span>
